@@ -18,11 +18,11 @@ This project was developed by **Grupo 1** from UTEC as part of a Python course. 
 ```
 ├── main.py                  # Main entry point
 ├── generate_deeplink.py     # Deep link generation logic
-├── generate_description.py  # Description creation logic
+├── generate_description.py  # Description creation logic from image
 ├── generate_qr.py           # QR code creation logic
 ├── generate_text.py         # Utility to assemble content
-├── content/                 # Input content/data
-├── img/                     # QR output images
+├── content/                 # Input content/data, CSV to search data
+├── img/                     # Bills to scan
 ├── qr/                      # Stored QR data
 ├── requirements.txt         # Python dependencies
 ```
