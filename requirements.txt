@@ -1,0 +1,8 @@
+Pillow
+langchain-groq
+qrcode
+pandas
+matplotlib
+pydantic
+langchain
+groq
