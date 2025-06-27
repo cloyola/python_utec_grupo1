@@ -23,14 +23,21 @@ image_file = st.file_uploader("Subir una imagen an image",type=["jpg","jpeg","pn
 if image_file:
     image = Image.open(image_file)
     st.markdown("### 📷 Imagen subida")
-    st.image(image, caption="Imagen subida", use_column_width=300)
+    st.image(image, caption="Imagen subida", use_container_width=300)
     
     # Procesar imagen
     deeplink = pipeline(image_file)
     print(deeplink)
 
+    if deeplink == None:
+        deeplink = "https://yape.com.pe/app/services-pay"
+        result_text = "No se encontró la empresa para el pago pero puedes utilizar el enlace general"
+    else:
+        result_text = "Empresa encontrada!"
+
     # Mostrar deeplink
     st.markdown("### 🔗 Enlace generado")
+    st.write(result_text)
     st.code(deeplink, language='text')
 
     # Generar y mostrar código QR
@@ -38,4 +45,4 @@ if image_file:
     qr_img = Image.open("qr/mi_codigo_qr.png")
 
     st.markdown("### 📱 Código QR del enlace")
-    st.image(qr_img, caption="Escanea para abrir el enlace", width=300)
+    st.image(qr_img, caption="Escanea para abrir el enlace", use_container_width=300)
