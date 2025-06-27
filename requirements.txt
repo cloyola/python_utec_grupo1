@@ -6,3 +6,4 @@ matplotlib
 pydantic
 langchain
 groq
+streamlit

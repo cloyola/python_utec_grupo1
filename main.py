@@ -7,14 +7,12 @@ from generate_deeplink import generate_deeplink_simple
 from generate_description import describe_image
 from generate_text import llm, prompt, parser
 
-def main():
-    print("Hello from main!")
-
+def pipeline(image_path):
     empresas = pd.read_csv("content/empresas.csv")
     empresas_df = empresas["empresas"]
 
     #Generar base64 de la imagen
-    image_path = "img/WhatsApp Image 2025-05-15 at 9.56.31 PM (1).jpeg" # TO-DO:extraer imagen dinámicamente
+    #image_path = "img/WhatsApp Image 2025-05-15 at 9.56.31 PM (1).jpeg" # TO-DO:extraer imagen dinámicamente
     recibo = describe_image(image_path)
 
     #Describir la imagen generada
@@ -22,13 +20,11 @@ def main():
     result = chain.invoke({"recibo": recibo, "proveedores":empresas_df})
 
     link = generate_deeplink_simple(result["text"]["proveedor"], result["text"]["numero_suministro"])
-    generate_qr_code(link, "qr/mi_codigo_qr.png")
+    return link
+    """ generate_qr_code(link, "qr/mi_codigo_qr.png")
 
     img = mpimg.imread('qr/mi_codigo_qr.png')
     # Display the image
     plt.imshow(img)
     plt.axis('off')
-    plt.show()
-
-if __name__ == "__main__":
-    main()
+    plt.show() """
