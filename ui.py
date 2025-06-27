@@ -8,20 +8,22 @@ from generate_qr import generate_qr_code
 from main import pipeline
 
 st.set_page_config(
-    page_title="Data Visualization Dashboard",
+    page_title="Creador de deeplink",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-st.title("Data Visualization Dashboard")
-st.markdown("Explore different types of graphs and charts in Streamlit")
+st.title("Creador de deeplink")
+st.markdown("Convierte tus recibos en links para pagar directamente en el app Yape")
 
-image_file = st.file_uploader("Upload an image",type=["jpg","jpeg","png"])
+#TO DO: Mejorar el front para tener un UI similar a Yape.com.pe
+
+image_file = st.file_uploader("Subir una imagen an image",type=["jpg","jpeg","png"])
 if image_file:
     image = Image.open(image_file)
     st.markdown("### 📷 Imagen subida")
-    st.image(image, caption="Uploaded Image", use_column_width=500)
+    st.image(image, caption="Imagen subida", use_column_width=300)
     
     # Procesar imagen
     deeplink = pipeline(image_file)

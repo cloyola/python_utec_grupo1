@@ -34,6 +34,8 @@ def describe_image(image_path):
     base64_image = encode_image(image)
 
     # Creamos una solicitud de completación al modelo de lenguaje
+    # TO DO: Agregar casos de error para mejorar el prompt
+    # Revisar casos en https://docs.google.com/spreadsheets/d/1V6NJeVhI53kzcUQPC_iwgI6l3hs05rnR5ayl1R-Ydnk/edit?usp=sharing
     completion = client.chat.completions.create(
         model=vision_model,
         messages=[
