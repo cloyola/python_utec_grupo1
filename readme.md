@@ -41,6 +41,25 @@ pip install -r requirements.txt
 
 ---
 
+## 🔧 Configuración del entorno virtual en VS Code (Command Prompt)
+
+Sigue estos pasos para configurar y activar un entorno virtual en tu proyecto desde Visual Studio Code usando la terminal `Command Prompt` (cmd):
+
+### 1. Abre la terminal en VS Code
+- Abre VS Code.
+- Usa el atajo: `Ctrl + ñ` o ve a **View > Terminal**.
+- Asegúrate de estar usando `Command Prompt` como terminal. Puedes cambiarlo desde el menú desplegable en la parte superior derecha del panel de terminal.
+
+### 2. Crear el entorno virtual
+Ejecuta el siguiente comando en la raíz de tu proyecto:
+
+```bash
+python -m venv venv
+```
+
+
+---
+
 ## ▶️ How to Use
 
 Run the main script:
