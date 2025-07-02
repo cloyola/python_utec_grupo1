@@ -29,18 +29,6 @@ This project was developed by **Grupo 1** from UTEC as part of a Python course. 
 
 ---
 
-## 📦 Requirements
-
-Make sure you have **Python 3.8+** installed.
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## 🔧 Setting Up a Virtual Environment in VS Code (Command Prompt)
 
 Follow these steps to set up and activate a virtual environment in your project using Visual Studio Code with the `Command Prompt` terminal:
@@ -50,7 +38,14 @@ Follow these steps to set up and activate a virtual environment in your project 
 - Use the shortcut: `Ctrl + ` (backtick) or go to **View > Terminal**.
 - Make sure you are using `Command Prompt` as the terminal. You can switch terminals from the dropdown menu in the top-right corner of the terminal panel.
 
-### 2. Create the virtual environment
+### 2. Validate Python installation
+Make sure you have **Python 3.8+** installed.
+
+```bash
+pyhton
+```
+
+### 3. Create the virtual environment
 Run the following command in the root of your project:
 
 ```bash
@@ -58,20 +53,29 @@ python -m venv venv
 ```
 This will create a folder named venv containing your virtual environment.
 
-### 3. Activate the virtual environment
+
+### 4. Activate the virtual environment
 In Command Prompt, run:
 
 ```bash
 venv\Scripts\activate
 ```
 
-### 4. Install dependencies
-After activation, install the required packages with:
+### 5. Install dependencies
+After activation, install the required packages in the next step.
+
+```bash
+pyhton
+```
+
+---
+
+## 📦 Requirements
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ---
 
