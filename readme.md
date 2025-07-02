@@ -42,7 +42,7 @@ Follow these steps to set up and activate a virtual environment in your project 
 Make sure you have **Python 3.8+** installed.
 
 ```bash
-pyhton
+python
 ```
 
 ### 3. Create the virtual environment
@@ -63,15 +63,6 @@ venv\Scripts\activate
 
 ### 5. Install dependencies
 After activation, install the required packages in the next step.
-
-```bash
-python
-```
-
----
-
-## 📦 Requirements
-Install dependencies:
 
 ```bash
 pip install -r requirements.txt
