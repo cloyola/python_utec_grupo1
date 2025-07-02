@@ -65,7 +65,7 @@ venv\Scripts\activate
 After activation, install the required packages in the next step.
 
 ```bash
-pyhton
+python
 ```
 
 ---
