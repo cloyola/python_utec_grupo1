@@ -88,7 +88,7 @@ You will be prompted to input or confirm product data. The tool will:
 
 - Carlos Loyola [@cloyola](https://github.com/cloyola)  
 - Diego Nasra  
-- Anacé Rodriguez  
+- Ana Cecilia Zegarra 
 - Brenda Zambrano  
 - Mónica Saldías  
 - Nicolás Nugent  
