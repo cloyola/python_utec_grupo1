@@ -75,7 +75,7 @@ pip install -r requirements.txt
 Run the main script:
 
 ```bash
-streamlit ui.py
+streamlit run ui.py
 ```
 
 You will be prompted to input or confirm product data. The tool will:
