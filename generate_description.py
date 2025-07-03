@@ -42,7 +42,7 @@ def describe_image(image_path):
             {
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": "Extrae toda la información posible del recibo, poniendo especial énfasis en identificar el número de suministro, número de servicio, número de cliente o número de recibo, ya que estos constituyen la entidad principal del documento. Ten en cuenta que el nombre del proveedor podría aparecer como texto dentro de una imagen o logo."},
+                    {"type": "text", "text": "Extrae toda la información importante del recibo, poniendo especial énfasis en identificar el número de suministro, servicio, cliente ya que estos constituyen la entidad principal del documento y puede aparecer en un cuadrado que solo son números. Ten en cuenta que el nombre del proveedor podría aparecer como texto dentro de una imagen o logo."},
                     {
                         "type": "image_url",
                         "image_url": {

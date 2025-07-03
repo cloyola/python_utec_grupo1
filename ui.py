@@ -6,6 +6,7 @@ from PIL import Image
 from langchain.chains import LLMChain
 from generate_qr import generate_qr_code
 from main import pipeline
+from logger import logger
 
 st.set_page_config(
     page_title="Creador de deeplink",
@@ -23,11 +24,13 @@ image_file = st.file_uploader("Subir una imagen an image",type=["jpg","jpeg","pn
 if image_file:
     image = Image.open(image_file)
     st.markdown("### 📷 Imagen subida")
+    logger.info("Imagen subida")
     st.image(image, caption="Imagen subida", use_container_width=300)
+    logger.info("Imagen mostrada")
     
     # Procesar imagen
     deeplink = pipeline(image_file)
-    print(deeplink)
+    logger.info(f"Deeplink generado: {deeplink}")
 
     if deeplink == None:
         deeplink = "https://yape.com.pe/app/services-pay"

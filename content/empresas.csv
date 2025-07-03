@@ -1,199 +1,204 @@
-empresas
-Bitel
-Claro
-Movistar
-Entel
-PagoEfectivo
-PagoDirecto
-Adelantos Payjoy
-Cálidda
-Wow
-Sedapal
-Hidrandina
-Payvalida
-Electrocentro
-Win
-Backus
-DirecTV
-Mibanco
-Enosa
-Kashio
-Universidad Cesar Vallejo
-Monnet Pagos
-Luz del Sur
-Caja Arequipa
-PayJoy
-Caja Piura
-Caja Trujillo
-Caja Huancayo
-Caja Cusco
-Caja Los Andes
-Alternativa
-Caja del Santa
-COOPAC Santa Isabel
-Manuela Ramos
-Proempresa
-Caja ICA
-Caja Metropolitana de Lima
-Alfin Banco
-Doctor Sol
-León XIII
-Adra Credit
-Inversiones de La Cruz
-Caja Tacna
-Coopac Santo Cristo de Bagazan
-Caja Paita
-Caja Maynas
-Credit Smart Maf Perú
-Pago efectivo
-Pago directo
-SafetyPay
-TiendaPago
-TuPay
-Kushki Perú
-Paycash
-WePay4U
-SAT Lima
-Sunat
-OECE
-Pluz Energia
-Electronorte
-Seal
-Electro Sur Este
-Electrodunas
-Electro Oriente
-Electrosur
-Electro Ucayali
-Electro Puno SAA
-Adinelsa
-Electro Tocache
-Sersa - Rioja
-Quavii - Gases del Pacífico
-Contugas
-Quavii - Piura
-Petroperú Gas
-Lima Gas
-Mi Fibra
-Fibramas
-Fiberpro
-Nubyx
-Cable Visión
-Perú Fibra
-Bantel SAC
-Cable Club
-Best Cable Perú
-Olo
-Tu Fibra
-Hughes
-Cable Chincha
-Fibwi
-Vemax
-Rena Ware del Perú
-Gogos Sport
-Mapfre
-La Positiva
-Pacífico Seguros
-Rimac Seguros
-Onco - Auna
-Sanna
-Interseguros
-Prima AFP
-Sanitas Perú
-Crecer Seguros
-Ecobesa
-Distribuidores AC Lindley
-Gloria
-Grupo Vega
-AJE
-Merkao
-La Calera
-Cervecería San Juan
-Vistony SAC
-Bimbo
-Grupo Alvarez Bohl
-Yichang
-Distribuciones y Servicios Roma SAC
-Terranorte
-Oriunda
-Braedt
-Perufarma S.A.
-Insuma
-DiaDia
-Chimu Agropecuaria
-Lubal Lubric De Altura
-Lider SRL
-Distribuidora Mkm
-Embotelladora La Selva
-JRC Distribuiciones
-Química Suiza
-Dismar EIRL
-Dizoe SAC
-Fuller Pinto
-Aspersud
-CIP - Lima
-El Remanso
-Colegio de Abogados de Perú
-Colegio de Abogados de Lima
-Osinergmin
-Integra Retail SAC
-Parque de Recuerdo
-KasNet
-Campo Fe
-Huk SAC
-Esperanza Eterna
-Parque del Norte
-DHL Express Perú SAC
-Verisure Peru SAC
-Sanisol
-United Laboratories Perú SAC
-Epass
-Calidda
-Quavii
-Petroperú
-limagas
-Sedalib
-Sedapar
-Epsel
-EPS Grau
-EPS Sedachimbote SA
-Seda Huanuco
-Seda Ayacucho
-EMAPICA
-EMAPA Cañete
-Emapacop SA
-Agua Tumbes
-EPS Ilo SA
-EPS Semapach
-EPS Chavin Huaraz
-Emapa Huaral
-EPS Seda Loreto
-EPS Moyobamba
-Universidad Privada del Norte
-Icpna
-Senati
-Instituto Daniel A. Carrion
-Universidad Nacional de San Agustin de Arequipa
-Universidad Señor de Sipan
-Universidad de Huanuco
-Instituto Sise
-Inlearning
-Universidad Privada San Juan Bautista
-Certus
-Idat
-Universidad Católica Sede Sapientiae
-Universidad Norbert Wiener
-Universidad Autónoma del Perú
-Cibertec
-Universidad Nacional de Ingenieria
-Universidad Cientifica del Sur
-USAT
-PUCP
-La Pontificia
-Universidad San Martin de Porres
-Colegios Trilce
-Instituto Continental
-Toulouse Lautrec
-UPC - Universidad Peruana de Ciencias Aplicadas
-ISIL
-Universidad Autónoma de Ica
-SENCICO
+empresas,consumer,pattern_regular,ejemplo
+Bitel,Número de celular,\\b\\d{9}\\b,987654321
+Calidda,Número de cliente,\\b\\d{7}\\b,1217955
+Cálidda,Número de cliente,\\b\\d{7}\\b,1217955
+Claro,Número de celular,\\b\\d{9}\\b,987654321
+Claro,Pago por teléfono/código,\\b\\d{9}\\b,987654321
+Claro,Codigo de pago,\\bH\\d{8}\\b,H40513676
+Enel,Número de cliente,\\b\\d{7}\\b,1217955
+Entel,N° Doc (DNI),\\b\\d{8}\\b,1217955
+Luz del Sur,N° DE SUMINISTRO,\\b\\d{7}\\b,1921585
+Movistar,N° Fijo,\\b\\d{8}\\b,1217955
+Movistar,Número de celular,\\b\\d{9}\\b,987654321
+Pluz Energia,Número de suministro,\\b\\d{7}\\b,1921585
+Sedalib,CODIGO,\\b\\d{7}\\b,1921585
+Sedalib S.A.,CODIGO,\\b\\d{7}\\b,1921585
+Sedapal,Suministro N°,\\b\\d+(?=-) ,3065285-3
+Sedapar,Conexión,\\b\\d{7}\\b,1921585
+Win,Código de pago,\\b\\d{7}\\b,224597
+Adelantos Payjoy,Número de suministro,\\b\\d{7}\\b,
+Adinelsa,Número de suministro,\\b\\d{7}\\b,
+Adra Credit,Número de suministro,\\b\\d{7}\\b,
+Agua Tumbes,Número de suministro,\\b\\d{7}\\b,
+AJE,Número de suministro,\\b\\d{7}\\b,
+Alfin Banco,Número de suministro,\\b\\d{7}\\b,
+Alternativa,Número de suministro,\\b\\d{7}\\b,
+Aspersud,Número de suministro,\\b\\d{7}\\b,
+Backus,Número de suministro,\\b\\d{7}\\b,
+Bantel SAC,Número de suministro,\\b\\d{7}\\b,
+Best Cable Perú,Número de suministro,\\b\\d{7}\\b,
+Bimbo,Número de suministro,\\b\\d{7}\\b,
+Braedt,Número de suministro,\\b\\d{7}\\b,
+Cable Chincha,Número de suministro,\\b\\d{7}\\b,
+Cable Club,Número de suministro,\\b\\d{7}\\b,
+Cable Visión,Número de suministro,\\b\\d{7}\\b,
+Caja Arequipa,Número de suministro,\\b\\d{7}\\b,
+Caja Cusco,Número de suministro,\\b\\d{7}\\b,
+Caja del Santa,Número de suministro,\\b\\d{7}\\b,
+Caja Huancayo,Número de suministro,\\b\\d{7}\\b,
+Caja ICA,Número de suministro,\\b\\d{7}\\b,
+Caja Los Andes,Número de suministro,\\b\\d{7}\\b,
+Caja Maynas,Número de suministro,\\b\\d{7}\\b,
+Caja Metropolitana de Lima,Número de suministro,\\b\\d{7}\\b,
+Caja Paita,Número de suministro,\\b\\d{7}\\b,
+Caja Piura,Número de suministro,\\b\\d{7}\\b,
+Caja Tacna,Número de suministro,\\b\\d{7}\\b,
+Caja Trujillo,Número de suministro,\\b\\d{7}\\b,
+Campo Fe,Número de suministro,\\b\\d{7}\\b,
+Certus,Número de suministro,\\b\\d{7}\\b,
+Cervecería San Juan,Número de suministro,\\b\\d{7}\\b,
+Chimu Agropecuaria,Número de suministro,\\b\\d{7}\\b,
+Cibertec,Número de suministro,\\b\\d{7}\\b,
+CIP - Lima,Número de suministro,\\b\\d{7}\\b,
+Colegio de Abogados de Lima,Número de suministro,\\b\\d{7}\\b,
+Colegio de Abogados de Perú,Número de suministro,\\b\\d{7}\\b,
+Colegios Trilce,Número de suministro,\\b\\d{7}\\b,
+Contugas,Número de suministro,\\b\\d{7}\\b,
+COOPAC Santa Isabel,Número de suministro,\\b\\d{7}\\b,
+Coopac Santo Cristo de Bagazan,Número de suministro,\\b\\d{7}\\b,
+Crecer Seguros,Número de suministro,\\b\\d{7}\\b,
+Credit Smart Maf Perú,Número de suministro,\\b\\d{7}\\b,
+DHL Express Perú SAC,Número de suministro,\\b\\d{7}\\b,
+DiaDia,Número de suministro,\\b\\d{7}\\b,
+DirecTV,Número de suministro,\\b\\d{7}\\b,
+Dismar EIRL,Número de suministro,\\b\\d{7}\\b,
+Distribuciones y Servicios Roma SAC,Número de suministro,\\b\\d{7}\\b,
+Distribuidora Mkm,Número de suministro,\\b\\d{7}\\b,
+Distribuidores AC Lindley,Número de suministro,\\b\\d{7}\\b,
+Dizoe SAC,Número de suministro,\\b\\d{7}\\b,
+Doctor Sol,Número de suministro,\\b\\d{7}\\b,
+Ecobesa,Número de suministro,\\b\\d{7}\\b,
+El Remanso,Número de suministro,\\b\\d{7}\\b,
+Electro Oriente,Número de suministro,\\b\\d{7}\\b,
+Electro Puno SAA,Número de suministro,\\b\\d{7}\\b,
+Electro Sur Este,Número de suministro,\\b\\d{7}\\b,
+Electro Tocache,Número de suministro,\\b\\d{7}\\b,
+Electro Ucayali,Número de suministro,\\b\\d{7}\\b,
+Electrocentro,Número de suministro,\\b\\d{7}\\b,
+Electrodunas,Número de suministro,\\b\\d{7}\\b,
+Electronorte,Número de suministro,\\b\\d{7}\\b,
+Electrosur,Número de suministro,\\b\\d{7}\\b,
+EMAPA Cañete,Número de suministro,\\b\\d{7}\\b,
+Emapa Huaral,Número de suministro,\\b\\d{7}\\b,
+Emapacop SA,Número de suministro,\\b\\d{7}\\b,
+EMAPICA,Número de suministro,\\b\\d{7}\\b,
+Embotelladora La Selva,Número de suministro,\\b\\d{7}\\b,
+Enosa,Número de suministro,\\b\\d{7}\\b,
+Epass,Número de suministro,\\b\\d{7}\\b,
+EPS Chavin Huaraz,Número de suministro,\\b\\d{7}\\b,
+EPS Grau,Número de suministro,\\b\\d{7}\\b,
+EPS Ilo SA,Número de suministro,\\b\\d{7}\\b,
+EPS Moyobamba,Número de suministro,\\b\\d{7}\\b,
+EPS Seda Loreto,Número de suministro,\\b\\d{7}\\b,
+EPS Sedachimbote SA,Número de suministro,\\b\\d{7}\\b,
+EPS Semapach,Número de suministro,\\b\\d{7}\\b,
+Epsel,Número de suministro,\\b\\d{7}\\b,
+Esperanza Eterna,Número de suministro,\\b\\d{7}\\b,
+Fiberpro,Número de suministro,\\b\\d{7}\\b,
+Fibramas,Número de suministro,\\b\\d{7}\\b,
+Fibwi,Número de suministro,\\b\\d{7}\\b,
+Fuller Pinto,Número de suministro,\\b\\d{7}\\b,
+Gloria,Número de suministro,\\b\\d{7}\\b,
+Gogos Sport,Número de suministro,\\b\\d{7}\\b,
+Grupo Alvarez Bohl,Número de suministro,\\b\\d{7}\\b,
+Grupo Vega,Número de suministro,\\b\\d{7}\\b,
+Hidrandina,Número de suministro,\\b\\d{7}\\b,
+Hughes,Número de suministro,\\b\\d{7}\\b,
+Huk SAC,Número de suministro,\\b\\d{7}\\b,
+Icpna,Número de suministro,\\b\\d{7}\\b,
+Idat,Número de suministro,\\b\\d{7}\\b,
+Inlearning,Número de suministro,\\b\\d{7}\\b,
+Instituto Continental,Número de suministro,\\b\\d{7}\\b,
+Instituto Daniel A. Carrion,Número de suministro,\\b\\d{7}\\b,
+Instituto Sise,Número de suministro,\\b\\d{7}\\b,
+Insuma,Número de suministro,\\b\\d{7}\\b,
+Integra Retail SAC,Número de suministro,\\b\\d{7}\\b,
+Interseguros,Número de suministro,\\b\\d{7}\\b,
+Inversiones de La Cruz,Número de suministro,\\b\\d{7}\\b,
+ISIL,Número de suministro,\\b\\d{7}\\b,
+JRC Distribuiciones,Número de suministro,\\b\\d{7}\\b,
+Kashio,Número de suministro,\\b\\d{7}\\b,
+KasNet,Número de suministro,\\b\\d{7}\\b,
+Kushki Perú,Número de suministro,\\b\\d{7}\\b,
+La Calera,Número de suministro,\\b\\d{7}\\b,
+La Pontificia,Número de suministro,\\b\\d{7}\\b,
+La Positiva,Número de suministro,\\b\\d{7}\\b,
+León XIII,Número de suministro,\\b\\d{7}\\b,
+Lider SRL,Número de suministro,\\b\\d{7}\\b,
+Lima Gas,Número de suministro,\\b\\d{7}\\b,
+limagas,Número de suministro,\\b\\d{7}\\b,
+Lubal Lubric De Altura,Número de suministro,\\b\\d{7}\\b,
+Manuela Ramos,Número de suministro,\\b\\d{7}\\b,
+Mapfre,Número de suministro,\\b\\d{7}\\b,
+Merkao,Número de suministro,\\b\\d{7}\\b,
+Mi Fibra,Número de suministro,\\b\\d{7}\\b,
+Mibanco,Número de suministro,\\b\\d{7}\\b,
+Monnet Pagos,Número de suministro,\\b\\d{7}\\b,
+Nubyx,Número de suministro,\\b\\d{7}\\b,
+OECE,Número de suministro,\\b\\d{7}\\b,
+Olo,Número de suministro,\\b\\d{7}\\b,
+Onco - Auna,Número de suministro,\\b\\d{7}\\b,
+Oriunda,Número de suministro,\\b\\d{7}\\b,
+Osinergmin,Número de suministro,\\b\\d{7}\\b,
+Pacífico Seguros,Número de suministro,\\b\\d{7}\\b,
+Pago directo,Número de suministro,\\b\\d{7}\\b,
+Pago efectivo,Número de suministro,\\b\\d{7}\\b,
+PagoDirecto,Número de suministro,\\b\\d{7}\\b,
+PagoEfectivo,Número de suministro,\\b\\d{7}\\b,
+Parque de Recuerdo,Número de suministro,\\b\\d{7}\\b,
+Parque del Norte,Número de suministro,\\b\\d{7}\\b,
+Paycash,Número de suministro,\\b\\d{7}\\b,
+PayJoy,Número de suministro,\\b\\d{7}\\b,
+Payvalida,Número de suministro,\\b\\d{7}\\b,
+Perú Fibra,Número de suministro,\\b\\d{7}\\b,
+Perufarma S.A.,Número de suministro,\\b\\d{7}\\b,
+Petroperú,Número de suministro,\\b\\d{7}\\b,
+Petroperú Gas,Número de suministro,\\b\\d{7}\\b,
+Prima AFP,Número de suministro,\\b\\d{7}\\b,
+Proempresa,Número de suministro,\\b\\d{7}\\b,
+PUCP,Número de suministro,\\b\\d{7}\\b,
+Quavii,Número de suministro,\\b\\d{7}\\b,
+Quavii - Gases del Pacífico,Número de suministro,\\b\\d{7}\\b,
+Quavii - Piura,Número de suministro,\\b\\d{7}\\b,
+Química Suiza,Número de suministro,\\b\\d{7}\\b,
+Rena Ware del Perú,Número de suministro,\\b\\d{7}\\b,
+Rimac Seguros,Número de suministro,\\b\\d{7}\\b,
+SafetyPay,Número de suministro,\\b\\d{7}\\b,
+Sanisol,Número de suministro,\\b\\d{7}\\b,
+Sanitas Perú,Número de suministro,\\b\\d{7}\\b,
+Sanna,Número de suministro,\\b\\d{7}\\b,
+SAT Lima,Número de suministro,\\b\\d{7}\\b,
+Seal,Número de suministro,\\b\\d{7}\\b,
+Seda Ayacucho,Número de suministro,\\b\\d{7}\\b,
+Seda Huanuco,Número de suministro,\\b\\d{7}\\b,
+Senati,Número de suministro,\\b\\d{7}\\b,
+SENCICO,Número de suministro,\\b\\d{7}\\b,
+Sersa - Rioja,Número de suministro,\\b\\d{7}\\b,
+Sunat,Número de suministro,\\b\\d{7}\\b,
+Terranorte,Número de suministro,\\b\\d{7}\\b,
+TiendaPago,Número de suministro,\\b\\d{7}\\b,
+Toulouse Lautrec,Número de suministro,\\b\\d{7}\\b,
+Tu Fibra,Número de suministro,\\b\\d{7}\\b,
+TuPay,Número de suministro,\\b\\d{7}\\b,
+United Laboratories Perú SAC,Número de suministro,\\b\\d{7}\\b,
+Universidad Autónoma de Ica,Número de suministro,\\b\\d{7}\\b,
+Universidad Autónoma del Perú,Número de suministro,\\b\\d{7}\\b,
+Universidad Católica Sede Sapientiae,Número de suministro,\\b\\d{7}\\b,
+Universidad Cesar Vallejo,Número de suministro,\\b\\d{7}\\b,
+Universidad Cientifica del Sur,Número de suministro,\\b\\d{7}\\b,
+Universidad de Huanuco,Número de suministro,\\b\\d{7}\\b,
+Universidad Nacional de Ingenieria,Número de suministro,\\b\\d{7}\\b,
+Universidad Nacional de San Agustin de Arequipa,Número de suministro,\\b\\d{7}\\b,
+Universidad Norbert Wiener,Número de suministro,\\b\\d{7}\\b,
+Universidad Privada del Norte,Número de suministro,\\b\\d{7}\\b,
+Universidad Privada San Juan Bautista,Número de suministro,\\b\\d{7}\\b,
+Universidad San Martin de Porres,Número de suministro,\\b\\d{7}\\b,
+Universidad Señor de Sipan,Número de suministro,\\b\\d{7}\\b,
+UPC - Universidad Peruana de Ciencias Aplicadas,Número de suministro,\\b\\d{7}\\b,
+USAT,Número de suministro,\\b\\d{7}\\b,
+Vemax,Número de suministro,\\b\\d{7}\\b,
+Verisure Peru SAC,Número de suministro,\\b\\d{7}\\b,
+Vistony SAC,Número de suministro,\\b\\d{7}\\b,
+WePay4U,Número de suministro,\\b\\d{7}\\b,
+Wow,Número de suministro,\\b\\d{7}\\b,
+Yichang,Número de suministro,\\b\\d{7}\\b,
