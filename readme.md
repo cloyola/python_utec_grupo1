@@ -75,7 +75,7 @@ pip install -r requirements.txt
 Run the main script:
 
 ```bash
-python main.py
+streamlit ui.py
 ```
 
 You will be prompted to input or confirm product data. The tool will:
@@ -88,8 +88,8 @@ You will be prompted to input or confirm product data. The tool will:
 
 ## 📁 Output
 
-- QR codes are saved in the `img/` directory  
-- Associated data is stored in `qr/`  
+- QR code is saved in the `qr/` directory  
+- Log stored in `yape_scan.log`
 - Dynamic text outputs are printed or stored depending on the function  
 
 ---
