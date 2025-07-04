@@ -5,13 +5,13 @@ from logger import logger
 def generate_deeplink_simple(companyName, consumer = None):
   df = pd.read_csv("content/empresas_deeplink.csv")
 
-  matched_name = find_closest_company(df, companyName)
+  matched_name = find_closest_company(df, companyName, "id")
   if not matched_name:
       print(f"No close match found for company: {companyName}")
       logger.warning(f"Company pending to add: {companyName}")
       return None
 
-  row_list = find_rows_by_id(df, matched_name)
+  row_list = find_rows_by_id(df, matched_name, "id")
   row_df = pd.DataFrame(row_list)
 
   if matched_name.lower() == "claro":

@@ -1,10 +1,10 @@
-empresas,consumer,pattern_regular,ejemplo
-Bitel,Número de celular,\\b\\d{9}\\b,987654321
+empresas,identificador,pattern_regular,ejemplo
+Bitel,Línea móvil,\\b\\d{9}\\b,987654321
 Calidda,Número de cliente,\\b\\d{7}\\b,1217955
 Cálidda,Número de cliente,\\b\\d{7}\\b,1217955
 Claro,Número de celular,\\b\\d{9}\\b,987654321
 Claro,Pago por teléfono/código,\\b\\d{9}\\b,987654321
-Claro,Codigo de pago,\\bH\\d{8}\\b,H40513676
+Claro,Número de suministro servicio o cliente,\\bH\\d{8}\\b,H40513676
 Enel,Número de cliente,\\b\\d{7}\\b,1217955
 Entel,N° Doc (DNI),\\b\\d{8}\\b,1217955
 Luz del Sur,N° DE SUMINISTRO,\\b\\d{7}\\b,1921585
