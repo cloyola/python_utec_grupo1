@@ -14,21 +14,24 @@ def pipeline(image_path):
     logger.info(f"Texto generado del recibo {recibo}") #TEMP Logger
 
     #Extraer la lista de proveedores posibles
-    empresas = pd.read_csv("content/empresas.csv")
-    proveedores_df = empresas[["empresas"]].values
+    company = pd.read_csv("content/empresas.csv")
+    providers_list = company[["company_name"]].dropna().unique().values
 
     #Encontrar el proveedor del servicio
     chain = LLMChain(llm=llm, prompt=prompt, output_parser=parser)
-    result_recibo = chain.invoke({"recibo": recibo, "proveedores": proveedores_df})
+    result_recibo = chain.invoke({"recibo": recibo, "proveedores": providers_list})
     logger.info(f"El resultado del recibo (proveedor) es {result_recibo}") #TEMP Logger
-    
-    #Obtener el identificador
-    empresas_df = empresas[["empresas", "identificador"]]
-    proveedor_normalized = find_closest_company(empresas_df, result_recibo["text"]["proveedor"], "empresas")
+
+    #Obtenemos el proveedor que más se asemeje de la lista
+    proveedor_normalized = find_closest_company(providers_list, result_recibo["text"]["proveedor"], "company_name")
     logger.info(f"El proveedor normalizado es {proveedor_normalized}") #TEMP Logger
+    
+    #Obtener los servicios
+    services = pd.read_csv("content/services.csv")
+    services_df = services[["company_name", "service_name", "consumerIdentification"]]
 
     #Normalizar el servicio encontrado
-    services_identifier = empresas_df[empresas_df["empresas"]==proveedor_normalized]["identificador"].values
+    services_identifier = services_df[services_df["company_name"]==proveedor_normalized]["consumerIdentification"].values #traer la lista de servicios disponibles
     logger.info(f"Los servicios identificados para ese proveedor normalizado son {services_identifier}") #TEMP Logger
 
     #Encontrar el código de pago dentro del servicio

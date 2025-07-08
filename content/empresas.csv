@@ -1,204 +1,1050 @@
-empresas,identificador,pattern_regular,ejemplo
-Bitel,LÃ­nea mÃ³vil,\\b\\d{9}\\b,987654321
-Calidda,NÃºmero de cliente,\\b\\d{7}\\b,1217955
-CÃ¡lidda,NÃºmero de cliente,\\b\\d{7}\\b,1217955
-Claro,NÃºmero de celular,\\b\\d{9}\\b,987654321
-Claro,Pago por telÃ©fono/cÃ³digo,\\b\\d{9}\\b,987654321
-Claro,NÃºmero de suministro servicio o cliente,\\bH\\d{8}\\b,H40513676
-Enel,NÃºmero de cliente,\\b\\d{7}\\b,1217955
-Entel,NÂ° Doc (DNI),\\b\\d{8}\\b,1217955
-Luz del Sur,NÂ° DE SUMINISTRO,\\b\\d{7}\\b,1921585
-Movistar,NÂ° Fijo,\\b\\d{8}\\b,1217955
-Movistar,NÃºmero de celular,\\b\\d{9}\\b,987654321
-Pluz Energia,NÃºmero de suministro,\\b\\d{7}\\b,1921585
-Sedalib,CODIGO,\\b\\d{7}\\b,1921585
-Sedalib S.A.,CODIGO,\\b\\d{7}\\b,1921585
-Sedapal,Suministro NÂ°,\\b\\d+(?=-) ,3065285-3
-Sedapar,ConexiÃ³n,\\b\\d{7}\\b,1921585
-Win,CÃ³digo de pago,\\b\\d{7}\\b,224597
-Adelantos Payjoy,NÃºmero de suministro,\\b\\d{7}\\b,
-Adinelsa,NÃºmero de suministro,\\b\\d{7}\\b,
-Adra Credit,NÃºmero de suministro,\\b\\d{7}\\b,
-Agua Tumbes,NÃºmero de suministro,\\b\\d{7}\\b,
-AJE,NÃºmero de suministro,\\b\\d{7}\\b,
-Alfin Banco,NÃºmero de suministro,\\b\\d{7}\\b,
-Alternativa,NÃºmero de suministro,\\b\\d{7}\\b,
-Aspersud,NÃºmero de suministro,\\b\\d{7}\\b,
-Backus,NÃºmero de suministro,\\b\\d{7}\\b,
-Bantel SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-Best Cable PerÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-Bimbo,NÃºmero de suministro,\\b\\d{7}\\b,
-Braedt,NÃºmero de suministro,\\b\\d{7}\\b,
-Cable Chincha,NÃºmero de suministro,\\b\\d{7}\\b,
-Cable Club,NÃºmero de suministro,\\b\\d{7}\\b,
-Cable VisiÃ³n,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Arequipa,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Cusco,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja del Santa,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Huancayo,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja ICA,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Los Andes,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Maynas,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Metropolitana de Lima,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Paita,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Piura,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Tacna,NÃºmero de suministro,\\b\\d{7}\\b,
-Caja Trujillo,NÃºmero de suministro,\\b\\d{7}\\b,
-Campo Fe,NÃºmero de suministro,\\b\\d{7}\\b,
-Certus,NÃºmero de suministro,\\b\\d{7}\\b,
-CervecerÃ­a San Juan,NÃºmero de suministro,\\b\\d{7}\\b,
-Chimu Agropecuaria,NÃºmero de suministro,\\b\\d{7}\\b,
-Cibertec,NÃºmero de suministro,\\b\\d{7}\\b,
-CIP - Lima,NÃºmero de suministro,\\b\\d{7}\\b,
-Colegio de Abogados de Lima,NÃºmero de suministro,\\b\\d{7}\\b,
-Colegio de Abogados de PerÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-Colegios Trilce,NÃºmero de suministro,\\b\\d{7}\\b,
-Contugas,NÃºmero de suministro,\\b\\d{7}\\b,
-COOPAC Santa Isabel,NÃºmero de suministro,\\b\\d{7}\\b,
-Coopac Santo Cristo de Bagazan,NÃºmero de suministro,\\b\\d{7}\\b,
-Crecer Seguros,NÃºmero de suministro,\\b\\d{7}\\b,
-Credit Smart Maf PerÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-DHL Express PerÃº SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-DiaDia,NÃºmero de suministro,\\b\\d{7}\\b,
-DirecTV,NÃºmero de suministro,\\b\\d{7}\\b,
-Dismar EIRL,NÃºmero de suministro,\\b\\d{7}\\b,
-Distribuciones y Servicios Roma SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-Distribuidora Mkm,NÃºmero de suministro,\\b\\d{7}\\b,
-Distribuidores AC Lindley,NÃºmero de suministro,\\b\\d{7}\\b,
-Dizoe SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-Doctor Sol,NÃºmero de suministro,\\b\\d{7}\\b,
-Ecobesa,NÃºmero de suministro,\\b\\d{7}\\b,
-El Remanso,NÃºmero de suministro,\\b\\d{7}\\b,
-Electro Oriente,NÃºmero de suministro,\\b\\d{7}\\b,
-Electro Puno SAA,NÃºmero de suministro,\\b\\d{7}\\b,
-Electro Sur Este,NÃºmero de suministro,\\b\\d{7}\\b,
-Electro Tocache,NÃºmero de suministro,\\b\\d{7}\\b,
-Electro Ucayali,NÃºmero de suministro,\\b\\d{7}\\b,
-Electrocentro,NÃºmero de suministro,\\b\\d{7}\\b,
-Electrodunas,NÃºmero de suministro,\\b\\d{7}\\b,
-Electronorte,NÃºmero de suministro,\\b\\d{7}\\b,
-Electrosur,NÃºmero de suministro,\\b\\d{7}\\b,
-EMAPA CaÃ±ete,NÃºmero de suministro,\\b\\d{7}\\b,
-Emapa Huaral,NÃºmero de suministro,\\b\\d{7}\\b,
-Emapacop SA,NÃºmero de suministro,\\b\\d{7}\\b,
-EMAPICA,NÃºmero de suministro,\\b\\d{7}\\b,
-Embotelladora La Selva,NÃºmero de suministro,\\b\\d{7}\\b,
-Enosa,NÃºmero de suministro,\\b\\d{7}\\b,
-Epass,NÃºmero de suministro,\\b\\d{7}\\b,
-EPS Chavin Huaraz,NÃºmero de suministro,\\b\\d{7}\\b,
-EPS Grau,NÃºmero de suministro,\\b\\d{7}\\b,
-EPS Ilo SA,NÃºmero de suministro,\\b\\d{7}\\b,
-EPS Moyobamba,NÃºmero de suministro,\\b\\d{7}\\b,
-EPS Seda Loreto,NÃºmero de suministro,\\b\\d{7}\\b,
-EPS Sedachimbote SA,NÃºmero de suministro,\\b\\d{7}\\b,
-EPS Semapach,NÃºmero de suministro,\\b\\d{7}\\b,
-Epsel,NÃºmero de suministro,\\b\\d{7}\\b,
-Esperanza Eterna,NÃºmero de suministro,\\b\\d{7}\\b,
-Fiberpro,NÃºmero de suministro,\\b\\d{7}\\b,
-Fibramas,NÃºmero de suministro,\\b\\d{7}\\b,
-Fibwi,NÃºmero de suministro,\\b\\d{7}\\b,
-Fuller Pinto,NÃºmero de suministro,\\b\\d{7}\\b,
-Gloria,NÃºmero de suministro,\\b\\d{7}\\b,
-Gogos Sport,NÃºmero de suministro,\\b\\d{7}\\b,
-Grupo Alvarez Bohl,NÃºmero de suministro,\\b\\d{7}\\b,
-Grupo Vega,NÃºmero de suministro,\\b\\d{7}\\b,
-Hidrandina,NÃºmero de suministro,\\b\\d{7}\\b,
-Hughes,NÃºmero de suministro,\\b\\d{7}\\b,
-Huk SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-Icpna,NÃºmero de suministro,\\b\\d{7}\\b,
-Idat,NÃºmero de suministro,\\b\\d{7}\\b,
-Inlearning,NÃºmero de suministro,\\b\\d{7}\\b,
-Instituto Continental,NÃºmero de suministro,\\b\\d{7}\\b,
-Instituto Daniel A. Carrion,NÃºmero de suministro,\\b\\d{7}\\b,
-Instituto Sise,NÃºmero de suministro,\\b\\d{7}\\b,
-Insuma,NÃºmero de suministro,\\b\\d{7}\\b,
-Integra Retail SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-Interseguros,NÃºmero de suministro,\\b\\d{7}\\b,
-Inversiones de La Cruz,NÃºmero de suministro,\\b\\d{7}\\b,
-ISIL,NÃºmero de suministro,\\b\\d{7}\\b,
-JRC Distribuiciones,NÃºmero de suministro,\\b\\d{7}\\b,
-Kashio,NÃºmero de suministro,\\b\\d{7}\\b,
-KasNet,NÃºmero de suministro,\\b\\d{7}\\b,
-Kushki PerÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-La Calera,NÃºmero de suministro,\\b\\d{7}\\b,
-La Pontificia,NÃºmero de suministro,\\b\\d{7}\\b,
-La Positiva,NÃºmero de suministro,\\b\\d{7}\\b,
-LeÃ³n XIII,NÃºmero de suministro,\\b\\d{7}\\b,
-Lider SRL,NÃºmero de suministro,\\b\\d{7}\\b,
-Lima Gas,NÃºmero de suministro,\\b\\d{7}\\b,
-limagas,NÃºmero de suministro,\\b\\d{7}\\b,
-Lubal Lubric De Altura,NÃºmero de suministro,\\b\\d{7}\\b,
-Manuela Ramos,NÃºmero de suministro,\\b\\d{7}\\b,
-Mapfre,NÃºmero de suministro,\\b\\d{7}\\b,
-Merkao,NÃºmero de suministro,\\b\\d{7}\\b,
-Mi Fibra,NÃºmero de suministro,\\b\\d{7}\\b,
-Mibanco,NÃºmero de suministro,\\b\\d{7}\\b,
-Monnet Pagos,NÃºmero de suministro,\\b\\d{7}\\b,
-Nubyx,NÃºmero de suministro,\\b\\d{7}\\b,
-OECE,NÃºmero de suministro,\\b\\d{7}\\b,
-Olo,NÃºmero de suministro,\\b\\d{7}\\b,
-Onco - Auna,NÃºmero de suministro,\\b\\d{7}\\b,
-Oriunda,NÃºmero de suministro,\\b\\d{7}\\b,
-Osinergmin,NÃºmero de suministro,\\b\\d{7}\\b,
-PacÃ­fico Seguros,NÃºmero de suministro,\\b\\d{7}\\b,
-Pago directo,NÃºmero de suministro,\\b\\d{7}\\b,
-Pago efectivo,NÃºmero de suministro,\\b\\d{7}\\b,
-PagoDirecto,NÃºmero de suministro,\\b\\d{7}\\b,
-PagoEfectivo,NÃºmero de suministro,\\b\\d{7}\\b,
-Parque de Recuerdo,NÃºmero de suministro,\\b\\d{7}\\b,
-Parque del Norte,NÃºmero de suministro,\\b\\d{7}\\b,
-Paycash,NÃºmero de suministro,\\b\\d{7}\\b,
-PayJoy,NÃºmero de suministro,\\b\\d{7}\\b,
-Payvalida,NÃºmero de suministro,\\b\\d{7}\\b,
-PerÃº Fibra,NÃºmero de suministro,\\b\\d{7}\\b,
-Perufarma S.A.,NÃºmero de suministro,\\b\\d{7}\\b,
-PetroperÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-PetroperÃº Gas,NÃºmero de suministro,\\b\\d{7}\\b,
-Prima AFP,NÃºmero de suministro,\\b\\d{7}\\b,
-Proempresa,NÃºmero de suministro,\\b\\d{7}\\b,
-PUCP,NÃºmero de suministro,\\b\\d{7}\\b,
-Quavii,NÃºmero de suministro,\\b\\d{7}\\b,
-Quavii - Gases del PacÃ­fico,NÃºmero de suministro,\\b\\d{7}\\b,
-Quavii - Piura,NÃºmero de suministro,\\b\\d{7}\\b,
-QuÃ­mica Suiza,NÃºmero de suministro,\\b\\d{7}\\b,
-Rena Ware del PerÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-Rimac Seguros,NÃºmero de suministro,\\b\\d{7}\\b,
-SafetyPay,NÃºmero de suministro,\\b\\d{7}\\b,
-Sanisol,NÃºmero de suministro,\\b\\d{7}\\b,
-Sanitas PerÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-Sanna,NÃºmero de suministro,\\b\\d{7}\\b,
-SAT Lima,NÃºmero de suministro,\\b\\d{7}\\b,
-Seal,NÃºmero de suministro,\\b\\d{7}\\b,
-Seda Ayacucho,NÃºmero de suministro,\\b\\d{7}\\b,
-Seda Huanuco,NÃºmero de suministro,\\b\\d{7}\\b,
-Senati,NÃºmero de suministro,\\b\\d{7}\\b,
-SENCICO,NÃºmero de suministro,\\b\\d{7}\\b,
-Sersa - Rioja,NÃºmero de suministro,\\b\\d{7}\\b,
-Sunat,NÃºmero de suministro,\\b\\d{7}\\b,
-Terranorte,NÃºmero de suministro,\\b\\d{7}\\b,
-TiendaPago,NÃºmero de suministro,\\b\\d{7}\\b,
-Toulouse Lautrec,NÃºmero de suministro,\\b\\d{7}\\b,
-Tu Fibra,NÃºmero de suministro,\\b\\d{7}\\b,
-TuPay,NÃºmero de suministro,\\b\\d{7}\\b,
-United Laboratories PerÃº SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad AutÃ³noma de Ica,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad AutÃ³noma del PerÃº,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad CatÃ³lica Sede Sapientiae,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad Cesar Vallejo,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad Cientifica del Sur,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad de Huanuco,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad Nacional de Ingenieria,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad Nacional de San Agustin de Arequipa,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad Norbert Wiener,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad Privada del Norte,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad Privada San Juan Bautista,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad San Martin de Porres,NÃºmero de suministro,\\b\\d{7}\\b,
-Universidad SeÃ±or de Sipan,NÃºmero de suministro,\\b\\d{7}\\b,
-UPC - Universidad Peruana de Ciencias Aplicadas,NÃºmero de suministro,\\b\\d{7}\\b,
-USAT,NÃºmero de suministro,\\b\\d{7}\\b,
-Vemax,NÃºmero de suministro,\\b\\d{7}\\b,
-Verisure Peru SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-Vistony SAC,NÃºmero de suministro,\\b\\d{7}\\b,
-WePay4U,NÃºmero de suministro,\\b\\d{7}\\b,
-Wow,NÃºmero de suministro,\\b\\d{7}\\b,
-Yichang,NÃºmero de suministro,\\b\\d{7}\\b,
+company_name;company_id;pattern_regular;ejemplo;ruta_logo;ruta_logo_deeplink;
+339 Flats y Duplex;B65539BE-57E5-44CF-8582-28CC0419DB3C;;;;;
+360Pay;1E6B58C0-32C5-4575-B1B4-FA1AAECD5EBB;;;/360pay/360pay.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/360pay/360pay.png;
+A y R;2250298C-72D2-4C84-9058-57448EFB672C;;;;;
+Abal Peru SAC;ED50D299-D2CC-473F-A36D-33483831E86A;;;/abal/abal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/abal/abal.png;
+ABB SA;1045377D-2A3E-42FE-B0CC-560E0A68731D;;;;;
+Abraham Lincoln Colegios;1F9D813E-9765-4B2F-80AC-45A69D5E5FD4;;;;;
+Academia Trilce;B6834C38-C1CA-498F-94B3-08C4594591E2;;;/academiatrilce/academiatrilce.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/academiatrilce/academiatrilce.png;
+Acceso Crediticio;5BCA90B8-A514-49D8-8968-61F80AF6CD06;;;/acceso/acceso.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/acceso/acceso.png;
+Adex Instituto;2967C50D-CCB9-466D-BACA-4B1F0769914F;;;/adex/adex.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/adex/adex.png;
+Adinco;1FC5D3EC-5E08-465A-B0FC-1FEF1FB320AC;;;;;
+Adinelsa;CBB2055A-E496-4F1A-9128-E4F65F97B75A;\\b\\d{7}\\b;;/adinelsa/adinelsa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/adinelsa/adinelsa-v2.png;
+Administración Jockey Plaza;D88862A8-E14B-4384-BE2B-6646B7B5CC1A;;;;;
+Administración Q SA;486C8A1B-396A-4CE9-95FD-406C8E56A192;;;;;
+Adminpro;77F319C5-DB2E-4C9B-A806-B22F5438C7EC;;;;;
+ADPROPER;15A4504A-1BCF-40DC-8175-4F40BA87710B;;;;;
+Adra Credit;4ABA3068-019E-4E6D-83E3-F81487D2EF73;\\b\\d{7}\\b;;/adra/adra.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/adra/adra.png;
+Adventista José de San Martín;ADBFF212-C575-49BF-BEE1-9FF4F852F995;;;;;
+AEASOP;960B24F9-3C66-4F71-9B0D-2A93982C5AFA;;;;;
+Aelucoop;F990FE12-8987-4234-8232-4B8B02A9BF98;;;;;
+Aeropuertos Andinos del Perú SA;4B3C6699-F25A-42C7-80BA-D3B86D46BDD2;;;;;
+AFP Integra;7E30610D-8BFA-46B3-AD1A-0D807989AAA2;;;/afpintegra/afpintegra.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/afpintegra/afpintegra.png;
+AGA;BCCF16C6-8CC9-464C-B713-09C6BAC416A1;;;;;
+Aga Chachapoyas;00864749-6584-4E1E-843B-8F9C79DF07F6;;;;;
+AGA JUANJUI;E6BDCBE5-4FAC-4EBD-9C99-44B2848D7A60;;;;;
+AGA MOYOBAM;BD145658-DAF9-4292-92C1-64C94F49CB63;;;;;
+AGA TARAPOTO;4D8FEF20-1AF5-42D8-AB44-B68E21473E39;;;;;
+Agrobanco - Banco Agropec;A17525F8-B89C-4515-8C6D-BFB75B08E39C;;;;;
+Agrobex SAC;62F49AF8-08EE-4279-9900-BB1A76782092;;;/agrobex/agrobex.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/agrobex/agrobex.png;
+Agua Fontaneil;64FF63E4-5CD1-4BCB-8FED-E45AB0FF1255;;;;;
+Agua Tumbes;03230628-CD96-452C-8AF6-4852EADBFC8E;\\b\\d{7}\\b;;/aguatumbes/aguatumbes.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/aguatumbes/aguatumbes.png;
+Air Products Peru SA;B0AED9FC-FD5C-468B-93C0-19610569990E;;;;;
+AJE;37A2A28B-4D91-4EAA-8D39-8223C0614DFE;\\b\\d{7}\\b;;/aje/aje.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/aje/aje.png;
+Ajinomoto;64F5551E-08E1-4F77-A197-4CF05E8C4BB7;;;/ajinomoto/ajinomoto.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ajinomoto/ajinomoto.png;
+Alexander Von Humboldt Lima ;E7AA2B01-1D8D-436F-B0E4-B4933513B65C;;;;;
+Algarrobos - Colegios;5B40CF7C-8C33-4E11-B698-45AFE36B30D2;;;/algarrobos/algarrobos.png;;
+Alicisac;00C25D04-41C1-4C82-A95D-E6C48A0FE6AF;;;;;
+Alper;7E338FE3-9E7F-4E0B-9933-781697A64EB3;;;;;
+Alternativa;904C1A50-3ACE-419C-B00F-6B15943D6B7C;\\b\\d{7}\\b;;/alternativa/alternativa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/alternativa/alternativa.png;
+America Colegios;FF44607C-CD43-4786-A9D8-F8E19D7C365F;;;;;
+America TV;A97EAABA-CCEF-4A41-914A-64D181D2461B;;;;;
+Americanet;14A05A5A-1BAA-41BF-9B2C-F640A5382E4C;;;;;
+Andes Motor Peru SAC;F98E1768-9550-480A-981A-05EF9D1CAA0C;;;;;
+Andino;882D8266-38DB-4FE5-B000-6A0E30ADCB86;;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+Andy Latin Fintech;70AAC4F5-DBE5-4DCD-A07D-7214DED6DEF2;;;;;
+Apafa Colegio Markham;14492185-885A-4FDA-9A61-9EEA3352BF9C;;;;;
+APDAYC;5BC8E68C-CA55-4173-AED9-80D196600520;;;;;
+APJ Cursos - Escuela ;A85C38C4-1F38-4C29-A019-C375ACD6A062;;;;;
+Ardicorp SAC;615B6822-8680-4081-9BD4-161C876FEECF;;;/ardiles/ardiles.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ardiles/ardiles.png;
+ARTYU - NEXO;C982F6E9-A5AC-4D72-8695-7288C70ADA2A;;;;;
+Arzobispado de Lima;442651E4-390B-44C1-96A8-F53F75976C96;;;;;
+Ascensores Andinos ;42BDC8EF-E81E-474C-8571-70194511C668;;;;;
+Ascensores Otis;EFA39BFA-ADD9-49AC-BC0E-2349A9865862;;;;;
+Ascensores Schindler del Perú SA;2541C34E-51A2-4B16-9C97-220774C45FD4;;;;;
+Aseanor;07008EFC-2AF1-460A-B81B-CB3B6DD94B8B;;;;;
+Aseanorte;0413943D-687C-4DCB-BF9B-04AA63BA6720;;;;;
+Asia Golf Club;1F27B833-896C-4B23-887C-C3FEE31CB9CD;;;;;
+Asociación Civil Club Nautico Poseidon;B101AC45-8190-41BB-BFAA-4E4C7D3F700E;;;;;
+Asociación de Empleados del BCP ;D1ABE5C9-97C8-46D5-9003-32D1F46DD0FA;;;;;
+Asociación Deportiva Los Inkas Golf Club;675612F7-CB21-44C1-AA16-6826E94FFA52;;;;;
+Asociación Educ Internacional Elim;C068AFD8-88D7-4C7A-9384-19B49845B69E;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Asociacion Educacional Antonio Raimondi;1CCBB813-DEF7-4D5F-BC3A-673510666ACB;;;;;
+Asociación Educativa Cristo Moreno;029F0EA2-CB89-4436-A79C-30303E559FDE;;;;;
+Asociación Estadio La Unión;666987A1-2DE5-4984-AD12-FC32CD407E14;;;;;
+Asociación La Honda;F0C6635A-FD3A-43FE-B3A0-0062910C3C0E;;;;;
+Asociación Lima Golf Club;EDD064E8-9DCB-4D2E-8D33-E62A1432DA50;;;;;
+Asociación Nor Pacífico del Perú;81FB7B6E-75CD-436D-AC9E-F5DDFC9E7785;;;;;
+Asociación Peruana Central Este;4BD4AA74-AC68-4CFC-A2BD-25D08E79AD4B;;;;;
+Asociación Peruana del Sur;842C4BB6-B49F-4AEF-89E1-FF3ECFDD9178;;;;;
+Asociación Prop Urb Totoritas;D6099878-9B73-4461-8B4D-58AA952BC733;;;;;
+Asociacion Sembrando Juntos ;BFF77B38-4F3F-47DD-A2E0-7A4799CB92AD;;;;;
+Asociación Sierra Morena;00776D4D-4FDD-4889-AA29-073BA463B395;;;;;
+Aspersud;4BB4D77B-34B9-4538-8B75-8FE309051262;\\b\\d{7}\\b;;/aspersud/aspersud.png;;
+Automotal;53D7CB5F-1F28-4A56-A248-0B9B3968553C;;;/lccautomotal/lccautomotal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/lccautomotal/lccautomotal.png;
+Autoplan EAFC SA;FBD42788-94DC-4047-A41E-7AF33E4BBFDD;;;/autoplan/autoplan.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/autoplan/autoplan.png;
+Autoridad Nacional del Agua;F00095EC-FA51-419D-8F1A-D799EABEBD14;;;;;
+Avicola Integral G y G;75A0C86C-2E37-4F58-9779-408C98C32630;;;;;
+Avicola Kilito;2D942452-971D-4D0D-AAF4-1E9D4E56EAA8;;;;;
+Avivel SAC;CB7D09BD-7695-481F-B5BC-FA71548343DD;;;/avivel/avivel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/avivel/avivel.png;
+Avla Peru ;B0183623-3DEA-4A6C-9195-DC9B9A636F46;;;;;
+Avon Productos SA;255B6E2A-AEBD-48DE-BE57-15196E77A709;;;;;
+AYA Distrib;AB594FF1-C259-4AFA-9E54-003854CF572A;;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+AYB Representaciones;E2880F86-731C-47E8-9EAF-D0CCD2638306;;;;;
+Aybar Corp;C37FDE11-315A-468C-AF74-86A51A377508;;;;;
+Azzorti;F1F2681D-D719-49CC-B093-89A065C49C57;;;/azzorti/azzorti.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/azzorti/azzorti.png;
+B51 - NEXO;90F8E2D0-14DA-42FC-9B23-48A9D5807008;;;;;
+Backus;C68B6889-6510-47C2-BCBD-517E5CC99EB7;\\b\\d{7}\\b;;/backus/backus-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/backus/backus-v2.png;
+Bajopontina;B2E30C0A-593B-4C42-A948-1BFCEAD86349;;;;;
+Bakels;94C7F549-F213-4CC5-B927-AA53C0B9DC89;;;/bakels/bakels.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/bakels/bakels.png;
+BanBif;993F8646-1820-40AE-AE7E-2F789E649C0B;;;/banbif/banbif.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/banbif/banbif.png;
+Banco de Materiales;10F499CF-957B-4FB2-8F04-92811070FE62;;;;;
+Bantel SAC;AB796D9C-48AC-48A4-8630-40BFA232ABF6;\\b\\d{7}\\b;;/bantel/bantel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/bantel/bantel.png;
+Barranco Nexo Gestion Inmobiliaria;B4AD8FB5-70CA-4DD5-96B0-699BFE0DDB29;;;;;
+Berkeley School;F05D21F3-AE34-43E0-BA8F-40FD0551C8D8;;;;;
+Besco SAC;9A783C2C-DFCF-4625-A24E-3536C644061D;;;;;
+BFT NET;A64112B9-BB07-4CCE-A635-5448B562A836;;;;;
+BFT SAC;F3E20B8C-5FE7-43F0-A9FC-47B47623B90B;;;/bft/bft.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/bft/bft.png;
+Bimbo;BE7F8D6A-1F0B-4CF6-9C84-1B1005C44296;\\b\\d{7}\\b;;/bimbo/bimbo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/bimbo/bimbo.png;
+Bitel;26582CFD-334D-404F-91D6-43CAFEF0102B;\\b\\d{9}\\b;987654321;/bitel/bitel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/bitel/bitel.png;
+Bizlinks;341FD9A2-0ABB-4EBB-BFFE-C2E956016274;;;;;
+Blue Marlin Beach Club SA;B9C93DBB-296E-4C3B-B100-7072504C5DD9;;;;;
+Boxer Alarmas;A7211FDC-1553-4034-AC15-648CBDB8276D;;;;;
+Braedt;3E2569A5-CB5C-43B8-8F41-298991A7C5FB;\\b\\d{7}\\b;;/braedt/braedt.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/braedt/braedt.png;
+Britanico;56C41DE6-7324-4A23-AED0-16D844549F46;;;/britanico/britanico.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/britanico/britanico.png;
+BSF Almacenes del Perú;3C977450-310C-4275-AF6F-6C913C4CC52A;;;;;
+BSG Institute;F8EB8A40-3A71-4006-B98D-43D90DC76DE0;;;;;
+BUSTAMANTE ONCE - NEXO;BE02F49B-60B1-4C0D-A397-5BDA6F70EC8C;;;;;
+Cable Chincha;2F32C7B2-C8CA-441D-AAC1-8FC9F88C110C;\\b\\d{7}\\b;;/cablechincha/cablechincha.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cablechincha/cablechincha.png;
+Cable Club;85612EBF-6D08-4C99-9AC5-C8DF63F318FA;\\b\\d{7}\\b;;/cableclub/cableclub.png;;
+Cable Color;3F1C814F-4B8C-4222-8E45-F138AC875B69;;;/cablecolor/cablecolor.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cablecolor/cablecolor.png;
+Cable Digital;10559983-9DD6-49D6-833F-8084124BF802;;;;;
+Cable Iquitos;996AFECE-923E-4D2A-8233-AB10030BDCBE;;;;;
+Cable Netword SRL;55ECC128-C447-4ED1-9E78-AEBEB311FC7F;;;;;
+Cable Red;7646110C-122D-49DC-AE50-77BCC047B164;;;/cablered/cablered.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cablered/cablered.png;
+Cable Tacna;33F9F3BC-A0D9-4776-8578-91886EAE1EAE;;;/cabletacna/cabletacna.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cabletacna/cabletacna.png;
+Cable Video;1110E036-8014-4833-B3C5-14A20978D1E3;;;/cablevideo/cablevideo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cablevideo/cablevideo.png;
+Caja Arequipa;526B9F29-E9B3-4E7B-8701-9330F2A8F098;\\b\\d{7}\\b;;/cajaarequipa/cajaarequipa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajaarequipa/cajaarequipa-v2.png;
+Caja Centro;4912853A-4256-46A2-B79C-F0EE36554413;;;;;
+Caja Cusco;39FB0A32-86D4-452D-8709-EE89AB308A81;\\b\\d{7}\\b;;/cajacusco/cajacusco.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajacusco/cajacusco.png;
+Caja del Santa;353DF586-A03E-48B4-9EF3-CEF737CBEFE4;\\b\\d{7}\\b;;/cajadelsanta/cajadelsanta.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajadelsanta/cajadelsanta.png;
+Caja Huancayo;72293466-43EE-4495-BCBE-3D4A70D9FED3;\\b\\d{7}\\b;;/cajahuancayo/cajahuancayo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajahuancayo/cajahuancayo.png;
+Caja ICA;395A5CED-A4DB-49C0-B2AB-4916136A5952;\\b\\d{7}\\b;;/cajaica/cajaica.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajaica/cajaica.png;
+Caja Incasur ;001A91FA-8A0D-4205-9DDE-D71A26F4A3E2;;;;;
+Caja Los Andes;5E048CE2-AACB-47AC-A636-7AA88C85C0C7;\\b\\d{7}\\b;;/losandes/losandes.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/losandes/losandes.png;
+Caja Maynas;FA307260-6965-4F71-85DD-A1D1EC07D237;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajamaynas/cajamaynas.png;
+Caja Maynas;FA307260-6965-4F71-85DD-A1D1EC07D237;;;/cajamaynas/cajamaynas.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajamaynas/cajamaynas.png;
+Caja Metropolitana de Lima;F0DDAF09-C071-4FF5-AA09-10BCE103C589;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajametropolitana/cajametropolitana.png;
+Caja Metropolitana de Lima;F0DDAF09-C071-4FF5-AA09-10BCE103C589;;;/cajametropolitana/cajametropolitana.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajametropolitana/cajametropolitana.png;
+Caja Paita;B6B4E225-9C7A-46F3-A0D2-6218D11B9F09;\\b\\d{7}\\b;;;;
+Caja Paita;B6B4E225-9C7A-46F3-A0D2-6218D11B9F09;;;;;
+Caja Paita;B6B4E225-9C7A-46F3-A0D2-6218D11B9F09;;;/cajapaita/cajapaita.png;;
+Caja Piura;A79C719C-7EDB-4BBF-AE12-DF1BF57CB7BF;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajapiura/cajapiura.png;
+Caja Piura;A79C719C-7EDB-4BBF-AE12-DF1BF57CB7BF;;;/cajapiura/cajapiura.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajapiura/cajapiura.png;
+Caja Rural Prymera;77A6A0C0-8BD9-4808-9EA1-8BF3D6F126E7;;;/prymera/prymera.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/prymera/prymera.png;
+Caja Tacna;2EF12720-55E7-48A4-AA41-17F7A151032F;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajatacna/cajatacna.png;
+Caja Tacna;2EF12720-55E7-48A4-AA41-17F7A151032F;;;/cajatacna/cajatacna.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajatacna/cajatacna.png;
+Caja Trujillo;A0B5CD56-E19D-44F0-80C2-EDCD3C0E14FC;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajatrujillo/cajatrujillo.png;
+Caja Trujillo;A0B5CD56-E19D-44F0-80C2-EDCD3C0E14FC;;;/cajatrujillo/cajatrujillo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cajatrujillo/cajatrujillo.png;
+Calango Country Club;9E541F2F-6EB7-41CD-A917-9B59A3441AAB;;;;;
+Caleta San Antonio;7343E62E-4304-4052-BF9D-9AC3EAE4FE39;;;;;
+Cálidda;AF23CA23-656C-49F7-8B2B-0EA6B188BE7C;\\b\\d{7}\\b;1217955;/calidda/calidda.png;;
+Cálidda GNV;957ADACE-9D9F-417C-92C0-971769688252;;;;;
+Calmet Marco y Corzo Paola;74F05378-7BEA-42AF-AF98-0674A30FE103;;;;;
+Cámara de Comercio de Lima;48195AE5-F0BF-43FA-93D5-9E447A096406;;;;;
+Campo Fe;CC717C5C-2993-42ED-AD3A-C69E117C6FF3;\\b\\d{7}\\b;;/campofe/campofe.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/campofe/campofe.png;
+Canovas SAC;7CEA3024-20B9-4912-A9D3-3C4E27B0B7C9;;;;;
+Carabayllo Nexo Gestion Inmobiliaria;38601DC0-CAFC-4110-8666-059A0B6E4D75;;;;;
+Carmel;A775AB06-CC48-48EF-963F-41B743034023;;;/carmel/carmel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/carmel/carmel.png;
+Carvajal Tecnologia y Servicios SAC;46A54535-42AF-4CED-9ECD-79052CB02101;;;;;
+Casino Naútico de Ancón;D8A0653E-7A7F-40A1-AAE7-550EAD6D10E3;;;;;
+Catálogo Bata;4E5B5FFD-21CE-45EB-BE67-04AAA6CFF300;;;/bata/bata.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/bata/bata.png;
+Catálogo Zonia;DC0885E0-C230-4E49-B175-27173E51238F;;;/zonia/zonia.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/zonia/zonia.png;
+Católica Santa María de Arequipa;8B16A24B-3062-417A-BA67-158381BB0210;;;/ucsm/ucsm.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ucsm/ucsm.png;
+Cayman SAC;FC9DF179-D787-40D2-A650-249C7B645463;;;;;
+CBC Market;25335DBA-D09B-4375-93A1-98BEE2CD0D8C;;;/cbcmarket/cbcmarket-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cbcmarket/cbcmarket-v2.png;
+Cedecsa - Flem;A23C7980-7CCE-4A77-961A-9C0D5D393FFE;;;;;
+Ceibos - Colegios;4624C683-8849-402D-9F21-440396EE63DD;;;/ceibos/ceibos.png;;
+Centenario Desarrollo Urbano;8B6A7E84-BAEE-43F9-8368-9B2AD30B4088;;;;;
+Centro Ann Sullivan del Perú;E6C83411-FE36-45C5-BD61-40EF7ADDCB4F;;;;;
+Centro Cultural Peruano Norteamericano;16747FB1-EBD7-4635-B289-64113644762E;;;/culturalingles/culturalingles.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/culturalingles/culturalingles.png;
+Centro Naval del Perú;1DE0A374-116D-44FC-AE7C-F5B80134043B;;;;;
+CEP Peruano Chino Juan XXIII;FDE6FEF5-7A06-4328-A12F-F6B44E0A8D96;;;/cepperuano/cepperuano.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cepperuano/cepperuano.png;
+CEP Raymond Clark ;4564AEFB-3028-4B23-8977-0E12BC9EEC44;;;;;
+CEP Santa Ana Jardines;E48B0EC3-638F-4C8A-8B71-27081726DF83;;;;;
+CEPEI Maria de los Angeles;D3ECFFA2-A989-465B-9CDF-A5A7FDFBFF86;;;;;
+Certus;8E1ADDCA-C86C-4AD8-893F-1A0B91F2680D;\\b\\d{7}\\b;;/certus/certus.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/certus/certus.png;
+Cerveceria San Juan;DBC346AB-8725-4472-8BFA-2A430EC00497;\\b\\d{7}\\b;;/cerveceriasanjuan/cerveceriasanjuan.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cerveceriasanjuan/cerveceriasanjuan.png;
+Ceva Logistics Peru SRL;08EBF130-5DDC-4FEB-B855-F33D7598E736;;;;;
+Chapa Cash Inversiones;6927CFA8-763C-4BF9-BEF7-38555D793299;;;/chapacash/chapacash.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/chapacash/chapacash.png;
+Chapi Central;964573BA-1C1B-433E-8372-771FC009B024;;;;;
+Chapi Planicie;D6D8CD83-90A7-4E2C-A02F-A84993FFC0C4;;;;;
+Chimu Agropecuaria;B37C9923-1B4B-4FC2-84CF-626A204F88B6;\\b\\d{7}\\b;;/chimuagropecuaria/chimuagropecuaria.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/chimuagropecuaria/chimuagropecuaria.png;
+Chubb Seguros Peru SA;A3717714-2EA7-4665-9CED-149CEEDB846A;;;;;
+CIBERTEC;A8795903-3A39-4148-B801-72AF5C34316E;\\b\\d{7}\\b;;/cibertec/cibertec.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cibertec/cibertec.png;
+Cicontesa;94EEA533-ED7F-4BA6-BF88-231F3A16485C;;;;;
+Cima;B9C1D3E1-837C-4843-9BE0-1B30E425A1E1;;;/cima/cima.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cima/cima.png;
+Cinfaf SAC;87D788EC-59DC-409C-A260-DB6B2C1ADBA3;;;;;
+CIP - Lima;395CFC96-5F02-4A57-8A15-F54FB9F9789E;\\b\\d{7}\\b;;/cip/cip.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cip/cip.png;
+Ciudad Verde Condominio;C8D3855B-5CA9-40DE-95F9-7E62E16DAD4C;;;;;
+Ciudalite;BF69CE5A-497E-4C92-9A27-5E1BED61D682;;;;;
+Claro;AA51F385-C09B-43BE-B3CF-4B05A36056CD;\\b\\d{9}\\b;987654321;/claro/claro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/claro/claro.png;
+Clínica Angloamericana - British American;11558C24-891E-4D1F-B620-3526A096BFF7;;;;;
+Clínica Good Hope;2A955FA1-C679-4232-B679-87A935F6AB0C;;;;;
+Clinica Jesus del Norte ;67E45E3A-1858-47D5-93F8-ED01961E1112;;;;;
+Clinica Maison de Sante;10114768-9C70-4A56-9E23-5B1395610838;;;/clinicamaison/clinicamaison.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/clinicamaison/clinicamaison.png;
+Clinica Nuevo San Juan ;8D697384-1233-41BC-80FE-D5319F503430;;;;;
+Clínica Ricardo Palma;65D766A5-0A4A-4175-A3DB-37C9AA0228F0;;;;;
+Clinica San Pablo SAC ;0E266986-8508-4C8E-ABEE-227A0F62CB35;;;;;
+Club Arabe;EFA8FFE1-93B0-461C-9ED9-E6256DB6ABED;;;;;
+Club Esmeralda;3F042C95-7C0E-4C16-8564-BDDD2F12770B;;;;;
+Club Germania;C1F441B6-CF4F-498E-88FB-8DD58018E2FB;;;;;
+Club La Planicie;6958AF3B-B6D6-456B-A18B-EDE48CF7BAF2;;;;;
+Club Las Palmas;7D17BAC0-3854-4E53-8AD4-601B95DDD2C6;;;;;
+Club Nacional;ED4AD515-1D93-4FAE-8803-E774FF31E038;;;;;
+Club Playa las Arenas;3545E91D-B617-4F2B-A407-4AFC96DC15E2;;;;;
+Club Regatas Lima;99583A52-F141-4712-B68F-9FC24BC8DA23;;;;;
+Club Social Miraflores;A0568F4D-062C-4A0D-869A-17C49F95A8D4;;;;;
+Club Tennis Las Terrazas;F142F656-E04D-49AB-A666-A5E19C140CAF;;;;;
+Club Waikiki;C8E3807D-792B-419D-8FA4-8246F87C284E;;;;;
+CM PARQUE NORTE - NEXO;A6E4131A-00B2-44F3-8D0C-EB02A5BFDEAE;;;;;
+CMS Arequipa;0DB03B04-866C-4C78-9690-706F49993D99;;;;;
+CMS Tacna;BE1E391F-3B3D-4A65-A436-1DC69E714A47;;;;;
+CNET Internet;5B97DD54-CD7B-43C8-BEED-6E55BE41FAD9;;;/cnet/cnet.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cnet/cnet.png;
+COFOPRI;F62AE67C-047C-485D-9C28-EEDB7D657543;;;;;
+Colegio Abogados de Arequipa;38E45485-3996-4036-814E-76DAB3E2400D;;;/colegioabogadosaqp/colegioabogadosaqp.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/colegioabogadosaqp/colegioabogadosaqp.png;
+Colegio Alberteinstein- Huaraz;8C4E5442-7DCF-4928-B78E-042074CD1A2E;;;;;
+Colegio Aleph;CF83CC3C-ED85-4639-AD55-CE2041773ED4;;;;;
+Colegio Alexander Von Humboldt;78ABCFB3-9989-4369-B00F-EC6619087C0E;;;;;
+Colegio Angloamericano Prescott;B7F7E43E-8FAC-4AB0-AE43-FCF8C9255860;;;;;
+Colegio Antonio Raimondi;D42E295F-C821-44BB-BADC-3024A5353016;;;;;
+Colegio Bertolt Brecht;842FC039-9410-4667-8420-0C39AD5429EB;;;/bertolt/bertolt.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/bertolt/bertolt.png;
+Colegio Chino Sfa;5098617C-A510-4EF0-BC7A-507869B99FE0;;;;;
+Colegio Cybernet;A575BA3B-E235-4C2F-971F-38491DE1FDEC;;;/cybernet/cybernet.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cybernet/cybernet.png;
+Colegio DAC - Trujillo;47BE1323-9287-47BA-8E9A-758F1A92B5BD;;;;;
+Colegio de Abogados de Lima;2A3C23BB-1755-4A92-B385-5D1618494059;\\b\\d{7}\\b;;/colegioabogadoslima/colegioabogadoslima.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/colegioabogadoslima/colegioabogadoslima.png;
+Colegio de la Salle - Arequipa;8AD6DB14-D23A-49A9-A035-8DBC01A1FD5E;;;;;
+Colegio Eduardo Foga - Chosica;CFCD6315-E00A-4950-9AED-A990E600287B;;;;;
+Colegio Euroamericano;B6973325-2F71-429B-B024-56565A3A5897;;;;;
+Colegio Friends Garden;AA103ABB-D643-4DAD-9CAE-53F6F80644E4;;;/friendsgarden/friendsgarden.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/friendsgarden/friendsgarden.png;
+Colegio Ingeniería;7A850AC9-7EEB-40CD-8BEA-50E7F2B0C371;;;;;
+Colegio Internacional Peruano Britanico;55691DB1-AF97-4638-974D-9CE191D8A21B;;;;;
+Colegio Lord Byron;3AF9D27A-A5EF-40BB-9783-01876B3F7854;;;;;
+Colegio Matemático San Rafael;9076F9FA-6837-493D-8DC0-D11264CAE91F;;;;;
+Colegio Mayor Mendel;A99B2580-75DB-4071-9A6C-A1E104ABF8E3;;;;;
+Colegio Mendel;EA87DEBF-5E40-4A80-88C6-579851636E55;;;;;
+Colegio Pead Unidos;EB6CFECF-B2C8-4D14-BBE0-F1F0C82F6A6B;;;;;
+Colegio Pestalozzi;674E8425-DD52-466D-B22A-997E75226D26;;;;;
+Colegio Sagrado Corazón;9038E090-1A3C-4C1E-8093-F77D8C08CA7F;;;/sagradocorazon/sagradocorazon.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sagradocorazon/sagradocorazon.png;
+Colegio Salamanca;4F70F94E-EFBE-41CE-AD28-51EA93957801;;;;;
+Colegio San Agustín;869D3E31-8EF2-4658-AB73-7D3EBD0A2C40;;;;;
+Colegio San Felipe Jesus Maria-Pension;2FEB00FF-9AA3-4106-8A8A-46CA4A3F9990;;;;;
+Colegio San Jose - AQP;59A25721-9F17-4419-8F62-8012160BF230;;;;;
+Colegio San Pio X;C410BE98-FCBE-4356-9E0C-DDA4786C0EA1;;;;;
+Colegio Santa Maria;4DC268E1-F0BB-4124-9B66-6016510E5D24;;;;;
+Colegio Sir Fleming;19178607-CAEE-4CF3-B878-40F1A09EBD52;;;;;
+Colegio Unión;F1185132-7EE1-44A1-81E6-A2C6B82F11C8;;;;;
+Colegios - Leon Pinelo ;B95D88AF-697D-4C82-889B-8E25DB107924;;;;;
+Colegios Alpamayo;7A7EF180-CD47-4CFC-A232-BC0DA667392D;;;;;
+Colegios Bruning;1CD3A588-83F6-49A8-9C0B-0EBE131C325F;;;;;
+Colegios Gutenberg;5F42C58B-27A2-4E87-97C3-B6FCFDBFF7BF;;;;;
+Colegios Joseph and Mery;B012EF05-B064-4E60-8D26-3A07E3D91948;;;;;
+Colegios Reina del Mundo;8BCC7508-0C9B-4A66-A645-8127B5519083;;;;;
+Colegios San Silvestre;C3393DD1-200E-4412-8C96-8CC07EC4B3D2;;;;;
+Colegios Trilce;B0B112DE-ECA2-448A-854A-A32FDF4E0391;\\b\\d{7}\\b;;/colegiostrilce/colegiostrilce.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/colegiostrilce/colegiostrilce.png;
+Comercializadora Babel;771446A9-E6C4-4DD0-9358-EA642087F5A2;;;;;
+Comercializadora Betania;5687381A-A9E1-4D01-BF05-9BA493A3ABEE;;;;;
+Comercializadora Codisal;B287CD6C-8024-44BA-AA96-E95DF6237FCA;;;;;
+Comercializadora Praderas del Oriente;FFFA211F-47F6-4043-AFB3-795F9FBB1393;;;;;
+Comercializadora Salem;B1DB4F5E-E2A4-4013-B210-8605F023A27D;;;;;
+Comercializadora Tulipanes;D2248A29-86CD-4A62-9DC8-1B2872BB6604;;;;;
+Computacion Informatica y Servicios Elecronicos;3022C71F-8334-4A46-9C7B-6747B2FD0A00;;;;;
+Comunal;0CCE07D8-D8DD-4D1F-91B4-667B61BC310D;;;;;
+Condominio el Castillo;F7079D01-F866-408A-8467-B94BAE2630E7;;;;;
+Condominio Las Brisas;9582C4DB-9235-420D-8EA5-F228AEA5CE80;;;;;
+Conferencia Episcopal Peruana;79F899B3-BF44-4CC4-BDCA-7B03F5EA17AA;;;;;
+Confiteca;7FFAA1C2-2AF9-4B90-A2DA-06DBDEF5C750;;;/confiteca/confiteca.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/confiteca/confiteca.png;
+Conjunto Residencial Alto Benavides;5E29D615-6538-4646-A76E-246AB58397D1;;;;;
+Conjunto Residencial Ciudad Nueva;88A36E26-2E19-4259-9BDB-BE2474DFC1B4;;;;;
+Cons Educ Cesar Vallejo;2834DE49-9991-40F3-91B0-51B50428F21B;;;;;
+Consorcio Barranca II;E1403F4C-270C-4C0C-9BFA-97E27D0EEE96;;;;;
+Consorcio Cañete I;BAC3BE83-E939-4F38-8052-11057237F353;;;;;
+Consorcio Don Carlos;F520AEA0-8EED-433D-A884-61DE44990160;;;;;
+Consorcio El Pino Scander;5DC0CBD6-BBCA-4233-993A-F81FC55CEE20;;;;;
+Consorcio Montblack;CDC0AABA-E928-45B0-A520-23AD0BFAEE3D;;;;;
+Contrans SAC;F98E2AEF-3857-4411-B8DB-720C0D5C74A6;;;;;
+Contugas;272B303B-85D4-49C0-9D32-93F1FD4A79A8;\\b\\d{7}\\b;;/contugas/contugas.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/contugas/contugas.png;
+Coop Santa Maria;20A42861-958B-49BC-B3F4-67FED643406D;;;/coopacsmm/coopacsmm.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coopacsmm/coopacsmm.png;
+COOPAC Isabel;1495E1C2-9E90-40AB-87AD-6D5BEE2AB294;;;/santaisabel/santaisabel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/santaisabel/santaisabel.png;
+Coopac Kori;E7A81027-5C7F-4A41-8F46-D77C62C6806A;;;/kori/kori.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/kori/kori.png;
+Coopac Los Andes;AE6E8674-2601-4D48-9CA9-1FD6410408D2;;;/coopaclosandes/coopaclosandes.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coopaclosandes/coopaclosandes.png;
+Coopac Prisma;54D977D4-C4C9-418B-8830-EA8F36436C15;;;/coopacmfp/coopacmfp.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coopacmfp/coopacmfp.png;
+COOPAC SAN CRISTOBAL;0A2B1599-F392-4376-955E-D1FCCD53FF3C;;;;;
+Coopac San Hilarión;70322686-E39C-44DC-A279-A5B14C6880E9;;;/cooperativasanhilarion/cooperativasanhilarion.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cooperativasanhilarion/cooperativasanhilarion.png;
+Coopac San Martín de Porres;5AA6E001-AA35-418B-8395-336718A9285E;;;/coopacsmp/coopacsmp.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coopacsmp/coopacsmp.png;
+Coopac Santo Cristo de Bagazan;3A091485-661C-4023-AFAF-F2D5EC0F794C;\\b\\d{7}\\b;;/coopacscb/coopacscb.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coopacscb/coopacscb.png;
+Coopac Virgen de las Nieves;A8A14529-FF43-4DF3-A549-0EF381A7CCFA;;;/coopacvirgendelasnieves/coopacvirgendelasnieves.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coopacvirgendelasnieves/coopacvirgendelasnieves.png;
+Cooperativa El Tumi;3CF0C7DE-5FE3-4D48-AE54-D756D76DFCC7;;;/eltumi/eltumi.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/eltumi/eltumi.png;
+Cooperativa Pacífico;C2E46876-F7E4-4C2C-AC68-DB3E0534A893;;;/coppacifico/coppacifico.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coppacifico/coppacifico.png;
+Cooperativa Rehabilitadora;827C886E-4EF0-46CA-8234-DB454B190E16;;;/larehabilitadora/larehabilitadora.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/larehabilitadora/larehabilitadora.png;
+Cooperativa San Cristobal;F6BE4C52-B18F-4488-A67C-CBAAC5DD4ED8;;;/coopacsc/coopacsc.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/coopacsc/coopacsc.png;
+Coopse La Unión;74082FCD-285F-4D1B-BD5C-2209B5D5CD5C;;;;;
+Corpesa;1BDD154E-85CE-414C-BB5C-CEAE28B81785;;;/enerjet/enerjet.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/enerjet/enerjet.png;
+Corporacion Aceros Arequipa;BA5435CA-B66D-4F77-B668-90BCAF264219;;;;;
+Corporación Cayman SAC;79F9AEF9-A4C5-47FC-89FB-915B73733435;;;;;
+Corporación Financiera de Desarrollo;46395BDA-EC33-43E1-8B8A-4D946E713F05;;;;;
+Corporación JPC SAC;456BAE9B-B01B-49A9-ACBF-A19A8B084DFA;;;;;
+Corporación Khipu;2DE4A1A1-9078-4D04-B44A-A92798567BBB;;;;;
+Corporación MG;BF79E49A-9FF6-42C9-A6E6-DD721A253F80;;;;;
+Corporacion Montehermozo;D643BF49-AA1A-4B70-A34E-66EA00D440E2;;;;;
+Corporación Vimoda;09DAC08E-A1CF-4146-9EEE-C1B43D599013;;;;;
+CORZO PAOLA Y CALMET MARCO;CFB3C7AC-48BB-4827-B446-D8F57FD09E6E;;;;;
+Cosapi - Momen;1323ECC2-C2E0-4B93-8F4F-635F5F98C5BD;;;;;
+COSMOP;F20E0AF8-772F-41AB-89AC-C37C7923AAEE;;;;;
+Cosmos Agencia Marítima SAC;EA240B2F-C9FE-4C92-9780-B6F2AA3F41FC;;;;;
+Costa del Sol;78F2FBEB-15EF-485A-9EF0-0E90476C17A1;;;;;
+Costeño;BD6FE348-91CC-4D85-9168-88C66381DD68;;;/costeno/costeno.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/costeno/costeno.png;
+Country Club de Villa;6A5DC7EA-D0F1-4AB3-AE6D-AE1335A88D54;;;;;
+Country Club Los Cóndores;748299FE-9A4C-4399-922B-B21429A8A13B;;;;;
+CRAC Raíz;467AB1A0-83BF-43A4-8F6F-8BC839EF4D82;;;/craiz/craiz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/craiz/craiz.png;
+Crecer Seguros ;DEAB5B46-F6CE-4DAE-8710-699F7ED91294;\\b\\d{7}\\b;;/crecerseguros/crecerseguros.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/crecerseguros/crecerseguros.png;
+CrediFace;B40A27B3-1D16-439F-972D-3B133B49F0F3;;;/crediface/crediface.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/crediface/crediface.png;
+Credinka;8FF32F00-F1CF-4108-8545-BFF86830B8BF;;;/credinka/credinka.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/credinka/credinka.png;
+CrediSmart;EEFEA6D9-E9F1-4F30-8312-FE86F0E0531D;\\b\\d{7}\\b;;/credismart/credismart.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/credismart/credismart.png;
+Creditu;288E5370-CBD9-4425-8A85-40E1ECB184DC;;;;;
+Credivida;27D540ED-7F45-40F0-B2D3-7D59BA280C6A;;;;;
+Crosland Automotriz SAC ;5026B715-755B-4645-A432-D5E884799E5D;;;;;
+Crosland Stores SAC;DAF2A879-50F9-4333-A8F6-AE1755557000;;;;;
+CRP Radios;B61CC9E1-E9AE-45B1-B3E9-26CB13F3F4F1;;;;;
+Cunza;7BA5817D-59B7-4CEF-965E-083F58D941CE;;;/insuma/insuma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/insuma/insuma.png;
+Dalimnort SAC;E21D2A60-0B98-4F56-ACE7-E7526C1A6771;;;/dalimnort/dalimnort.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dalimnort/dalimnort.png;
+Danper Trujillo SAC;72BD1D4C-E30A-44E9-91BB-5BEB26B8C7D9;;;;;
+Daro;C3F4F6D6-07E8-4405-806F-1C5744AD3BCF;;;/daro/daro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/daro/daro.png;
+Dehoca SA;17C5AC18-AE3F-42CC-9380-EF6A43EDF36F;;;/dehoca/dehoca.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dehoca/dehoca.png;
+Deposeguro SAC;3D42ED1C-EACE-46C5-9BF6-79393CC4AC4D;;;;;
+Derrama Magisterial;D9ED9F8F-2D2E-4D33-8DB6-ABD91AF8372E;;;/derrama/derrama.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/derrama/derrama.png;
+DFRIO;8424F657-A69E-4DD8-A3FC-2D55CE629E92;;;;;
+DHL Express Aduanas Perú SAC;95F15EAE-767B-462A-B24E-AC55993E707B;;;;;
+DHL Express Perú SAC;CFD09C9D-DBE1-4219-A8C8-89244F9B46B5;\\b\\d{7}\\b;;/dhl/dhl.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dhl/dhl.png;
+Diadia-Insuma;DD4BA2E8-F8BB-4D57-96BB-B198B65CAC46;\\b\\d{7}\\b;;/diadia/diadia-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/diadia/diadia-v2.png;
+Digicem SA;B61C9DC0-48A8-4947-A231-8632A86D6840;;;;;
+Dignidad Perú;32403016-B045-4296-8B3F-93508BB7929C;;;/dignidadper/dignidadper.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dignidadper/dignidadper.png;
+Digo;C0A6B6E9-0486-4625-80A5-2DE5F56A7B96;;;;;
+DIISAC;A6A038B3-3F88-4540-A608-D9A24A7F629A;;;/intervega/intervega.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/intervega/intervega.png;
+Dimexa;B81EE46A-5D0D-4D27-8CC4-5145ADC9E339;;;/dimexa/dimexa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dimexa/dimexa.png;
+DIPROPOR;0A4029F8-A2CB-417F-B2EC-C5DB6E681D5E;;;;;
+Diprosel;0D2A579E-6EFD-43CC-94C7-27F322814C4B;;;/diprosel/diprosel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/diprosel/diprosel.png;
+DirecTV;7D4B9EF4-8754-4828-937A-37803644F1A5;\\b\\d{7}\\b;;/directv/directv.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/directv/directv.png;
+Disalti;EE3A8653-6487-4657-8A82-15A62B90A059;;;/disalti/disalti.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/disalti/disalti.png;
+Dismar EIRL;1B0F3B7F-B788-46D5-B278-111882F30A37;\\b\\d{7}\\b;;/dismar/dismar.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dismar/dismar.png;
+Dist Drogueria Phryma;6BF58BC9-BB85-479E-A3B2-08AE43365912;;;/phryma/phryma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/phryma/phryma.png;
+Distraroj;208FB716-F7D0-411E-B6FD-3221AAC78FE3;;;;;
+Distrib Diaz;2E597B36-456D-4D2A-82B5-9BE7DE294348;;;;;
+Distribuciones y Servicios Roma SAC;871707AD-819B-422B-B97A-DD35585A7B8B;\\b\\d{7}\\b;;/distribucionesroma/distribucionesroma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/distribucionesroma/distribucionesroma.png;
+Distribuidora de Autopartes Del Peru SAC;531BA2B8-4729-404F-8DFA-64D9960EC6EC;;;/dapsac/dapsac.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dapsac/dapsac.png;
+Distribuidora Drogueria Alfaro;A41580D1-1360-436B-BCB5-F8B26C1CED9B;;;/distribuidoraalfaro/distribuidoraalfaro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/distribuidoraalfaro/distribuidoraalfaro.png;
+Distribuidora Escocesa;5DDF020B-DAD9-4E86-84AF-F5A03C163BFD;;;;;
+Distribuidora Mkm;9E9CD1D3-0E34-4CCD-8F58-2FBEF0235206;\\b\\d{7}\\b;;/mkm/mkm.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/mkm/mkm.png;
+Distribuidora PMA;98A9BB31-5F77-41CE-B942-DFB56EF77200;;;;;
+Distribuidora San Fernando;E81B5187-567D-4FAC-B350-C4A9DF019C46;;;/sanfernando/sanfernando.png;;
+Distribuidora Señor de Potosi;3E3A9272-9AD9-4669-83EE-77A72DE37A44;;;/senordepotosi/senordepotosi.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/senordepotosi/senordepotosi.png;
+Distribuidores AC Lindley;BDA1F7B6-BC65-42A9-B81E-720504843097;\\b\\d{7}\\b;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+Distrimax;4F4DFC02-4469-47AD-89C2-C00EE2E69C66;;;/distrimax/distrimax.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/distrimax/distrimax.png;
+Divecenter SAC;10214857-F221-4B4A-92A6-DC83A1767D1A;;;;;
+Dizoe SAC;53F76A03-654E-4820-B1DB-23DF2492F715;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dizoe/dizoe.png;
+Dizoe Sac;53F76A03-654E-4820-B1DB-23DF2492F715;;;/dizoe/dizoe.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dizoe/dizoe.png;
+Doctor Sol;3E6D9EB8-E96E-4142-A7BA-0B22B7366429;\\b\\d{7}\\b;;/doctorsol/doctorsol.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/doctorsol/doctorsol.png;
+Dopay;5A4930B8-2B40-44C6-BDF8-378E90C178AE;;;;;
+DP World Callao;642B19A5-BA77-4F6F-835D-DDC724AEAB57;;;;;
+DPUERTO;6DE7E99F-7B0E-4B71-BD2D-A94D5328495E;;;/dpuerto/dpuerto.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/dpuerto/dpuerto.png;
+EasyWay;EBCF2021-4B19-4616-B528-9956E8D39185;;;;;
+E-Business Interchange ;FA828168-F3D5-4627-9EFE-101F8ECC1D0D;;;;;
+Ecobesa;902A00CB-18FB-41FE-A69D-20FF0624E3D2;\\b\\d{7}\\b;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+EDAPROSPO;A77F2114-4FEB-42AD-A148-D723D5BC60B2;;;;;
+Edificio 398 - Enlaces Adm Inm;62D3873F-BCB0-4840-B7A7-D8D5D8DF4F81;;;;;
+Edificio Alberto el Campo;11AD3DD9-AD15-4E57-842B-5FB485295AA3;;;;;
+Edificio Barlovento;677188C0-B4FD-4095-AC30-38D05304366F;;;;;
+Edificio Be525 - Enlaces;03DB5C4A-0BEE-44E9-A218-15FE4FD3C3E0;;;;;
+Edificio Celmo;534F2648-EABB-4C69-9DCD-D0E59985D4A9;;;;;
+Edificio Ichma ;1C978E28-E1AF-408D-A661-BB478EF74FF5;;;;;
+Edificio Jade;1B71F26F-3804-4D17-95B7-BE07D1B90F6D;;;;;
+Edificio Link Tower;CB7FB693-668D-468D-A6FF-2551BEA77DC7;;;;;
+Edificio Lit One;894B0818-96E6-4EB8-B41D-A55F421094BC;;;;;
+Edificio Metrópolis;03538946-B615-4593-BF3D-0E6A35E1E124;;;;;
+Edificio Nacional;2709F84F-7D0A-4A21-80C3-5B1082E826E0;;;;;
+Edificio Onyx;4E6DBC12-D278-41E4-AF97-9829951644AA;;;;;
+Edificio Panorama - Estacionamientos;3F8938AE-F5D0-44E8-A714-F7C0FFDAA5F6;;;;;
+Edificio Panorama Torre 1;267C6EF5-F5AE-4776-87B6-96D1174ACAF4;;;;;
+Edificio Polo II;ECF48A02-D483-44B0-89BE-8989B1271506;;;;;
+Edificio Prime Tower;357CE144-532A-4F39-A84C-F8F3A4B874AB;;;;;
+Edificio Prisma B.T.;43C501E7-C774-4025-8937-AB8D7A274929;;;;;
+Edificio Quattro;E67473F3-BAD9-47EC-AC83-80A223DEE5F4;;;;;
+Edificio Qubo ;7A3C529C-30AE-4592-8DA0-6A85D9D2F778;;;;;
+EDIFICIO S29 - NEXO;E13F59CE-5CFD-49DB-AEB6-3074F783A80E;;;;;
+Edificio Tanguis;43E8888A-32A1-44AD-BCBC-3F427123BBCA;;;;;
+Edificio Thu;7B8E5FC1-BCF5-46F2-A416-AA399954B1F0;;;;;
+Edificio Torre Tekton;B5A5D7C1-3F70-48EE-AF62-B7245366FB12;;;;;
+Edificio T-Tower;2DA0F2EE-098A-4527-AF01-350DFFE54AAA;;;;;
+Edificio Victor Andres Belaunde;1F1D3A27-DA85-41D2-AC8A-069BD8ABDD0F;;;;;
+Edificio Vitra;DCE83BF9-6EEE-449E-803E-46D1343D1A92;;;;;
+Editora El Comercio;605C6097-9C11-4154-A9B6-37B272C2320E;;;;;
+Efectiva;9C910D0E-147F-4A85-B408-82D55DD493BA;;;/financiera_efectiva/financiera_efectiva.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/financiera_efectiva/financiera_efectiva.png;
+El Golf Los Inkas;A751D9A2-93E9-4DC8-B4AD-2616D899DE37;;;;;
+El Pino - Gerpal SAC ;2C3B177A-A6C9-4E2A-8978-7EC35B05DC51;;;;;
+El Porvenir - Chepen;C611C12F-EA60-4C8A-94B6-5B059044B44F;;;;;
+El Quinde Shopping Plaza SAC ;24B1BBBA-00A5-4620-AF85-975C103BEB8F;;;;;
+El Remanso;F82B64E8-C353-499A-950B-E7B745594401;\\b\\d{7}\\b;;/elremanso/elremanso.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elremanso/elremanso.png;
+Electro Oriente SA;52B08D8B-A4BA-4FF0-B140-D46C8CA21131;\\b\\d{7}\\b;;/electrooriente/electrooriente.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/electrooriente/electrooriente.png;
+Electro Puno SAA;35E5C951-4917-4FD8-A5E9-A1DE88C8C44A;\\b\\d{7}\\b;;/electropuno/electropuno.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/electropuno/electropuno.png;
+Electro Sur Este;C220191A-CCCF-483F-BD61-D26CE8B7B100;\\b\\d{7}\\b;;/electrosureste/electrosureste.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/electrosureste/electrosureste.png;
+Electro Tocache;E69D0050-F5DF-48F0-B519-751EB272EBE6;\\b\\d{7}\\b;;/electrotocache/electrotocache.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/electrotocache/electrotocache.png;
+Electro Ucayali;53F1D3B5-C4A3-4901-AAFC-0C8C07E30F04;\\b\\d{7}\\b;;/electroucayali/electroucayali.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/electroucayali/electroucayali.png;
+Electrocentro;E857BFCC-613E-41C4-9076-A43649B6A186;\\b\\d{7}\\b;;/distriluz/distriluz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/distriluz/distriluz.png;
+Electrodunas;58057EA3-E126-4335-B5F5-48CE849C03C2;\\b\\d{7}\\b;;/electrodunas/electrodunas.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/electrodunas/electrodunas.png;
+Electronorte;72FC190B-BEE7-48BA-B0C7-B28F072D7CAB;\\b\\d{7}\\b;;/distriluz/distriluz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/distriluz/distriluz.png;
+Electrosur;36C3DD3B-61CF-4D84-A19D-503BBBED31D4;\\b\\d{7}\\b;;/electrosur/electrosur.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/electrosur/electrosur.png;
+Elim Breña;0EFBBC2E-3AEF-42D9-AA53-16614D230988;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Elim Canto Grande;08BA933C-F51D-4253-ACCF-39B4ADAB381F;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Elim Chiclayo;F4FA9F4A-F8E5-43C9-A550-DA2E90619CE6;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Elim Huancayo;FDF6C354-45FB-4601-9426-E8962E351E6B;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Elim Huaycan;8996F2EA-779D-466A-B812-3AD1353F8539;;;;;
+Elim Ica;99E1043C-3C4C-4E45-8F22-501E83C4F3AA;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Elim Manchay ;246DE9BE-D525-4CD8-A761-DB21DC6F600F;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Elim Puente Piedra;BF3945A3-06DB-48AD-B7C7-4AF156C88E84;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+ELIM TACNA;A2A38C65-430F-4814-B194-10DD0CEE39F7;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+Elim Vitarte;EB68A2D7-C223-4035-A5DD-1EF81997BD3A;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+ELIMVILLAELSALVADOR;C7FEA636-1B91-4F6B-B962-4D1910DE3BFD;;;/elim/elim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/elim/elim.png;
+EMAPA Cañete;01F2DDC1-35BB-40E1-AC65-125590DAE218;\\b\\d{7}\\b;;/emapacanete/emapacanete.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/emapacanete/emapacanete.png;
+Emapa Huancavelica;B56F506F-B11A-4E70-B817-E78C157A09FA;;;;;
+EMAPA Huaral;776C0416-2909-472E-B93E-58B92AB8A0B7;\\b\\d{7}\\b;;/emapahuaral/emapahuaral.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/emapahuaral/emapahuaral.png;
+EMAPA San Martin;BD42952C-6C8D-4554-B182-3E57EE122CB1;;;;;
+EMAPAB SA;BAA6B833-948D-4C4D-A19C-BAC3C162EF0F;;;;;
+Emapacop SA;AD5AF1FF-B461-4F7D-A8BD-833A65ACC86F;\\b\\d{7}\\b;;/emapacop/emapacop.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/emapacop/emapacop.png;
+Emapavigs SA;23368C5A-5826-4BF9-A35C-192DD0BD4B6A;;;;;
+EMAPICA;859173B9-A50D-47EC-ADA9-FED4F4D8799B;\\b\\d{7}\\b;;/emapica/emapica-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/emapica/emapica-v2.png;
+Embid;CC05FB8A-C57E-42FD-AB5E-3D6D41EE5287;;;;;
+Embotelladora La Selva;F6736842-EF6A-4A35-AA56-88E99CD594F0;\\b\\d{7}\\b;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+Emilima SA;D5B8C050-D13A-4064-B9B5-DAF20F366C66;;;;;
+Empresa Agroindustrial Laredo SAA;B5C4D50D-0462-46AA-8A8D-DAD7F59E0F58;;;;;
+EMSA Puno SA;9D77EDDF-24E3-4587-A1CC-BC5928F0EB2E;;;;;
+Emseu;86E73CC1-C5C7-4D98-8604-166F9B57CDE7;;;;;
+Emusap Chachapoyas;4DD9590A-19DA-4C7F-A7E1-217FD5981554;;;;;
+Encus;9E683040-2DD1-42C7-84B5-D2FE327BCD83;;;;;
+Enlaces Administracion Inmobiliaria;F7BF1194-3D8F-402D-B56F-9D2143181E13;;;;;
+Enosa;56587C52-289C-4AE8-A76D-8B06D4CB2FE5;\\b\\d{7}\\b;;/distriluz/distriluz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/distriluz/distriluz.png;
+Entel;0FE9F0EE-3566-40D6-A5F0-6CC32D4E5F60;\\b\\d{8}\\b;1217955;/entel/entel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/entel/entel.png;
+EP Newman;AF2B920F-FB07-4FAA-BCBB-AFEEDC6D6221;;;;;
+EPS Barranca SA;8DF4353E-0CDF-45BA-AAB6-E9D68B2A8787;;;;;
+EPS Chavin Huaraz;3AF8738E-20B7-4890-B61C-11DCB8CC8D8B;\\b\\d{7}\\b;;/epschavinhuaraz/epschavinhuaraz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/epschavinhuaraz/epschavinhuaraz.png;
+EPS EMUSAP Abancay;3017F8B1-E500-49AB-911C-19C188011136;;;/emusap/emusap.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/emusap/emusap.png;
+EPS Grau;9F863A2C-07A2-4877-8628-18DBFCEBDE60;\\b\\d{7}\\b;;/epsgrau/epsgrau.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/epsgrau/epsgrau.png;
+EPS Ilo;E672B34D-29C0-41B9-87E4-18200AB6F664;\\b\\d{7}\\b;;/epsilo/epsilo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/epsilo/epsilo.png;
+EPS Marañón SA;48871096-64A4-472F-A9B2-C974F98C6213;;;;;
+EPS Moyobamba;5483E992-2EB3-481C-A9DB-79427A9A632C;\\b\\d{7}\\b;;/epsmoyobamba/epsmoyobamba.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/epsmoyobamba/epsmoyobamba.png;
+EPS Sedachimbote SA;64FCA7DC-AB7F-42B5-924D-4C24992D3895;\\b\\d{7}\\b;;/sedachim/sedachim.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sedachim/sedachim.png;
+EPS Sedaloreto SA;16499DCB-4E56-4D03-A0AC-04477851D9F4;;;/epssedaloreto/epssedaloreto.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/epssedaloreto/epssedaloreto.png;
+EPS Semapach;6F0F32B1-E335-4496-9C54-CDAAE744AB50;\\b\\d{7}\\b;;/epssemapach/epssemapach.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/epssemapach/epssemapach.png;
+EPS Tacna;C29EBD98-4FB1-40D0-B0E5-E3E7DE6B48EF;;;;;
+Epsel;501EF5F9-E203-4005-96AB-2C66E50E5D0D;\\b\\d{7}\\b;;/epsel/epsel-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/epsel/epsel-v2.png;
+EPSSMU S.A.;89898138-EF5D-45AB-8E1E-596AFD7B782E;;;;;
+Equifax Perú;CC78AD96-6FCD-4136-82D4-54346CF3B8DA;;;;;
+Erictel M2M Perú;4D4E3053-AC04-4E5A-BA7E-CB7CB207CD00;;;;;
+ESAN;45DA286D-7719-4B6F-B209-1CD31C29C280;;;/esan/esan.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/esan/esan.png;
+Esika;968ABE82-CFC1-41D6-A04C-C62ED74AD455;;;/esika/esika.png;;
+Esperanza Eterna;4F274A04-A69E-4D08-9B07-4E315F133AEF;\\b\\d{7}\\b;;/esperanza/esperanza.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/esperanza/esperanza.png;
+Estudio Muñiz S.Civil de R.L;9291B8CA-7236-4D39-A7F0-EAE3B9A8B7C0;;;;;
+Eucaliptos Nexo;C45F8CA6-BC33-4EC2-8F99-7AF1C182EE6E;;;;;
+Euro Motors SA;B5741198-A312-453C-85B2-0EE343763A11;;;;;
+Euro Movil;A1506210-4742-41FC-81F4-87DABE778518;;;;;
+Euroshop SA;ECE268C6-DD2E-4904-99F2-0E10815F439C;;;;;
+Eurova;A6D6D013-A2E0-479F-A1E0-A28968647635;;;/eurova/eurova.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/eurova/eurova.png;
+Evocar;05FF1251-B048-4265-BB89-A1BDDD60DC0E;;;/evocar/evocar.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/evocar/evocar.png;
+Exa Networks;E75C0787-31FE-408C-9808-520FEB7D9DF5;;;;;
+Experian Perú SAC;AA507B21-12E2-433F-8B45-2B0EF042B231;;;/experian/experian.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/experian/experian.png;
+F y D Inversiones SAC;C38F31A5-C8BE-4078-ADC3-4D833586238C;;;;;
+Factupay;B18AD370-03F1-4441-B227-816B247867B4;;;;;
+Farmigab SAC;D17BEB1B-BF83-45FE-888A-A20C71ADAE10;;;;;
+Farmivent SAC;7E5E838E-B2B3-4229-BDC0-615ADD8426D7;;;;;
+Fenacrep;13696814-07C7-4E18-B7AF-6A0C9FBA086A;;;;;
+Fenper SA - Royal Plaza;6FC83F3A-1584-4EAF-A8B3-49DA758F72C8;;;;;
+Fiberlux Tech SAC;7186D71F-EC88-4E68-B2E9-B691E4AFB652;;;;;
+Fiberpro;6CFBE009-D168-4076-A2C8-70943537E0E8;\\b\\d{7}\\b;;/fiberpro/fiberpro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/fiberpro/fiberpro.png;
+Fiberred;E16FB88E-89B2-41A1-999C-DAFD23ED9719;;;/fiberred/fiberred.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/fiberred/fiberred.png;
+Fibertel Perú;2B28E4DA-21BF-4E81-83DA-CA2677699242;;;;;
+Fibramas;EA8147BA-815E-4B91-80F4-42969EA78846;\\b\\d{7}\\b;;/fibramas/fibramas.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/fibramas/fibramas.png;
+Fibwi;7A97F3E9-B2A9-4034-8AAA-B29C466A9290;\\b\\d{7}\\b;;/fibwi/fibwi.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/fibwi/fibwi.png;
+Financiera Oh SA;0122CAFF-0718-4C5F-8FF2-E96A724B718D;;;;;
+Financiera QAPAQ;6DE4F4BD-EAD5-42BA-AF24-25F9664BC265;;;/qapaq/qapaq.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/qapaq/qapaq.png;
+Finanty SA;45A28916-9BCE-49CA-9644-DA2D2876C874;;;/finanty/finanty.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/finanty/finanty.png;
+Finca Perú;C5134B56-769A-4398-9A35-9EB8DC22817F;;;/fincaperu/fincaperu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/fincaperu/fincaperu.png;
+Fleming College;4642B34F-9FBC-4B95-AC9C-1CA32E95BAA4;;;;;
+Flow;4666B6AE-B8BD-466D-90C9-D97DEFF2D84D;;;;;
+Fonbienes Peru EAFC;EB1C2C71-F7DD-4704-8143-D96A25AC3D74;;;;;
+Fondo Capital Emprendedor;B7367DA1-0B22-475E-8C27-68DAAEB09A32;;;;;
+Fondo de Inversión Activa - Deuda H;D3F85897-A17B-4666-AFE5-C267FD5191CE;;;;;
+Fondo de Seguro de Depósitos Cooperativo;AA489CDD-7801-4B47-9FF7-B82FDD4D21EB;;;;;
+Fondo MYPE - Tchin Fondo de Inversión ;88E68022-DFCC-4EE2-A456-302E98274D2B;;;;;
+Fondo Popular 1 - Renta Mixta;22FA79DD-124D-45FB-878A-C0225EE41A0C;;;;;
+Fondos Sura;012A82CD-A0C3-47CA-B0B2-881F12F0543E;;;;;
+Full Carga;E341DB3F-5787-4CC0-9062-11148183F8D4;;;/fullcarga/fullcarga.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/fullcarga/fullcarga.png;
+Fuller Pinto;342DB7DB-A970-4EAB-A9AD-724B892C2273;\\b\\d{7}\\b;;/fullerpinto/fullerpinto.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/fullerpinto/fullerpinto.png;
+Fund. Pedro y Angélica;EACEB04F-0111-4131-80B0-D4B00DBD7D2E;;;;;
+Fundo Santa Patricia;78F544C6-771A-4F4D-8439-B16079FE5C61;;;;;
+Funeraria Jardines;10751414-EF65-43EB-9A82-1EEE71BAB041;;;;;
+Funeraria Santa Maria;AA429870-7655-4E61-B912-E5FFE6E6A392;;;/funenariasantamaria/funenariasantamaria.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/funenariasantamaria/funenariasantamaria.png;
+G4S Perú SAC;68FB90AA-43C2-4F43-BB2A-1E834F30AEAF;;;;;
+Galletas San Jorge;926B8538-AE55-4A02-BDEF-6F28161BC49B;;;;;
+GE Chali;058A44CB-1C33-485B-A02B-F3C4E7BC514E;;;/chali/chali.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/chali/chali.png;
+Geincos;E85AAAF2-BD6A-468A-BD8A-583D7C02CF98;;;;;
+Giga Fibra;814C7B0F-BF92-4999-8184-48E08A20D1A2;;;/gigfib/gigfib.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/gigfib/gigfib.png;
+Glasstemp Corr SAC;7E74C036-FC45-4168-ADF3-E2CA1CC496BB;;;;;
+Global Education First;24A8CC98-61F1-48FD-A354-E0425C4EFA50;;;/globaleducationfirst/globaleducationfirst.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/globaleducationfirst/globaleducationfirst.png;
+Gloria;BD5E3BE4-6D73-4357-B9F9-7E6DCFDBBFB0;\\b\\d{7}\\b;;/gloria/gloria.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/gloria/gloria.png;
+Gogos Sport;F89415C2-0664-4B61-8E84-45BD37EC22FA;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/gogos/gogos.png;
+Gogos Sport;F89415C2-0664-4B61-8E84-45BD37EC22FA;;;/gogos/gogos.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/gogos/gogos.png;
+Golf y Country Club-Trujillo;A2B0FEAD-56CF-4245-99CF-362BD0BBDEB1;;;;;
+GPON;9C1C191B-EFB0-489A-B8BE-F165472082F0;;;/gpon/gpon.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/gpon/gpon.png;
+Grandía EPS;6FC2300A-2924-4E7F-8CA5-EA0041563818;;;;;
+Grupo A Peru;C08A1602-7279-4D26-A8FF-28A7D66FE6E6;;;;;
+Grupo Alvarez Bohl;2F9E5AAD-C3F9-49CE-A966-DDABC980247E;\\b\\d{7}\\b;;/grupoalvarezbohl/grupoalvarezbohl.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/grupoalvarezbohl/grupoalvarezbohl.png;
+Grupo Deltron SA;776E0596-61D6-418C-BD42-BDA3017C7147;;;;;
+Grupo Forte;668F0BAF-CDEC-42B5-9844-59F16D4B4B42;;;/grupoforte/grupoforte.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/grupoforte/grupoforte.png;
+Grupo La Cazeria;730B2576-1A97-422B-B1F0-29B2D20E4BA2;;;/lacazeria/lacazeria.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/lacazeria/lacazeria.png;
+Grupo La República Publicaciones SA ;FCF03934-2A1B-4A9F-A6B4-A86A73506367;;;;;
+Grupo RPP;0BD0130F-3C69-4BC7-B7B8-E7F775AC9B75;;;;;
+Grupo Transpesa SAC;9890FAF7-035B-4A2B-BAB3-CA0C2854FBC2;;;;;
+Grupo Vega;96ED41F3-BE7C-4385-8B90-DE1995987214;\\b\\d{7}\\b;;/grupovega/grupovega.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/grupovega/grupovega.png;
+GTD Perú;7ED868F3-6AEE-42B5-A37F-DBC69A8BD572;;;;;
+Gw Yichang;CCFC2A93-1840-4F2F-8B87-341E8AB63A3E;;;/yichang/yichang.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/yichang/yichang.png;
+Haray SAC;881AD16E-BC9B-4CEC-945E-843324461437;;;;;
+Heineken;01ADB24B-47C4-4789-AF2C-B18D99FE4E9A;;;/heineken/heineken.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/heineken/heineken.png;
+Henkel;CC1CDD78-7359-417E-881D-35DB5A12909A;;;;;
+Herbalife;FE253333-28EC-4ADC-8BD1-8F0460A76DDB;;;/herbalife/herbalife.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/herbalife/herbalife.png;
+Hermandad del Señor de los Milagros;C610D1BD-A273-4D6C-A077-C7F09D7B9D63;;;/hermandaddelsenordelosmilagros/hermandaddelsenordelosmilagros.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/hermandaddelsenordelosmilagros/hermandaddelsenordelosmilagros.png;
+Hertford Automotriz SA;64ADC40B-B377-4EF6-A887-CD907AF8C6F4;;;;;
+Hidrandina;3672047C-138C-4F1E-9E9C-33B6D8D7C901;\\b\\d{7}\\b;;/distriluz/distriluz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/distriluz/distriluz.png;
+Huemura;F9D5E421-8E34-46D7-B113-CF90C6707BD3;;;/huemura/huemura.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/huemura/huemura.png;
+Hughes;FBE6C9FE-1559-4480-8772-26512B73D899;\\b\\d{7}\\b;;/hughes/hughes-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/hughes/hughes-v2.png;
+Huiracocha - Nexo;C5FBD71C-5A9D-4864-B1E8-E419294F10C3;;;;;
+Huk SAC;E3BB6A18-B569-47F2-96E2-B5BC3FFA8875;\\b\\d{7}\\b;;/reddigital/reddigital.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/reddigital/reddigital.png;
+HUMANACADEMY;644A2190-27BA-4514-A61A-6E1D3880A61D;;;/hacademy/hacademy.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/hacademy/hacademy.png;
+Ian Taylor Agencias;FF674EC1-2E0D-4735-A0F0-04BDE5BB034F;;;;;
+ICPNA Región Centro;A8534F6E-3DC5-4E41-B6ED-7E731154887E;;;/icpnaregioncentro/icpnaregioncentro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/icpnaregioncentro/icpnaregioncentro.png;
+ICPNA Región Grau;4412B38E-DB2B-4113-A09F-169C3C7D24A0;;;;;
+IDAT;0AE61F2A-D0AD-4DA9-AEF1-8789F0D08A9C;\\b\\d{7}\\b;;/idat/idat.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/idat/idat.png;
+IE Privada Prolog;EEB46F1C-D7CD-4C96-8886-23BA5DAFB45E;;;;;
+IE Prolog De Chorrillos;470A00F5-7B93-45F7-9C83-151E9D582E7D;;;;;
+Iep Henri La Fontaine;163040DD-9B3A-4A08-B457-E6C3587EBC66;;;;;
+IEP Luzuriaga;28B1DFC8-A327-4746-881F-403A163B4F8D;;;;;
+IEP Prolog De Chincha;7BF62D82-DB4A-4ADF-88AC-12060FC551A5;;;;;
+IEP San Pedro;5776FA58-F41C-40EC-B718-4FF2BA22C199;;;;;
+IES Santa María;D0C4E78E-2BBE-4C89-AF4E-61DA04096B70;;;;;
+Ilender Peru;012EC9C3-B4DC-4EB9-A97A-7DF9D7B8F508;;;;;
+IMP Algarrobos SAC;FF39A461-2F1A-4D37-9F58-1D543A4AD4D2;;;;;
+Impemar Prov;CD58BB62-2225-4448-8B0B-DCECE12A11C8;;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+Impulso Informático;794C2AB2-37EE-4A25-BEFB-F42B3A3FDBE2;;;;;
+Induamérica Servicios Logísticos ;A8D8A584-FCE7-44DA-87C4-AC916740B09E;;;;;
+Infinitum - Nexo;35816410-38ED-4911-9FB8-E5BF710B5EE4;;;;;
+Ingram Micro SAC;8B2CBB55-7A87-4409-8927-E4551DCD5B5D;;;/ingram/ingram.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ingram/ingram.png;
+Inlearning;A6F86E14-C368-44BC-9398-D88C5FC8A0AD;\\b\\d{7}\\b;;/zegel/zegel-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/zegel/zegel-v2.png;
+Inlearning IPAE;374E7710-AAC9-4B7A-A838-C856065464F7;;;;;
+Inmobiliaria Constructora San Francisco;48A532A7-80C6-4F34-9E00-E91BAC431203;;;;;
+Inmobiliaria El Pino;8651324E-AD61-4178-ABC1-116A83878A49;;;;;
+Inmobiliaria el Quinde;A693C184-4D7E-4696-9A9A-18499AB0DDBD;;;;;
+Inmobiliaria La Fundadora SAC;4361B178-6BF5-4B1D-99C2-234AA3A05EC3;;;;;
+Inmobiliaria Laredo;47E368D9-366E-4808-85C4-90C04CACB9E4;;;;;
+Inmobiliaria Masias;9BF5937D-B02C-4F44-A1F0-471570C3A71A;;;;;
+Inmobiliaria Miraflores Peru SAC;1CAE7461-C57C-4208-9779-D152682735B7;;;;;
+Inmobiliaria SIG SAC;92956EDC-9EFA-4DFF-8C50-EB7FC6DC3F1C;;;;;
+Inmobiliaria Swiss Capitals;5B76F969-D51D-4E1B-B0CC-3470E73DBE10;;;;;
+Inmobiliaria Tovar SAC;99CB2670-EEC5-474B-9EE0-0DF2804C45A8;;;;;
+Inmobiliaria Vasco Nuñez;6848740B-449D-4A90-A244-C9037796D232;;;;;
+Inmuebles Limatambo;B79715A7-7BBD-4F25-BD77-7EE3FA074807;;;;;
+Institución Tecnologica de la Amazonía;88B0CCDC-D0F6-4172-BA8D-7BA0F0354657;;;;;
+Instituto Carrión;DD308314-D7E3-41BC-AB99-EC103F681D49;;;/carrion/carrion.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/carrion/carrion.png;
+Instituto Continental;F0A010D2-9D62-4F80-A8D2-159F621C202A;\\b\\d{7}\\b;;/institutocontinental/institutocontinental.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/institutocontinental/institutocontinental.png;
+Instituto Cultural Peruano Norteamericano;5A46B569-DF31-487B-8961-8E502AC430DC;;;/icpna/icpna.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/icpna/icpna.png;
+Instituto de Ingenieros de Minas del Perú;4A1D3FFD-2466-46DB-92A1-EB95D0CB4506;;;/institutoingenierosdeminas/institutoingenierosdeminas.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/institutoingenierosdeminas/institutoingenierosdeminas.png;
+Instituto de Innovadores;BA2B02EF-0CA0-4737-86B8-F98C2BABB074;;;;;
+Instituto de Seguridad Minera;8F18BF27-38D8-4B03-990B-E178F118162D;;;;;
+Instituto del Sur;DAEF2EBD-FF7B-4C05-A5C6-EB53A0587CD9;;;/isur/isur.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/isur/isur.png;
+Instituto Educa;A8959C0D-ADB0-4498-AE88-94E4C6E1E0E7;;;;;
+Instituto Gallia;05B47686-E389-4979-9694-31FA763158B6;;;;;
+Instituto Master System;31984B30-AEA1-4D30-9311-8DA88B032E3E;;;;;
+Instituto Peruano de Fomento Educativo ;1882C34F-2D2B-4694-AD0D-362E442A224D;;;;;
+Instituto peruano del Esparrago y Hortalizas;474CD015-FBC5-40A1-BC90-DC5A6B85A205;;;;;
+Instituto Sise;E4EA65AD-3752-42A2-816E-0B380229FEAD;\\b\\d{7}\\b;;;;
+Instituto Superior San Ignacio de Loyola;8F9A2B4C-B3A5-4CB6-95F7-8115BC7181B1;;;/isil/isil.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/isil/isil.png;
+Instituto Tecnico Profesional;7B3A9721-CE73-484C-BE67-0AAD44117C1D;;;;;
+Integra Retail SAC;04D69642-B283-4CF7-89C3-AE73CD4550B3;\\b\\d{7}\\b;;/integra/integra.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/integra/integra.png;
+International Camiones del Perú SA;6C93A253-64B5-4B59-AFB1-AB46EDEC1F94;;;;;
+Interseguro;05AA98D6-F476-46E1-A8EF-C29A91597AB5;\\b\\d{7}\\b;;/interseguro/interseguro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/interseguro/interseguro.png;
+Intichaysac;E472D2FC-DF7B-4124-B57A-9A1FA8A63C8E;;;;;
+Intur Perú;89511904-FC3C-4E52-8DC0-8DD60A439DD6;;;/inturperu/inturperu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/inturperu/inturperu.png;
+Inventa;EAB5C462-B8A8-4FE3-BA6E-74515B580177;;;/inventa/inventa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/inventa/inventa.png;
+Inversiones Centenario;04F177F9-6EC2-44CE-8E86-894931AD99F2;;;;;
+Inversiones El Pino;14517E73-CABA-44D1-ABA5-8A760BE34E11;;;;;
+Inversiones La Cruz;4BAD2528-2F3E-441A-923E-1392FE9C2B83;;;/invlacruz/invlacruz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/invlacruz/invlacruz.png;
+Inversiones San Borja;BDD01C9E-8D5F-4691-A106-700CF9F319BF;;;;;
+J&V Alarmas;41EA3164-442F-41E2-B349-D8DF365078E2;;;;;
+Jardin de Arequipa;5CEC1C22-C957-4B42-8FEA-D499393EAD0B;;;;;
+Jardines de la Paz;1734FF72-D854-4856-8F8F-7728E7A62633;;;;;
+Jardines de Lurin SA;12BEDBC5-65E1-4CDC-97C7-09DAF3828917;;;;;
+Jardines De Trujillo;4F0AA3B9-1376-464B-A9D9-32FFE5E32416;;;;;
+JCH Comercial;717EF06D-BC1E-4F18-B0CF-C5A091B58A37;;;/jchcomercial/jchcomercial.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/jchcomercial/jchcomercial.png;
+Jesus Maria Nexo Gestion Inmobiliaria;694C8591-FD31-4611-A85F-8A70B2EAED29;;;;;
+Jesús Nazareth Adv;E8E67FF7-2F7E-4367-B4F9-5F3C94214C53;;;;;
+JM Logistic Premium;B13612C0-16A1-4F75-B08C-BBE0D621D4EC;;;;;
+JMORAN;BF0DD78E-F6D3-431D-844F-01043023908F;;;;;
+Jockey Cl.Pat.Fid Ds93;D1839140-61A1-40D5-9BA8-94D2EA72B3E6;;;;;
+Jockey Club del Perú;95BD93F8-B329-4476-AB21-FA86920886C4;;;;;
+John Andrews Adv;31CCA666-F736-4498-AE68-53857687368E;;;;;
+Joya Vacation Club;3499B572-EA8D-41D9-9713-474D420CB15C;;;;;
+JP Centro Comercial Gama MP;C11539D4-A21C-468B-BF62-41B6D9B0E751;;;;;
+Jr Telecom;7DA75B38-E4AC-48EE-AFBF-DE7A4D40874D;;;;;
+JRC Distribuidor EIRL;F6F54575-F567-4C54-8466-270101061093;\\b\\d{7}\\b;;/jrc/jrc.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/jrc/jrc.png;
+JS Market Solutions;06D8BB22-5BD1-4FCD-B581-15527F780257;;;;;
+Junta de Propietarios  del Centro Industrial La Chutana;EC95C6C5-083B-4FAC-B21E-F68E498FE20B;;;;;
+Junta de Propietarios CC Cyber Plaza;8F5C39A3-281E-4429-87EB-239F05B751DD;;;;;
+Juventud Camana;221AFFAF-A8F3-4696-8BDF-A7E4533057B8;;;;;
+Juventud Consorcio;E7BB6375-5FB0-4414-8F13-BCAAEF82486C;;;;;
+Juventud Zarate;C9726CB0-9831-4AE8-8C23-5FFA7E031481;;;;;
+Kashio;DBBDDA3C-6854-4AFD-A0B6-BF787ADE3DD6;\\b\\d{7}\\b;;/kashio/kashio.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/kashio/kashio.png;
+KasNet;32FFE247-2524-401F-A9E2-1ABBE66B6F4D;\\b\\d{7}\\b;;/kasnet/kasnet.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/kasnet/kasnet.png;
+Keralty Salud;4DDE63AB-F727-4401-A19E-9E5B4B235AD9;;;;;
+Kinder Explorando;C9EA4DD6-A163-4DDE-B1CC-44D2BEA84104;;;;;
+Komodo;BF5DF737-75F5-4F44-AEE6-5559EDBB362F;;;;;
+Kushki Perú;7E1EC7CE-9502-45EC-A928-B6FC846154F6;\\b\\d{7}\\b;;/kushki/kushki.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/kushki/kushki.png;
+La Calera;EEB3DBCF-5853-46BC-BAEA-4E13BF411D75;\\b\\d{7}\\b;;/lacalera/lacalera.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/lacalera/lacalera.png;
+La Casa Amarilla ;29162B93-0688-4B41-B3B7-823B1124381E;;;;;
+La Fiduciaria SA;81751DF7-2A0B-4F72-BFEE-8C86BFC2CD70;;;;;
+La Gloria Propiedades SA;7467C356-5987-4C98-BE58-2731A434D8F4;;;;;
+La Pontificia;C2E96835-08F9-41AA-95B6-68F668E6B261;\\b\\d{7}\\b;;/lapontificia/lapontificia.png;;
+La Positiva Dólares;9AC3C5FF-5AE1-4EE1-90DB-7DEA91C250E6;;;;;
+La Quebrada;70F2FB5C-410C-431A-8665-2477E2BA6E52;;;;;
+Lakasa Peru;09EE2EB1-34D3-483A-9C4C-384F0A148366;;;/lakasa/lakasa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/lakasa/lakasa.png;
+León XIII;6DD44F6B-506C-422F-87DE-C17ED39C4942;;;/leon/leon.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/leon/leon.png;
+Leonisa;F31162FD-7788-46FA-AEFB-FBCD8BB29288;;;/leonisa/leonisa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/leonisa/leonisa.png;
+Líder Ingeniería y Construcción SAC;358E5659-BDBC-45AA-B72C-859902199A09;;;;;
+Lider SRL;5FA10024-CB0A-46DF-BF66-A2D85A99F210;\\b\\d{7}\\b;;/lider/lider.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/lider/lider.png;
+Liderman Servicios;8E76E846-1A5B-434B-AB2B-E57AE983C31A;;;;;
+Lima Gas;668A4CBD-F7E2-42AE-9F6D-6F15CA89D47F;\\b\\d{7}\\b;;/limagas/limagas.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/limagas/limagas.png;
+Lima Marina Club;F39A5367-748D-450E-A65E-08C720372765;;;;;
+Lima Villa College;7C12E0A2-C231-41B0-BFDC-54E28FBA1856;;;;;
+Lince Nexo Gestion Inmobiliaria;62FA3DCA-F541-4963-B0B1-C451DEF7F078;;;;;
+Livva;809A3D00-D55A-46F9-B38F-4D280EB10690;;;/livva/livva.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/livva/livva.png;
+Lizigo;530A91AF-7604-4FA8-89F5-71F6CAA17C4F;;;;;
+Lizigo SAC;1FF0AC59-20AE-4F77-A68B-BF399C5361C3;;;;;
+Lizzo;899A202E-8EC0-443A-9611-493756749F80;;;;;
+Llano Zapata - Enlaces;3A32F95E-A7C3-4101-9224-6B017D779D8D;;;;;
+Logistica Tech SAC;16C46CA3-66C8-43E9-9940-4794DDEC07E6;;;/logisticatech/logisticatech.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/logisticatech/logisticatech.png;
+Lonccos y Ccal;F6F3CC9E-6584-41A7-ADA7-380BBEF3A075;;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+Los Laureles de Manchay ;00CC4E75-E8E7-4F56-A328-12EAED647FE1;;;;;
+Los Portales;96ABBB47-522C-43A5-BE1D-FCF51125183C;;;;;
+LP Vida SPF;F2547F5B-C273-43A4-8414-75AF3364CF3A;;;;;
+Lubal Lubric De Altura;314B8CB5-DD53-4556-98AA-B4793B6E354D;\\b\\d{7}\\b;;/lcclubal/lcclubal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/lcclubal/lcclubal.png;
+Luz del Sur;A0E64C9C-69D0-425B-AC1E-6324FA8778A3;\\b\\d{7}\\b;1921585;/luzdelsur/luzdelsur.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/luzdelsur/luzdelsur.png;
+Maersk Logistics y Services Perú SA;47499341-276C-4848-9FB6-49AB3E5D53BD;;;;;
+MAF Perú;4D00EFB1-FC14-4903-B034-FAB2048E8B7C;;;/maf/maf.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/maf/maf.png;
+Magdalena Nexo Gestion Inmobiliaria;0C873C90-49A0-4D08-9C3A-3CFC2A54E44D;;;;;
+Mannucci Cajamarca SAC;3C2F9C03-5361-4A00-8611-160C6D18B207;;;;;
+Mannucci Diesel SAC;7D7B92A3-1952-46E2-9C3B-4FFF38B24E32;;;;;
+Mannucci Motors SAC;4713FF6B-716F-4276-A99C-74F7751A50BD;;;;;
+Mapfre;03346627-EBCB-4475-B947-555D773968E9;\\b\\d{7}\\b;;/mapfre/mapfre-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/mapfre/mapfre-v2.png;
+Maqalfa SAC;AA3217EA-7E24-4CDC-A4EA-ECE80003629E;;;;;
+Maqbeta SAC;CF056B68-F588-45AD-BC9A-ABCC1DACDF85;;;;;
+MAQCYP SAC;8BCA3B1F-0505-4DAA-AD3D-17A356C1D98E;;;;;
+Maqdelta SAC;27E09123-AB2E-46A2-A448-E6D8A6648E82;;;;;
+Maqgama SAC;6BA4C460-4AD1-4946-8F93-B27FAB66233A;;;;;
+Maqsigma SAC;FFA19113-0FA9-497A-83F1-1650050E2621;;;;;
+Maria de los Angeles Monterrico;80FB6BC7-FA36-4B92-AB7C-6B12FB3BF967;;;;;
+Maria de los Angeles San Borja ;F0D9F339-5477-4F12-94D9-3E7A99B61790;;;;;
+Maria Dolores;46912C7D-56E9-409C-9FAD-D144046C9748;;;;;
+Mariscal Castilla-Enlace;9C5C9D9A-6F72-413F-A713-9581BC8A256D;;;;;
+MASISAC;9BE726E2-B415-4E8F-BA39-4499C114AE71;;;/masisac/masisac-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/masisac/masisac-v2.png;
+Maxpro;386E91D7-2E37-45E2-B885-6FD5A20920CC;;;/maxpro/maxpro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/maxpro/maxpro.png;
+Mega Gas;488E1C55-1C9F-47C4-B966-ED4C9BF94D34;;;;;
+Megamarcas SAC;6867799E-2B35-420B-9842-53D668FC4FD9;;;;;
+Megaplaza Chimbote;C28C681C-ADAE-4EB0-B35F-26D53BE312D3;;;;;
+Megaplaza Jaen ;8218E6F6-311A-4447-99F0-194DAD72E302;;;;;
+Megaplaza Norte;F067A36F-AD98-47B2-A98D-38CBD4462AD1;;;;;
+MegaPunto;C7688EAF-E3AE-4840-82DE-CCE0C89A6ABC;;;;;
+MENDIBURO - NEXO;51118EBC-215F-4AC9-8208-3545A1A5B9D6;;;;;
+Menorca Inversiones SAC;472E0756-1532-4149-97D8-B033C1D63D81;;;;;
+Mercator Perú;3CB2925B-45A2-41D9-99A8-B04D72F59A5D;;;;;
+Merite;77BCDE53-E521-4693-AD83-85799CF229D9;;;/merite/merite.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/merite/merite.png;
+Merkao;15720CCC-F818-429D-AD4D-BA34F0CF7EE2;\\b\\d{7}\\b;;/merkao/merkao.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/merkao/merkao.png;
+MG Admin SAC;17AE22AC-8A4C-4F6C-9858-F77CAF828773;;;;;
+MG Administracion SAC;8AEF5614-3C66-44CE-A370-1ECE893D969E;;;;;
+MG Digital;5466DEF1-E006-4D61-8AC5-85DEE5A6A8D9;;;;;
+Mi Fibra;82991C5A-5204-4087-AE22-EB2BE51C8F2E;\\b\\d{7}\\b;;/mifibra/mifibra-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/mifibra/mifibra-v2.png;
+Mi Pequeño Universo San Borja ;59F6030D-FD32-4A18-BA5C-5D859D7FFE04;;;;;
+Mibanco;54DD2510-CC4B-473B-A9E3-8BDEDF38628E;\\b\\d{7}\\b;;/mibanco/mibanco.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/mibanco/mibanco.png;
+Micasita - Vivela;25C803AE-61DB-4B6E-938E-956429AA6ED5;;;/vivela/vivela.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/vivela/vivela.png;
+Mifondo EAFC SAC;CB6546E0-90F7-4BFE-8A34-D284E6DFE714;;;;;
+Ministerio de Energía y Minas;5404EF0D-66E7-4FC1-985B-FF4B3DC6B6CD;;;;;
+MIRAFLORES 56 - NEXO;47399C05-8375-4C0C-B4D3-B123C3701018;;;;;
+Miraflores Nexo Gestion Inmobiliaria;9B521E21-C911-40A8-991B-0157079B0A79;;;;;
+Miranda Constructores SA ;1A879330-8A78-4882-9817-D7C03D133250;;;;;
+Misión Central del Perú;5452F750-A16E-4A4A-B186-05A50122361C;;;;;
+Misión Centro Oeste del Perú;36351C13-5FC9-4E25-BEEF-7517E52DAF67;;;;;
+Misión del Oriente Peruano;FB0FB2F3-027A-4EE7-93CF-3C5D6C618BF9;;;;;
+Misión Nor Oriental;3D85A3A8-F28A-41F3-B02E-4AFDF595D8FD;;;;;
+Misión Peruana Central Sur;5EF408FF-3CC8-4B2C-BA53-9DCD7F31A1D4;;;;;
+Misión Peruana del Lago TIticaca;0D3F6EA8-D170-4840-A7F9-BA6A01FE4515;;;;;
+Misión Peruana del Norte;D7CA1B80-FACF-4A74-875B-04B9190F23EE;;;;;
+Misión Sur Oriental del Perú;594FD079-DBA5-46D4-AEE0-D9A5DD4B6500;;;;;
+Mitsui Automotriz SA;DA74C5E5-F930-47C3-9CDF-703DB5F8A84A;;;;;
+Modasa - Motores Diesel Andinos S.A.;F615580D-AD67-4F96-8ABE-E06289C3CF42;;;;;
+Monnet Pagos;412003D4-EEC1-4C3D-B70B-C650E1A87EBD;\\b\\d{7}\\b;;/monnet/monnet.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/monnet/monnet.png;
+MONTAGNE-NEXO;A0263A0C-5704-480F-9E8E-150AF31D0A49;;;;;
+Montessori Intercollege;A200E447-0B64-4B7B-8338-9EA5C73AC712;;;;;
+MOOD - NEXO;D409384B-8E5F-4B2F-B4CF-647FF192CFE8;;;;;
+Moto Repuestos & AB SAC;7EC52C5F-CACA-4CFC-9CD3-8F0F2546A4B9;;;;;
+Mov. Manuela Ramos - MMR;85164E41-3625-4035-B92F-4F3898CDAA34;;;/manuelaramos/manuelaramos.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/manuelaramos/manuelaramos.png;
+Movilízate;BE2F5072-797B-41FD-84DB-43FB88DFDF2A;;;;;
+MovilRed SAC;43D93C89-6501-4FDD-B9A3-05E013F38CBA;;;;;
+Movimiento Manuela Ramos;8598102F-3EFD-4B93-84DF-B371FA7BE030;;;;;
+Movimiento Manuela Ramos MMR;6A3230D6-1E1A-4489-B7CD-3AD233E4B50B;;;;;
+Movistar;DF4E61F9-3E36-493E-96C2-9DD61291D701;\\b\\d{8}\\b;1217955;;;
+MSC del Perú SAC;F2D61613-A650-43EB-AAF9-64573087EEBE;;;;;
+Multibanca;51BB86E2-9106-457F-B122-09F9CC1A151F;;;;;
+Multiservicios Galindo;8CCEB47F-1D7F-44F1-A587-1420C0976E68;;;;;
+Municipalidad de Asia;AAB7D020-4CF5-4DF2-9BE4-7A04EB8097BB;;;;;
+Municipalidad de Ate;ED7AA5DD-2CC9-401F-8058-54FF266977A7;;;/muniate/muniate.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/muniate/muniate.png;
+Municipalidad de Barranco;FFFE1A39-5877-493A-889C-71A15C9FB1A6;;;;;
+Municipalidad de La Molina;4C4AEE1B-1EF7-49E3-9BE4-5C84E83EF15C;;;/munilm/munilm.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/munilm/munilm.png;
+Municipalidad de La Punta;686C2A8E-F36C-4CB3-BD34-92C1BBC0E89D;;;;;
+Municipalidad de Lince;C7B0A2DB-C482-408A-957D-E4AAD4A20D0D;;;;;
+Municipalidad de Miraflores;A265A262-3B73-4AEC-94A7-95E6D6F3601D;;;/munimiraf/munimiraf.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/munimiraf/munimiraf.png;
+Municipalidad de Pucusana;1C3E55D1-C11E-43E6-923A-9D4112CEAD0D;;;;;
+Municipalidad de Pueblo Libre;421DF61A-B527-4D88-927D-47153997CF96;;;/munipl/munipl.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/munipl/munipl.png;
+Municipalidad de San Borja;1589B1A2-4579-470D-ABCD-0710250B117C;;;;;
+Municipalidad de San Isidro;2E5B54CA-3F2C-4627-8945-8C64F238515A;;;;;
+Municipalidad de Surco;79E4AB64-A8D5-4159-B5B8-04CA9EB9A09A;;;;;
+Municipalidad de Surquillo;50C2FFEB-DEFF-406F-9219-9CE55F451F34;;;;;
+Municipalidad Distrital Victor Larco Herrera;313FAB9E-557B-4504-933B-F994CE44E4EE;;;;;
+Municipalidad Punta Hermosa;6A2A9231-E6EB-47DC-9A5D-14C5E28F1A01;;;/muniph/muniph.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/muniph/muniph.png;
+Municipalidad Santa María del Mar;375D2B53-BAFE-4675-AFBC-79170F4C243A;;;;;
+MYMPROMEFAR;00FCA21A-C01E-47D9-99A9-26FD2AB8A67A;;;;;
+Natura;220827B8-6276-49D6-8327-16ECAB0B558C;;;/natura/natura.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/natura/natura.png;
+Negociaciones Lucarvi;F7D69646-D821-4E29-8161-832846AB7EB9;;;;;
+Neofiber;0CF6B0B3-CE61-470D-9DDC-E340AF78F4FC;;;;;
+Neumann;C117B590-E7D9-4151-B35D-1D975AABF4C8;;;;;
+Newton College La Molina;EFB6C876-21E3-47A3-940D-797DBCBD063B;;;;;
+NEXO - ALIAGA 650;6146D79C-2C47-450B-B194-876B39A6CDF4;;;;;
+NEXO - AVANZA;91B8C66F-AFC3-413B-9CD1-CD3B8CE9A7AC;;;;;
+NEXO - EDIFICIO - ALTA;0C121C14-9DCE-4235-B19D-3335E241889A;;;;;
+NEXO - EDIFICIO AMANCAE;B69EC5E1-52DD-4745-88BD-C967EDF8AB28;;;;;
+NEXO - EDIFICIO ANGAMOS 1649;5678DB77-22B9-4A7D-BE0C-F674EFCF9B01;;;;;
+NEXO - EDIFICIO ARICA 750;5BBD8DE1-A040-4D11-94CD-C8C9788630FE;;;;;
+NEXO - EDIFICIO ATELIER;A8432EAD-091F-4C99-863C-B1FF0FAC5683;;;;;
+NEXO - EDIFICIO BOHEM;4B61C0FD-3247-41E4-B050-FFE7C22093A7;;;;;
+NEXO - EDIFICIO CALA;85585805-79DB-4446-AFAB-74C109F0CDD1;;;;;
+NEXO - EDIFICIO CONNECT;95B6751E-1234-42AF-B4D8-FA27CB6A5F46;;;;;
+NEXO - EDIFICIO EL SOL 170;77D5F3FE-57B2-4517-AD3B-1C4513E24DD8;;;;;
+NEXO - EDIFICIO LE SAULE DEUX;3AE31699-47BB-42D5-AD59-C26DADB431B1;;;;;
+NEXO - EDIFICIO LOS CEDROS;2AD61013-C2B9-40DE-8973-3AEFB2116192;;;;;
+NEXO - EDIFICIO MONTES DE ORO;7570FDE9-D358-4EB2-8C41-E4082C1577C0;;;;;
+NEXO - EDIFICIO MONUMENTO GRAU;D497D8A1-33AA-4054-A658-603DF2449711;;;;;
+NEXO - EDIFICIO PIURA 560;DEE9A346-05F7-4CE0-9A9A-D82E016252F3;;;;;
+NEXO - EDIFICIO UP LIVING;2EAF5BA9-4EE7-4644-9E84-D85796FDED43;;;;;
+NEXO - EDIFICIO VALLE GRANDE 2;31730B47-E787-4D94-A8D3-4796064B2BB0;;;;;
+NEXO - EDIFICIO VIBE;5A0C7745-2AB0-4E5E-83DC-0627CE1C303E;;;;;
+NEXO - EDIFICIO VIVERO;1F9393B2-6FFC-45DD-981C-BE03B51F051B;;;;;
+NEXO - EDIFICIO WE LIVE;BE0D3AEA-EC7F-4AFD-9552-E51797658D25;;;;;
+NEXO - EUCALIPTOS 385;C52084B1-2BFF-4231-AFFB-5C6386549772;;;;;
+NEXO - LOS PINOS;FF7596A5-4171-40AF-B8DF-1F7849B0C21A;;;;;
+Nexo Amalfi;27E19D2D-B820-43F8-B2DE-3B485CCDBE93;;;;;
+Nexo Armendariz 111;446FFC06-3D47-47B1-92E5-E4FFCC579691;;;;;
+Nexo Edificio Art 28;144FB431-8E3A-455A-AE73-FD2F8C4FF37B;;;;;
+Nexo Edificio Benavides 1130;322E3A11-2B20-4444-8FC2-D6A65CE61B5E;;;;;
+Nexo Edificio Chamberi;F15D41C4-CB3A-40F4-9D6A-69D6215275F3;;;;;
+Nexo Edificio Valle Grande 4;8D654274-2A83-415A-9928-459B58418ABE;;;;;
+NEXO GESTION - CHICLAYO;3CA02703-CFD6-4786-87E1-BD6C7A675332;;;;;
+NEXO GESTION - MID 490;61529A91-4D4F-42E8-9EED-A36E7394F0C3;;;;;
+NEXO GESTION - PARQUE NACIONES UNIDAS;0AF1E1A0-9F86-4B6F-80F4-A84A1A5257BA;;;;;
+NEXO GESTION - TULSI;8EE753C3-0959-4468-8038-9DC9ECCE3660;;;;;
+NEXO- PLAZA 27;127EDEAF-6E98-4BDD-BE9B-15BC2957CE7F;;;;;
+Nexo The Sight;4B215BCD-CE12-4958-8529-056E72B09343;;;;;
+Nextgen;0E1F663D-55CB-4D07-9704-64CD5D88CCF4;;;;;
+Niubiz;51BEED52-EBA8-4467-A7B5-1FEDDBF9E1D3;;;;;
+Noatum Logistics Perú ;33A01E87-1C11-43E7-B872-96A85351F277;;;;;
+Nor Oil Sac;19E5307C-5859-49EA-8E07-C832B46FDC37;;;/noroil/noroil.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/noroil/noroil.png;
+North Telecom;4691BF9B-655A-4F4A-8A3C-15CD3C2AC086;;;;;
+Nubyx;BCBF8551-FE07-4B90-B9B5-9AB074961515;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/nubyx/nubyx.png;
+Nubyx;BCBF8551-FE07-4B90-B9B5-9AB074961515;;;/nubyx/nubyx.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/nubyx/nubyx.png;
+Obispado de Huacho;3A19F275-1BC1-4823-9647-61D7F341F7E1;;;;;
+OECE;35622766-4429-4866-9BFD-535B88E811B8;\\b\\d{7}\\b;;/oece/oece.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/oece/oece.png;
+Ohio National Seguros de Vida SAC;9E16EF8A-CAD6-4637-ABE8-58D71F0BC54F;;;;;
+OKA;C5EC5097-7871-40F8-A43E-FF773CA722EF;;;/oka/oka.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/oka/oka.png;
+Olaz Internet;204D0B05-0C23-4C4E-AE47-B502D04A4E58;;;;;
+Olivos del Sur;0027A36A-A4EC-4B50-98D4-49393A0F10A9;;;;;
+OLO;2E3AD761-F597-4712-B02B-D3B1FD613D33;\\b\\d{7}\\b;;/olo/olo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/olo/olo.png;
+Omnilife;4F2C83E2-9CB2-425A-B195-0BD5E0BD3BD1;;;/omnilife/omnilife.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/omnilife/omnilife.png;
+Onco - Auna;FC01137F-FB61-4FDF-964B-C4659CB53F69;\\b\\d{7}\\b;;/oncosalud/oncosalud.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/oncosalud/oncosalud.png;
+One Fibra;8F90859F-8AEE-48F5-862F-9DDA21626DBE;;;;;
+OQCORP SAC;05663021-11FA-46E2-A928-085C9988EE13;;;/oqcorp/oqcorp.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/oqcorp/oqcorp.png;
+Orden De San Agustín;3D1B1ABA-8273-4C76-B826-C1CDC7BABA4A;;;;;
+Organismo de Evaluación y Fiscalización Ambiental;EFA654EF-496C-4FD9-BD2C-481F74D81574;;;;;
+Oriflame;B5A77763-FABC-41C1-A857-AD7531736E5E;;;/oriflame/oriflame.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/oriflame/oriflame.png;
+Oriunda;2DC48243-DEF7-4977-9F21-D6E848F991E3;\\b\\d{7}\\b;;/oriunda/oriunda-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/oriunda/oriunda-v2.png;
+Osinergmin;94B9C7ED-4538-4C3B-807B-21B25A00488B;\\b\\d{7}\\b;;/osinergmin/osinergmin.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/osinergmin/osinergmin.png;
+Osnet Siscom;CF16BC3B-E9FA-434F-A5E3-07B52D1E9BA4;;;/osnet/osnet.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/osnet/osnet.png;
+Osnet Wireless;5DA1F440-8E63-4005-BF30-08C59793D5BE;;;/osnet/osnet.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/osnet/osnet.png;
+Pacífico Seguros;5B59D56F-94FD-464D-9017-959F642723DB;\\b\\d{7}\\b;;/pacifico/pacifico.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/pacifico/pacifico.png;
+PACIFICODEXI;41B814E5-2461-40B5-8329-504BBEFCEA8D;;;;;
+PACIFICODEXN;6C084BD1-96F5-4D96-8033-D88382EA00E7;;;;;
+Pacifika;DAB2A777-AC38-44BA-9240-CEEF65E02B7F;;;/pacifika/pacifika.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/pacifika/pacifika.png;
+PagoDirecto;034FF099-A814-4757-9A11-F518413B4235;\\b\\d{7}\\b;;/pagodirecto/pagodirecto-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/pagodirecto/pagodirecto-v2.png;
+PagoEfectivo;2219DDA4-5581-412E-BA98-E1E0156156D9;\\b\\d{7}\\b;;/pagoefectivo/pagoefectivo-v3.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/pagoefectivo/pagoefectivo-v3.png;
+Pamer Huancayo;0442C4E7-F322-4959-A5DC-D443AFA76E88;;;;;
+Pandero SA;DB5DBC11-D3EA-41CC-8125-0799FAF55CDB;;;;;
+Parque de la Esperanza;9CC749AF-C367-4CC7-BEC1-91BF7148B278;;;;;
+Parque del Norte;32044F8F-D5D8-4F84-8209-841B463309BB;\\b\\d{7}\\b;;/parquedelnorte/parquedelnorte.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/parquedelnorte/parquedelnorte.png;
+Parque del Recuerdo;5A20BA2C-93DF-4A9F-B5B0-EE2399131DE4;;;/parquedelrecuerdo/parquedelrecuerdo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/parquedelrecuerdo/parquedelrecuerdo.png;
+Parque Lambramani SAC;E17FE447-7630-4E3F-BC2D-DD90FFAA8BFE;;;;;
+PARQUE TEJADA - NEXO;59E4956B-7DB9-4AA4-9834-C9737FB9D62A;;;;;
+Parts and Service Anadi;E5524B32-8368-4EC2-A1F2-B7E3541E1002;;;;;
+Pasqueño;05E1BF6D-C0AE-4987-9CD2-D29B3E28724C;;;/pasqueno/pasqueno.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/pasqueno/pasqueno.png;
+Patronato Markham;7573C982-15BB-4884-A463-605BAF226706;;;;;
+Paycash;49FB0A82-DBF9-42A3-B268-1ACF31EE278B;\\b\\d{7}\\b;;/paycash/paycash.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/paycash/paycash.png;
+Payjoy;55C4ABD4-5756-4F0C-B0F6-B4D2B982C2C6;\\b\\d{7}\\b;;/payjoy/payjoy.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/payjoy/payjoy.png;
+Payments Latam;298FB3E4-9707-4490-B215-635F09180585;;;/paymentlatam/paymentlatam.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/paymentlatam/paymentlatam.png;
+Payvalida;B1122D95-8108-4071-997D-FEE16F49CF92;\\b\\d{7}\\b;;/payvalida/payvalida.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/payvalida/payvalida.png;
+PDH V Etapa;F3DBA2D8-811D-4DAD-925B-8C984DAAC2D1;;;;;
+Peru Fibra;6B3E616F-99D2-4F0B-8EF7-84CABE978485;\\b\\d{7}\\b;;/perufibra/perufibra.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/perufibra/perufibra.png;
+PeruCred;AB1B12CF-64DD-4BE2-82E0-AA689ACA563C;;;/perucred/perucred.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/perucred/perucred.png;
+Perufarma SA;ADC82BAA-A35C-4954-82A9-18F34F56D8B7;\\b\\d{7}\\b;;/perufarma/perufarma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/perufarma/perufarma.png;
+PeruRail SA;947BD5DD-6068-456C-B943-1C6F0BF1DAC4;;;;;
+Petroperu Gas;F9F6E6D3-19EC-4C1F-A8D7-5AC3F17D698C;\\b\\d{7}\\b;;/petroperu/petroperu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/petroperu/petroperu.png;
+PF Lizzo;84A880E3-2EF5-413E-BE42-D4DAF2E2E0E0;;;;;
+Pitágoras Academia;B50F8707-9A13-4404-B6C6-CF225D011EAD;;;/academiapitagoras/academiapitagoras.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/academiapitagoras/academiapitagoras.png;
+Pitágoras Colegio;98CB6DB5-EA2B-4F2E-BB2D-FEED9835492E;;;;;
+Plan Familiar Salud San Pablo;88651933-BCAE-47D6-90CB-301F22FDB9AC;;;;;
+Playa del Sol;183C3D0B-1399-4CCA-ACF7-070E7551237F;;;;;
+Plaza Park Mollendo;8BE25892-0590-483E-A0C1-C4858965D909;;;;;
+Pluz antes Enel Distribución;61D9AA92-B2F8-4C16-AB2A-EBE3E8A2C82D;;;/pluz/pluz.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/pluz/pluz.png;
+Pontevedra;22068A34-7668-4619-BAC1-0BA123F0DA18;;;;;
+Pontificia Universidad Católica del Perú;E36D0122-C1F1-4014-A9D4-C464E131F55E;;;/pucp/pucp.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/pucp/pucp.png;
+Praderas Del Sur-Enlaces;5A9734AB-377A-4121-84DF-7A7139BC9B8C;;;;;
+Prados Del Sol;14E12428-EA44-4049-9B27-B5ADE94C86F8;;;;;
+Preschool COFAM;65BDD13A-E93B-4BD3-B2EB-D79BC4C02AF9;;;;;
+Prima AFP;0277A6E1-2AF1-4E7A-8451-395076CBE697;\\b\\d{7}\\b;;/prima/prima.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/prima/prima.png;
+Prime School;2EC68BEE-28C8-4CB3-AB6D-8DAF7FC72B21;;;;;
+Procampo SA;2EFDF63E-C822-4001-9459-C163ABC23138;;;;;
+Procitrus;FCBB3861-1E55-4196-BC5B-1AAD87A9E2B7;;;;;
+PRODAC;ADBD8D53-BCEA-48ED-ACFF-DAE6E77CF9E6;;;/prodac/prodac.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/prodac/prodac.png;
+ProEmpresa;C92DB873-1FB9-480B-A182-ABD190778F28;\\b\\d{7}\\b;;/proempresa/proempresa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/proempresa/proempresa.png;
+Programa de Vivienda San Carmelo;1DF4C797-854C-4B84-A072-02135AEFB1DE;;;;;
+Programa San Francisco ;93E1C8E9-4ACA-40DB-A80A-AF737AE93140;;;;;
+PROGRAMA SAN FRANCISCO 10MA ETAPA;56F5E9C8-8D9D-47FD-923D-492E4A6F8DCF;;;;;
+PROGRAMA SAN FRANCISCO 11AVA ETAPA;958FC220-8D95-461A-BF07-4738C2D91E9D;;;;;
+PROGRAMA SAN FRANCISCO 9NA ETAPA;C5F01B69-ED21-4D89-938E-2EEBE943114E;;;;;
+Prolog de Villa María;42C9048B-650A-4DDB-9090-A1B2AA3E23D2;;;;;
+Prom Educ Jan Komens;2FAA91DB-73AA-447D-ACA8-F0EBB3807FDE;;;;;
+Promoción Inmobiliaria Del Sur;E980A0C2-01E5-41D8-BED6-E525722E84F5;;;;;
+Pronabec;8ED8E425-8C37-458A-9701-785EBA4470EE;;;;;
+Pronatel;2E3F8898-DD2F-439C-A9D2-AAD63C8BA9A3;;;;;
+Prosegur Activa Peru SA;A431BD32-E170-4CB9-B7BB-6416165AEF35;;;/prosegur/prosegur.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/prosegur/prosegur.png;
+Protecta SA;E5136447-F996-4A63-83EC-E3E9E6A6EF57;;;;;
+Prueba Apis Core;BC33E875-0EDB-418E-BF1B-9D0777CF1C37;;;;;
+Pueblo Libre Nexo Gestion Inmobiliaria;2362F5CA-D119-4E13-8606-A309EB8D7801;;;;;
+Purimetro;93851AC7-25D7-49F5-A51B-D442FA3B98EB;;;/purimetro/purimetro.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/purimetro/purimetro.png;
+QROMA;384DB88D-9F8D-4A49-A240-DFC93667ED73;;;/qroma/qroma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/qroma/qroma.png;
+Qualitas Compañía de Seguros SA;3F95DA19-DAF1-4CBB-B87B-CA83BF8F9CE6;;;;;
+Quavii - Gases del Pacífico;3CF25812-CAB4-43BE-9583-1F8084101E82;\\b\\d{7}\\b;;/quavii/quavii.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/quavii/quavii.png;
+Quavii - Piura;199F94D1-64DE-4C49-81FB-8142991C7AA4;\\b\\d{7}\\b;;/quavii/quavii.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/quavii/quavii.png;
+Quimica Suiza;0B99E008-4332-4BD3-BF28-88CC3D9C9DF4;\\b\\d{7}\\b;;/quimicasuiza/quimicasuiza.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/quimicasuiza/quimicasuiza.png;
+Racser;BDFB4A67-3C82-45BC-8A17-CA38E27B8C74;;;;;
+RANDE;09F346E4-30E9-4094-B4FE-BF4A89C4C507;;;/rande/rande.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/rande/rande.png;
+Ransa Comercial SA;9F6933F8-78EA-4C67-ADFD-F5F6D3CFBBDC;;;;;
+Real Club;BBE1F806-552F-4BC0-9CC3-C8D89DEBDB25;;;;;
+Real Plaza Patrimonio ;FE1D0319-7AE6-4E08-AC70-12FFAFCF7F83;;;;;
+Real Plaza Salaverry;97A9F77A-4538-4172-9985-374A4E48CACD;;;;;
+Recadia Pagos;C9D4BA70-2B5F-4921-9BA0-6B2CE3C369A5;;;/recadia/recadia.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/recadia/recadia.png;
+Recsa - Armony;EF588ECD-18FB-4D88-965C-52C05E0FAB45;;;/recsa/recsa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/recsa/recsa.png;
+RECUPERA INVERSIONES;3C42B52D-E271-41D9-96EB-9710BAFB8009;;;;;
+Recupera Inversiones SAC;BA4AE944-8E4E-466A-B1B4-7ACB00E5F007;;;;;
+Rena Ware del Perú;FF5066A7-14C9-4DB5-AC39-408D0D9753F6;\\b\\d{7}\\b;;/renaware/renaware-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/renaware/renaware-v2.png;
+Rep Deco SAC;387CF9A1-1669-4CCA-924F-396EE5F9ACBB;;;;;
+Resevica SAC;55F90B2F-043B-43EA-AC59-47D25E8AA3BA;;;;;
+Reydinor;DA4AB8F3-4C06-4351-A3CB-7764AC9068E5;;;;;
+Rimac Seguros;A7DDC946-1140-41A9-B58B-B652E91210EC;\\b\\d{7}\\b;;/rimac/rimac.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/rimac/rimac.png;
+Rinconada Country Club;59C78C6E-C263-45D6-90B9-13699703E941;;;;;
+ROM Outsourcing SAC;829175E7-0450-4135-81E8-8AC1004ADB2D;;;;;
+Roma;5F603853-D205-471D-82AE-CF2D291ADCD2;;;/roma/roma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/roma/roma.png;
+ROMA - NEXO;4A4468CA-0BC4-43F3-A404-B7F41ADB4859;;;;;
+Roxfarma Sa;59552145-9593-404C-990B-DDE580C183A6;;;/roxfarma/roxfarma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/roxfarma/roxfarma.png;
+RTG Repuestos SAC;2BA8A927-9F34-4F17-80C5-6C28BD389DC9;;;/rtg/rtg.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/rtg/rtg.png;
+Ruta Sur;4F7F124D-D683-4153-8F4F-120B278623E9;;;/ecobesa/ecobesa-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ecobesa/ecobesa-v2.png;
+Sabio Nacional Antunez de Mayolo SAC;9B7DF8FE-61A5-4EA1-B58F-C071D099A119;;;;;
+Saco Oliveros;2E35483F-E3D4-4C6E-BE55-61F9F9BE13CE;;;/sacooliveros/sacooliveros.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sacooliveros/sacooliveros.png;
+Saco Oliveros Campoy;8758A1E0-94D1-4A26-9E02-A13FBC21E72D;;;/sacooliveros/sacooliveros.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sacooliveros/sacooliveros.png;
+Saco Oliveros Javier Prado;6289592C-F44C-4E09-AD60-244C6307B9F9;;;/sacooliveros/sacooliveros.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sacooliveros/sacooliveros.png;
+Sadisac;F29CDDF0-A175-47B2-8CFF-F033C7B81B70;;;;;
+SafetyPay;8BEE2851-D8EA-4ACF-A8DA-ED2548CED9C9;\\b\\d{7}\\b;;/safetypay/safetypay-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/safetypay/safetypay-v2.png;
+Salcantay Colegios;189B71B5-0186-4636-8D63-5C8B6EA6D8C6;;;;;
+Salesiano Santa Rosa-Col;0C168F1E-33F0-4ADE-9320-58C45C6F0271;;;;;
+Salvatore;2A94314D-DE9F-4A0E-A651-0EEB7879055C;;;/salvatore/salvatore.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/salvatore/salvatore.png;
+San Andres - Enlaces;F519297D-7E7E-49E3-A494-D145CC724DB6;;;;;
+San Antonio Nexo Gestion Inmobiliaria;70E4D72F-07D7-4F24-BCCB-DCCC501D13DB;;;;;
+San Bartolo Nexo Gestion Inmobiliaria;DAF6CA95-A564-4CAD-9179-D5DFF3088E2F;;;;;
+San Borja Nexo Gestion Inmobiliaria;6A025441-0A84-4635-8D89-70BE60A05D24;;;;;
+SAN FERNANDO - NEXO;1473BB32-9E7B-4BFF-ACA0-466FBFD36C5D;;;;;
+San Ignacio de Recalde;CD80F3C9-39B1-4C44-877C-87F7F9352799;;;;;
+San Ignacio Huacho Barranca;B0E5E491-2993-4A1B-AD17-36D92A7C1EE6;;;;;
+San Isidro Nexo Gestion Inmobiliaria;068E1B43-487E-41A8-84F4-6A182CE6C271;;;;;
+San Jorge de Miraflores;03724240-3E99-41FD-B20C-6E73ACFFC8AA;;;;;
+San Miguel Nexo Gestion Inmobiliaria;61FCFD15-B383-4028-8EE6-92533059745C;;;;;
+Sanisol;BC2E59EC-F250-48D9-BFAB-EFFE92C2E6D1;\\b\\d{7}\\b;;/sanima/sanima.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sanima/sanima.png;
+Sanitas Perú;6DA98FE6-A61B-4DCF-911E-535D2697C2A3;;;/sanitas/sanitas-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sanitas/sanitas.png;
+Sanna;C49D8E2E-FA3D-4920-8C7D-827E20460777;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sanna/sanna.png;
+Sanna;C49D8E2E-FA3D-4920-8C7D-827E20460777;;;/sanna/sanna.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sanna/sanna.png;
+Santa Maria Reina Chiclayo;BF03B4F3-B9AE-43A8-9383-18405973A64D;;;;;
+Santa Monica;7DBCBEA0-2C11-441C-AC4F-51E598D6DCFF;;;;;
+Santa Rosa Quives Club;AF179316-8BA9-47F6-ADEE-2E0C2F3B2B75;;;;;
+Santa Ursula Arequipa;24546BF0-A9AE-4B9C-A696-2606F9B3C2C5;;;;;
+Santo Toribio de Megrovejo;EA8A3D4E-8788-4CFF-84E5-39F1CBCDB136;;;;;
+SAT - Lima;C81B9E95-2FF2-475D-B442-F62DA27F8593;\\b\\d{7}\\b;;/satlima/satlima.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/satlima/satlima.png;
+SAT Piura;4D0A4620-A6EA-4AFD-ADEB-4B49028E3944;;;;;
+SBS Administradora de Fondos de Pensiones;C2514575-6AF5-4350-8F95-F4B3CE69B2A4;;;;;
+Seal;E4D454D0-41B5-4077-B818-8690194A0D8C;\\b\\d{7}\\b;;/seal/seal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/seal/seal.png;
+Secrex CIA de Seguros;55480DC3-68AA-4683-80DE-FF851E73AC63;;;;;
+Securitas SAC;0C855688-89F3-4C35-9F81-62B6A74B0A72;;;;;
+Seda Ayacucho;F6DC8C1D-33B6-4092-ACA0-00D38B299F62;\\b\\d{7}\\b;;/sedaayacucho/sedaayacucho.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sedaayacucho/sedaayacucho.png;
+Seda Huánuco;1EEF2EC4-48C1-400F-8269-BD1FFDAD9394;\\b\\d{7}\\b;;/sedahuanuco/sedahuanuco.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sedahuanuco/sedahuanuco.png;
+Sedalib;16F8226F-4089-4C42-957E-6B5E2AF8F26C;\\b\\d{7}\\b;1921585;/sedalib/sedalib.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sedalib/sedalib.png;
+Sedapal;15FB5DDB-3426-4A17-8F59-5EC9E6CADE09;\\b\\d+(?=-) ;3065285-3;/sedapal/sedapal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sedapal/sedapal.png;
+Sedapar;4A701C69-930A-45FE-B6E0-9A512EFD3CD0;\\b\\d{7}\\b;1921585;/sedapar/sedapar.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sedapar/sedapar.png;
+Sehs Norte;B2C6616D-CEF2-46C8-A58D-F12442996F4D;;;/sehsnorte/sehsnorte.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sehsnorte/sehsnorte.png;
+Senati;9190FCB8-563F-4EE4-93E4-92B4DB3E71D7;\\b\\d{7}\\b;;/senati/senati.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/senati/senati.png;
+SENCICO;2B253959-0FA8-4B0C-B86C-31EB7E5FDAAE;\\b\\d{7}\\b;;/sencico/sencico.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sencico/sencico.png;
+Señor de la Misericordia;B64CE511-A7FD-40C4-B86B-1F29199AD8CD;;;;;
+Sersa - Rioja;5D13278B-3FF6-4C6C-87D6-FC1D33E0CA0F;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sersa/sersa.png;
+Sersa - Rioja;5D13278B-3FF6-4C6C-87D6-FC1D33E0CA0F;;;/sersa/sersa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sersa/sersa.png;
+Servicentro Ramirez;97C55068-969D-435E-9C65-C5B2D01E7F08;;;;;
+Servisecuritas SAC;819CFCD4-ABE1-4FC6-8017-23D6765BD009;;;;;
+SESSEN - NEXO;9DB8BF53-9717-4D76-AE7F-FAE7AA7D748D;;;;;
+Signia Soluciones Logísticas;989370AD-A51E-4D53-A923-D3B338E7249F;;;;;
+SISE;ED8762E0-0CEA-41D7-9B05-89C088AD9C14;;;/sise/sise.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sise/sise.png;
+Sitel Moviles;A9F30238-7C34-49DA-BEFC-4B6CEDFF24A0;;;/sitel/sitel.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sitel/sitel.png;
+Skechers Perú SRL;CB345FDF-8112-497C-87BD-DDF55A39499F;;;;;
+Sociedad de Automotores Inka;B22C9ED0-401F-4E26-B5E4-8C0857EC7E75;;;;;
+Sokso Tienda Iquitos;C3476BAF-EB81-4AD0-8432-FD2F6368440B;;;;;
+Soltrak SA;77272F96-CB08-4836-8E2B-F69AC08E4526;;;;;
+Soluciones Educativas Digitales SAC;BB7EA145-8461-44CE-9963-036D7E489B82;;;/soluceduc/soluceduc.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/soluceduc/soluceduc.png;
+Strip Centers del Perú SAC;406BAD33-3BC3-4673-9B68-3456BE6719C5;;;;;
+Sunafil;F5EEAEF3-D161-459B-B777-293449915C84;;;;;
+Sunat;3DED2A42-F192-4C02-BD99-D75D879DB0DB;\\b\\d{7}\\b;;/sunat/sunat.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sunat/sunat.png;
+Supercable;4763C365-9D06-4788-BF26-F4E0D944B253;;;/supercable/supercable.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/supercable/supercable.png;
+Surco Nexo Gestion Inmobiliaria;572D73D1-AC81-41D8-A37B-9569DF924380;;;;;
+Surgir;B5E383F2-6A64-4AAA-AB19-C513C11DD046;;;/surgir/surgir-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/surgir/surgir-v2.png;
+Surquillo Nexo Gestion Inmobiliaria;41390098-9FBB-4A94-A579-8D2192A0ADF3;;;;;
+Sutran;033FFAA6-01C7-431E-A738-45DF47A7CC05;;;;;
+TACNA - NEXO;B0B24353-EF01-4564-934C-642444C75015;;;;;
+Talma Servicios Aeroportuarios SA;F40D63B9-0364-40BE-BCA5-2841BDA7431E;;;;;
+Tambos;672C96AD-5AB8-4C72-95A9-BD91782D5ED3;;;;;
+TAMBOS AQP;32AE9769-15BE-40D3-A67A-5D395685CCEA;;;;;
+Tambos Cusco;29B7D5AE-A839-4B38-9239-1125F919233B;;;;;
+Tambos Huaraz;9E7445DB-2AA3-4C6A-AAE2-FF3EBA787C88;;;;;
+TAMBOS LIM;479B1384-E782-46CE-807E-2A1621643C43;;;;;
+Tarjeta Estilos;E5C35703-B22D-49AF-9A8C-1775AC572C70;;;/estilos/estilos.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/estilos/estilos.png;
+Tecavi;616E8EC3-EFE2-4E83-844F-028A0CFEC1ED;;;/tecavi/tecavi.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tecavi/tecavi.png;
+Tecnocable;AF25FBCC-4E65-4B59-9293-4D14335DB801;;;/tecnocable/tecnocable.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tecnocable/tecnocable.png;
+TECSUP Arequipa;1CEF2E2B-7C17-4760-AF71-A5FFBD741B0B;;;/tecsuparequipa/tecsuparequipa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tecsuparequipa/tecsuparequipa.png;
+Tecsup Lima;E663F1F6-B08D-4049-A4D3-F58DD52BAED2;;;/tecsup/tecsup.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tecsup/tecsup.png;
+Tecsup Trujillo;7C79FEFA-9730-4AF5-9F9E-AB6B1B3997C2;;;/tecsup/tecsup.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tecsup/tecsup.png;
+Ten Internet;EFA62180-2099-46D9-B72F-50750D223647;;;;;
+Terranorte;E4F91BC4-B615-4FF7-B815-027E9F359EB5;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/terranorte/terranorte.png;
+Terranorte;E4F91BC4-B615-4FF7-B815-027E9F359EB5;;;/terranorte/terranorte.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/terranorte/terranorte.png;
+THE MODERN - NEXO;D51D943A-2A35-495C-98AF-63DC4979E52F;;;;;
+The Most - Nexo;19E54E23-3028-48F0-A987-EB8576463D9F;;;;;
+Tienda Pago;5F2B04CB-7018-434F-9282-514F3EEA255A;;;/tiendapago/tiendapago.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tiendapago/tiendapago.png;
+Tierra Sur;CE63781E-D040-4759-8DAA-CBDA35F69622;;;/tierrasur/tierrasur.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tierrasur/tierrasur.png;
+TK Elevator Perú;72F3B089-0F73-4A11-B4FC-6E7E87904273;;;;;
+Top Partner Sac;236614CE-2017-4383-B754-EB1E476721DF;;;/toppartner/toppartner.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/toppartner/toppartner.png;
+Toulouse Lautrec;AAF42019-1F49-4478-86EF-DF84F7C4DEF0;\\b\\d{7}\\b;;/toulouse/toulouse.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/toulouse/toulouse.png;
+Touring Perú;CB2B3B54-FB96-409C-976F-8956374E4547;;;;;
+Toyota del Perú SA;8FDE8753-2584-44CE-A828-DC1183369D59;;;;;
+Tradizione;6994A9EE-96EF-4353-9A97-4D551C1A35D0;;;;;
+Trahis;0962715E-9C33-4F19-8E36-96CED929002F;;;;;
+Tramarsa;0903D10F-7F72-4852-A116-61E9EBD04ED3;;;;;
+Transmeridian SAC;DC7CD3EB-FDED-41B0-B514-36A4E8DD0735;;;;;
+Travel Payments;87B53DA0-0FD3-4D1D-B35C-DAB39E4C74BE;;;/travelpayments/travelpayments.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/travelpayments/travelpayments.png;
+Tu Fibra;B436D795-1459-4374-9E78-D045FCF5BB65;\\b\\d{7}\\b;;/tufibra/tufibra.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tufibra/tufibra.png;
+Tu Kompa Fondo de Inversión;6CE33802-8DDB-41DB-93D7-593D9B231380;;;;;
+Tupay;8FD6506B-F0B8-455B-A2FD-1815D7C09FEC;\\b\\d{7}\\b;;/tupay/tupay.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/tupay/tupay.png;
+Turicara - Colegios;5A973A76-A29E-4169-A7F7-F10B9F1FCE72;;;/turicara/turicara.png;;
+TYC CDA;FCE4A842-17EF-4292-8C4C-229BACC08629;;;;;
+UDEP Piura;E6B868CB-F429-48E7-B604-C75BE6682C7A;;;;;
+UNALM - La Molina;D611FD27-0010-4C18-8BBB-26E35CD07459;;;;;
+Unimar SA;C2C2F8B0-9CDB-4DE1-993E-3D5E0B41C5DE;;;;;
+UnimPro;4DE03457-9465-4634-9BD9-069AC596EE25;;;;;
+Union Israelita del Perú;5F6E1EC8-67B7-4E41-8862-072315F52471;;;;;
+United Laboratories Perú SAC;98040A07-A258-4EC5-945D-FF9F48B42216;\\b\\d{7}\\b;;/unitedlaboratoriesperusac/unitedlaboratoriesperusac.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/unitedlaboratoriesperusac/unitedlaboratoriesperusac.png;
+Universidad Autónoma de Ica;B728152C-562E-46C6-B94A-1BB28704FCC6;;;/uautonomadeica/uautonomadeica.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/uautonomadeica/uautonomadeica.png;
+Universidad Autónoma del Perú;2FD2EBAA-2E34-47B5-885F-D155DF868EF4;;;/uautonoma/uautonoma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/uautonoma/uautonoma.png;
+Universidad Católica San Pablo Arequipa;EA783955-1834-4DC2-8707-3848BCED62AC;;;;;
+Universidad Católica Santo Toribio de Mogrovejo;AF05FE1E-153D-42EF-A93D-440571A69451;;;/usat/usat.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/usat/usat.png;
+Universidad Católica Sede Sapientiae;BFE83F83-DB7F-4E74-86D7-23FCDE79FEBF;;;/ucss/ucss.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ucss/ucss.png;
+Universidad Cayetano Heredia;CAD64B48-6179-43F5-97B9-FC351FE7E447;;;;;
+Universidad César Vallejo;ACBC239E-36FB-4374-8DE0-4150F41881E3;\\b\\d{7}\\b;;/cesarvallejo/cesarvallejo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cesarvallejo/cesarvallejo.png;
+Universidad César Vallejo Tru Olivos;B19FEC68-21AA-4716-B5B3-3E3139EEEC14;;;/cesarvallejo/cesarvallejo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cesarvallejo/cesarvallejo.png;
+Universidad César Vallejo Trujillo;F68C60C8-0C9E-4080-A96D-F4B7A52BF2A1;;;/cesarvallejo/cesarvallejo.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/cesarvallejo/cesarvallejo.png;
+Universidad Científica del Sur;3F5E1DD3-72E4-4898-A30E-A6D064E0730F;\\b\\d{7}\\b;;/ucientificadelsur/ucientificadelsur.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ucientificadelsur/ucientificadelsur.png;
+Universidad Continental;65096A38-3D4C-4BC6-8EB0-B3960E8E81B0;;;/ucontinental/ucontinental.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ucontinental/ucontinental.png;
+Universidad de Ciencias y Artes de América Latina;0646B699-D853-439E-9956-F4EEFA8F1ED2;;;/ucal/ucal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ucal/ucal.png;
+Universidad de Ciencias y Humanidades;A0D77F8B-DA84-4AC1-8503-30E001FCEFAB;;;;;
+Universidad de Huánuco;DCA150C8-EDFC-4212-AF84-D64212F340F9;\\b\\d{7}\\b;;/uhuanuco/uhuanuco.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/uhuanuco/uhuanuco.png;
+Universidad de Lima;67C3C1C9-33FC-45AF-89AC-169A04233C52;;;/udelima/udelima.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/udelima/udelima.png;
+Universidad del Pacífico;8B43F056-2514-4069-880D-5978ACA5907D;;;/universidaddelpacifico/universidaddelpacifico.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/universidaddelpacifico/universidaddelpacifico.png;
+Universidad Jaime Bausate y Meza;AFE9DF18-CFD9-4407-80F4-059C480AC31F;;;;;
+Universidad La Salle;7B0D7E24-6550-4A10-9A96-BC08BE67BDAE;;;;;
+Universidad Marcelino Champagnat;74DDE0AE-D229-47C1-8F95-D35CA8C13641;;;/champagnat/champagnat.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/champagnat/champagnat.png;
+Universidad Nacional de Ingeniería;44F46125-567A-4DF6-AC21-A31974ACE2E5;\\b\\d{7}\\b;;/unacionalingenieria/unacionalingenieria.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/unacionalingenieria/unacionalingenieria.png;
+Universidad Nacional de San Agustin de Arequipa;9E9142EB-409F-4B4A-883D-017AF2DB988B;\\b\\d{7}\\b;;;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/unsa/unsa.png;
+Universidad Nacional de San Agustin de Arequipa;9E9142EB-409F-4B4A-883D-017AF2DB988B;;;/unsa/unsa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/unsa/unsa.png;
+Universidad Nacional Federico Villarreal;CDDBABB5-DA47-47A1-8D20-F791EAEA00B3;;;/ufedericovillarreal/ufedericovillarreal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ufedericovillarreal/ufedericovillarreal.png;
+Universidad Nacional Mayor de San Marcos;B788F720-7BC9-4419-B4DD-89BC7C490A6E;;;/sanmarcos/sanmarcos.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/sanmarcos/sanmarcos.png;
+Universidad Norbert Wiener;CCB7AA35-B582-4B66-BDA3-A183EF1F0B25;\\b\\d{7}\\b;;/universidadwiener/universidadwiener.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/universidadwiener/universidadwiener.png;
+Universidad Peruana Cayetano Heredia;46400B4F-B5FD-4BC9-B2A6-1A0ED5C4D222;;;/upcayetanoheredia/upcayetanoheredia.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/upcayetanoheredia/upcayetanoheredia.png;
+Universidad Peruana Unión;DB121561-29C5-4AC6-8D3E-774716AB7415;;;/upeu/upeu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/upeu/upeu.png;
+Universidad Privada Antenor Orrego;A6216E4E-36D1-49F2-8910-4B592D74CF13;;;/upao/upao.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/upao/upao.png;
+Universidad Privada del Norte;AFF98B85-3C22-4CF9-80F4-279781F0B907;\\b\\d{7}\\b;;/uprivadadelnorte/uprivadadelnorte.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/uprivadadelnorte/uprivadadelnorte.png;
+Universidad Ricardo Palma;F46D0272-A682-4E23-8979-D52A30D72F33;;;/ricardopalma/ricardopalma.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/ricardopalma/ricardopalma.png;
+Universidad Ruiz de Montoya;E95C93C4-4B67-4DA6-A02F-CB0FD50A6A05;;;;;
+Universidad San Ignacio de Loyola;C0E430E0-C79A-42F6-A632-06C9235DC304;;;/usil/usil.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/usil/usil.png;
+Universidad San Juan Bautista;CE9F6FA3-23FF-439F-92F1-4B3F07A67E73;;;/usanjuanbautista/usanjuanbautista.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/usanjuanbautista/usanjuanbautista.png;
+Universidad San Martin de Porres;84F0FD75-1F9E-4765-B802-E736C8EF7130;\\b\\d{7}\\b;;/usanmartindeporres/usanmartindeporres.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/usanmartindeporres/usanmartindeporres.png;
+Universidad Señor de Sipán;591C3262-F592-4102-8DCA-9F0EA94BADDD;\\b\\d{7}\\b;;/universidadsenordesipan/universidadsenordesipan.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/universidadsenordesipan/universidadsenordesipan.png;
+Universidad Tecnológica Latinoamericana en Línea - México;B8CB3D7F-1A5D-4187-AD54-014A2046A05B;;;"	/utlenlinea/utlenlinea.png";"https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies	/utlenlinea/utlenlinea.png";
+UPC - Universidad Peruana de Ciencias Aplicadas;635F5629-8A3F-487B-A92E-A196B6D5A939;\\b\\d{7}\\b;;/upc/upc.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/upc/upc.png;
+UPT Tacna;9978CAD7-005C-43DD-A8AC-3E1EF3E2A455;;;;;
+Urbana Perú;82927F04-AEEB-44DE-B50C-C3C4366868E8;;;/urbanaperu/urbanaperu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/urbanaperu/urbanaperu.png;
+URBANA- PERU BELALBA;76FFB64F-F491-4963-8887-408BE34C450C;;;/urbanaperu/urbanaperu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/urbanaperu/urbanaperu.png;
+URBANA-PERU HIT;0C0F92D7-7528-4258-8EFF-FC0E7B750B6F;;;/urbanaperu/urbanaperu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/urbanaperu/urbanaperu.png;
+URBANA-PERU LUXO;329C4248-78E3-438F-854E-F82F5A19AC28;;;/urbanaperu/urbanaperu.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/urbanaperu/urbanaperu.png;
+Urbanizadora Jardín SA;41729F22-76DC-4999-97B6-32100BD60853;;;;;
+UTEC;B72D59A0-0423-408B-92C5-ABE2ECA53FDD;;;/utec/utec.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/utec/utec.png;
+Vainsa;838DA596-609D-4B77-92F3-35C41D65554F;;;/vainsa/vainsa.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/vainsa/vainsa.png;
+VALLE GRANDE 3 - NEXO;A37662A2-DD43-483B-A4B6-9F120FA05722;;;;;
+Vallesol - Colegios;C469ED71-DDEF-4D8A-BA79-0F0EAF10DAA5;;;/vallesol/vallesol.png;;
+Vallesol Comercial Isabelita;D6AD9209-89C3-4F25-9BA9-7888EC8B1D4E;;;/isabelita/isabelita.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/isabelita/isabelita.png;
+VANGUARD - NEXO;8C5571E8-1858-455B-98F7-75F40DDD1CA8;;;;;
+Velax SA;D9653758-5BB7-4A26-88BB-96069D29BF84;;;/velax/velax.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/velax/velax.png;
+Vemax;8DD2F84B-3AF8-4D7D-827B-7AE5743D5CFA;\\b\\d{7}\\b;;/vemax/vemax.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/vemax/vemax.png;
+Verisure Peru SAC;CA0F82BF-DFC2-44EA-B895-23789169C6DC;\\b\\d{7}\\b;;/verisure/verisure.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/verisure/verisure.png;
+Villa Caritas - San Pedro ;841FAD25-A5AC-4C22-B7CB-5CF8086E01EE;;;;;
+VILLAR2 -NEXO;0D570783-33AE-460B-9F47-9880910296F5;;;;;
+Villas Oquendo Pago Electrónico;1CB4F032-ACC2-4164-AF3B-EB831F033BB6;;;;;
+Virgen de Guadalupe Chimb;1FB7BE0F-0D4A-42CD-B279-0B64961655B6;;;;;
+Vistony SAC;AD62D534-CBE2-4949-BC5D-F2B909D02131;\\b\\d{7}\\b;;/vistony/vistony.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/vistony/vistony.png;
+Vitekey;1F72F37A-1883-417F-BAE7-7F5D637E39BF;;;;;
+Vivanorte;33755EE6-3601-4D00-9937-27F07F2FDC1C;;;;;
+Vivemas Inmobiliaria Construcción;8491E66F-D8FF-42A0-B2AB-D65BE20E621D;;;;;
+VMC Subastas;C1F1D662-9C67-4226-BB80-C601C7A828F5;;;;;
+Vonex Academia;D36A0409-99D0-40EA-B599-956A386D0D99;;;/vonex/vonex.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/vonex/vonex.png;
+VVIN;78E21CF7-9D1C-486A-A8AC-B858AA6BB803;;;;;
+Wepay4u;66ED437C-D162-4733-BFF1-2EC31AC52A1F;\\b\\d{7}\\b;;/wepay4u/wepay4u.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/wepay4u/wepay4u.png;
+WEPAY4U;66ED437C-D162-4733-BFF1-2EC31AC52A1F;;;/wepay4u/wepay4u.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/wepay4u/wepay4u.png;
+Willy Busch;6194900D-7BBA-45A8-B554-11A864FD9ED3;;;/willybusch/willybusch.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/willybusch/willybusch.png;
+WIN Internet;66BD735F-80AA-4FB9-AFD1-4AB4AF31C0AC;\\b\\d{7}\\b;224597;/win/win.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/win/win.png;
+WOW;79833322-98B2-4085-8594-04ABDFE75C37;\\b\\d{7}\\b;;/wowtel/wowtel-v2.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/wowtel/wowtel-v2.png;
+Xturbo;2234C9AD-E104-43ED-843F-2136560AF7E5;;;;;
+Ya Ganaste;73DDD77C-C262-4196-BF7F-A018E2469D02;;;/yaganaste/yaganaste.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/yaganaste/yaganaste.png;
+Yacht Club Ancón;CCC52D01-F89B-40D7-91FB-A55B25A6CC48;;;;;
+Yacht Club Peruano;6FC64F03-BB13-455C-8248-AEBF4999736D;;;;;
+Yanbal;E657DF00-DDDF-4672-9609-50372B7C7039;;;/yanbal/yanbal.png;https://staceu2yapefrntp10.blob.core.windows.net/$web/bill-payment/companies/yanbal/yanbal.png;
+Yess;24A6C9F5-5599-4D6B-907B-BB7CF4898B10;;;;;
+Zipago;610F1AD7-9BE6-4E55-85AC-1FAB78B26B3F;;;;;
