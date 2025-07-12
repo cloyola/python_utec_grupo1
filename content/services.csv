@@ -1,7 +1,7 @@
 service_name,company_name,service_id,consumerIdentification,orientation,patter_regular,ejemplo
-dni,claro,57649a29-ef38-4312-b755-056630354a9e,,,,
-numero de telefono,claro,fd586205-993b-4e9e-9a90-35c0a9a0333e,,,,
-cod cliente,claro,c0273711-5d6c-49ba-af22-7ae10fb62e4c,,,,
+dni,claro,57649a29-ef38-4312-b755-056630354a9e,Numero de DNI,,,
+numero de telefono,claro,fd586205-993b-4e9e-9a90-35c0a9a0333e,Número de teléfono,,,
+cod cliente,claro,c0273711-5d6c-49ba-af22-7ae10fb62e4c,Código de cliente,,,
 movil,movistar,2743928f-a877-43a7-b0b8-efa42c18e506,,,,
 fijo,movistar,d8b1b367-7ab2-416b-8ede-bddfcdee80d6,,,,
 cuenta financiera,movistar,bf2e84fa-c8c1-44a3-a22f-3ff089073bf1,,,,

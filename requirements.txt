@@ -7,6 +7,4 @@ pydantic
 langchain
 groq
 streamlit
-logging
-fuzzywuzzy
-python-Levenshtein
+rapidfuzz

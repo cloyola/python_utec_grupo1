@@ -1,12 +1,13 @@
 import pandas as pd
+import unicodedata
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from pydantic import BaseModel, Field
 from langchain_core.output_parsers import JsonOutputParser
-import unicodedata
-from fuzzywuzzy import process
+from rapidfuzz import process, fuzz
 from logger import logger
 from langchain.globals import set_debug
+import re
 
 set_debug(True)
 
@@ -15,6 +16,7 @@ class ProviderGenerationScript(BaseModel):
 
 class IdentifierGenerationScript(BaseModel):
     identificador: str = Field(description="Este es el identificador del recibo")
+    service_id: str = Field(description="Este es el ID del servicio identificado")
 
 def find_rows_by_id(df, id, column_name):
   # Filtrar filas que coinciden con el nombre
@@ -38,6 +40,20 @@ def get_code_to_search(company):
     df = pd.read_csv("content/empresas_deeplink.csv")
     return df[df['id']==company.lower()]['code_search'].values
 
+def generate_service_list_text(services_df: pd.DataFrame) -> str:
+    if services_df.empty:
+        return "No hay servicios disponibles en este momento."
+
+    output_text = "### Servicios Disponibles\n\n"
+    output_text += "Aquí están los servicios disponibles para la compañía:\n\n"
+
+    for index, row in services_df.iterrows():
+        consumer_id = row["consumerIdentification"]
+        service_id = row["service_id"]
+        output_text += f"* **Identificación del código:** {consumer_id}, **ID del Servicio:** {service_id}\n"
+
+    return output_text
+
 def normalize(text):
     if pd.isna(text):
         return ""
@@ -46,34 +62,68 @@ def normalize(text):
     text = text.lower().replace(".", "").replace(",", "").replace("s.a", "").strip()
     return text
 
-def find_closest_company(df, input_name, column_name, threshold=85): #Funciona para archivo deeplinks
+def find_closest_company(company_df, input_name, threshold=85, return_score=False): #Funciona para archivo deeplinks
+    if company_df.empty or not input_name:
+        return None
+    logger.info(company_df["company_name"].tolist())
+
+    logger.info(f"Input original: {input_name}")
     normalized_input = normalize(input_name)
-    choices = df[column_name].dropna().unique()
-    choices_normalized = [normalize(c) for c in choices]
+    logger.info(f"Normalized input: {normalized_input}")
+
+    # Paso 1: Búsqueda directa usando 'contains'
+    contains_mask = company_df["company_name"].str.lower().str.contains(normalized_input, na=False)
+    if contains_mask.any():
+        idx = contains_mask.idxmax()
+        result = company_df.loc[idx, "company_name"]
+        logger.info(f"Encontró resultado por contains: {result}")
+        return (result, idx) if return_score else result
     
-    match, score = process.extractOne(normalized_input, choices_normalized)
-    if score >= threshold:
-        index = choices_normalized.index(match)
-        best_match = choices[index]
-        logger.warning(f"Input: {normalized_input}. Score {score}. Threshold: {threshold}. Best match: {best_match}")
-        return best_match
-    return None 
+    # Paso 2: Fuzzy matching si no encontró nada por 'contains'
+    company_list = company_df["company_name"].tolist()
+    normalized_choices = [normalize(name) for name in company_list]
+    logger.info(f"Opciones normalizadas: {normalized_choices}")
+
+    # Buscar con el threshold
+    match_data = process.extractOne(normalized_input, normalized_choices, scorer=fuzz.token_sort_ratio)
+    logger.info(f"Data que coincide: {match_data}")
+
+    if match_data:
+        match, score, _ = match_data
+        if score >= threshold:
+            index = normalized_choices.index(match)
+            best_match = company_list[index]
+            logger.info(f"Encontró resultado por best_match: {best_match}")
+            return (best_match, score) if return_score else best_match
+    return None
+
 
 # - Columna "pattern_regular" tiene el formato regex con el que aparece el código.
-TEMPLATE="""
-Dado la informacion del siguiente recibo, necesito que me extraigas la empresa emisora
+TEMPLATE = """
+A continuación se muestra el contenido de un recibo de servicio:
+
 {recibo}
-Tienes como opciones los siguientes proveedores: 
+
+Tu tarea es identificar y extraer el nombre de la *empresa emisora* del recibo.
+
+Puedes elegir únicamente entre los siguientes proveedores válidos:
 {proveedores}
 
-El formato de salida debe ser el siguiente:{format_instructions}. """
+Importante:
+- No agregues explicaciones, justificaciones ni comentarios adicionales.
+- Devuelve exclusivamente el resultado en formato JSON, sin ningún texto antes o después.
+- Si no encuentras un proveedor válido en el recibo, responde con null como valor.
+
+El formato de salida debe ser el siguiente:
+{format_instructions}
+"""
 
 parser= JsonOutputParser(pydantic_object=ProviderGenerationScript)
 
 llm = ChatGroq(
     temperature=0,
     model_name="llama-3.3-70b-versatile", #llama3-8b-8192
-    groq_api_key="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"
+    groq_api_key="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"
 )
 
 prompt = PromptTemplate(
@@ -89,13 +139,16 @@ A continuación se muestra la información extraída de un recibo de servicio:
 
 {recibo}
 
-Tu tarea es **extraer únicamente el valor del campo correspondiente al código del recibo**, también conocido como identificador principal del cliente. Este dato puede estar etiquetado en el documento con alguno de los siguientes nombres:
+Tu tarea es extraer únicamente el valor del campo correspondiente al código del recibo, también conocido como identificador principal del cliente. Este dato puede estar etiquetado en el documento con alguno de los siguientes nombres:
 
 {services}
 
-**No selecciones números asociados a otros campos** como 'Número de suministro', 'Referencia de pago', 'N° de operación', 'Código de suministro', u otros que no estén explícitamente mencionados en la lista anterior.
+No selecciones números asociados a otros campos como 'Número de suministro', 'Referencia de pago', 'N° de operación', 'Código de suministro', u otros que no estén explícitamente mencionados en la lista anterior.
 
-Devuelve solo el valor asociado al campo válido, siguiendo exactamente este formato:
+Si encuentras un identificador que coincide con uno de los nombres proporcionados, **asegúrate de devolver también el 'service_id' asociado a ese nombre de identificador** tal como se indica en la lista.
+
+Devuelve únicamente los valores en el siguiente formato JSON. *No escribas ninguna explicación o comentario*. Devuelve exclusivamente el JSON:
+
 {format_instructions_id}
 """
 
@@ -104,7 +157,7 @@ parser_id = JsonOutputParser(pydantic_object=IdentifierGenerationScript)
 llm_id = ChatGroq(
     temperature=0,
     model_name="llama-3.3-70b-versatile",
-    groq_api_key="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"
+    groq_api_key="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"
 )
 
 prompt_id = PromptTemplate(
