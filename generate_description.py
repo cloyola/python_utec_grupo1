@@ -10,7 +10,7 @@ from groq import Groq  # Importamos Groq para realizar consultas a la API
 
 load_dotenv()
 
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY_DESCRIBE")
 
 if groq_api_key is None:
     raise ValueError("La variable de entorno GROQ_API_KEY no está configurada.")
