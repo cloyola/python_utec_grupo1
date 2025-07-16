@@ -64,6 +64,13 @@ st.markdown("""
         border-top: 1px solid #eee;
         color: #777;
     }
+    .button {
+        text-align: center;
+        height: 40px;
+        background-color: #10CBB4;
+        border-radius: 10px;
+        color: #fff;
+    }
 </style>
 """, unsafe_allow_html=True)            
 

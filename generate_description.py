@@ -10,10 +10,10 @@ from groq import Groq  # Importamos Groq para realizar consultas a la API
 
 load_dotenv()
 
-groq_api_key = os.getenv("GROQ_API_KEY_DESCRIBE")
+groq_api_key_describe = os.getenv("GROQ_API_KEY_DESCRIBE")
 
-if groq_api_key is None:
-    raise ValueError("La variable de entorno GROQ_API_KEY no está configurada.")
+if groq_api_key_describe is None:
+    raise ValueError("La variable de entorno GROQ_API_KEY_DESCRIBE no está configurada.")
 
 def encode_image(image):
     buffered = BytesIO()
@@ -34,7 +34,7 @@ def describe_image(image_path):
     VISION_MODEL_NAME = "meta-llama/llama-4-scout-17b-16e-instruct"
 
     # Inicializamos el cliente de Groq con la clave de API
-    client = Groq(api_key=groq_api_key)
+    client = Groq(api_key=groq_api_key_describe)
     vision_model = VISION_MODEL_NAME
 
     # Abrimos la imagen desde la ruta proporcionada

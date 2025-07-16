@@ -4,11 +4,9 @@ from generate_text import normalize
 import urllib.parse
 
 def generate_deeplink_simple(companyName, service_id, consumer = None):
-  logger.info(f"Iniciando módulo: generate_deeplink.py")
-  logger.info(f"Iniciando función: generate_deeplink_simple")
+  logger.info(f"Iniciando módulo -> función: generate_deeplink.py -> generate_deeplink_simple")
 
   company_df = pd.read_csv("content/empresas.csv")
-    
   company_selected = company_df[company_df["company_name"] == companyName]
   logger.info(f"La companía seleccionada es: {company_selected}")
   # Verifica que encontró al menos una coincidencia

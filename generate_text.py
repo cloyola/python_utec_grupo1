@@ -25,29 +25,8 @@ class IdentifierGenerationScript(BaseModel):
     identificador: str = Field(description="Este es el identificador del recibo")
     service_id: str = Field(description="Este es el ID del servicio identificado")
 
-def find_rows_by_id(df, id, column_name):
-  # Filtrar filas que coinciden con el nombre
-  matching_rows = df[df[column_name].str.lower() == id.lower()]
-  # Convertir filas filtradas a lista de diccionarios
-  return matching_rows.to_dict(orient='records')
-
-def find_rows_by_service(df, service):
-  # Filtrar filas que coinciden con el nombre
-  matching_rows = df[df['service'].str.lower() == service.lower()]
-  # Convertir filas filtradas a lista de diccionarios
-  return matching_rows.to_dict(orient='records')
-
-def get_code_to_search(company):
-    """
-    Esta función encuentra el nombre para buscar el código de pago en un recibo
-
-    Args: company (str): El nombre de la compañía.  
-    Returns: str: El nombre del código a buscar.
-    """
-    df = pd.read_csv("content/empresas_deeplink.csv")
-    return df[df['id']==company.lower()]['code_search'].values
-
 def generate_service_list_text(services_df: pd.DataFrame) -> str:
+    logger.info(f"Iniciando módulo -> función: generate_text.py -> generate_service_list_text")
     if services_df.empty:
         return "No hay servicios disponibles en este momento."
 
@@ -62,6 +41,7 @@ def generate_service_list_text(services_df: pd.DataFrame) -> str:
     return output_text
 
 def normalize(text):
+    logger.info(f"Iniciando módulo -> función: generate_text.py -> normalize")
     if pd.isna(text):
         return ""
     # Quitar tildes, convertir a minúsculas, eliminar signos y extras comunes
@@ -70,9 +50,10 @@ def normalize(text):
     return text
 
 def find_closest_company(company_df, input_name, threshold=85, return_score=False): #Funciona para archivo deeplinks
+    logger.info(f"Iniciando módulo -> función: generate_text.py -> find_closest_company")
     if company_df.empty or not input_name:
         return None
-    logger.info(company_df["company_name"].tolist())
+    #logger.info(company_df["company_name"].tolist())
 
     logger.info(f"Input original: {input_name}")
     normalized_input = normalize(input_name)
