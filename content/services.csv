@@ -12,7 +12,7 @@ Pago con número de recibo - Servicios Fijos Empresas,Entel,9fb84a6f-4667-4b53-8
 Pago con número de RUC - Servicios Fijos Empresas,Entel,890c1687-35f4-4232-8baf-b9ff7885d740,RUC,Número de RUC de 13 dígitos que empieza con 10 o 20,,
 Pago con número de recibo,Entel,e1ec9abd-bcfa-4036-afa5-24dac3ffa103,Nro. de recibo,El número de recibo tiene el siguiente formato:<b>S001301404266</b>,,
 Cobranza - Dólares,Coopse La Unión,e6953a34-2d22-4e54-a5e9-2fea2dc8c3ef,Código de Cliente,El código de cliente tiene 6 dígitos.<br>Por ejemplo: <b>457201</b>,,
-Internet,WIN Internet,801f6f27-a1c5-406a-bed8-af9f1fd1335c,Nro. de COD PAG DNI RUC CE,"Recuerde que puede realizar su pago con: DNI, RUC, Carnet de Extranjería y código de pago.",,
+Internet,WIN,801f6f27-a1c5-406a-bed8-af9f1fd1335c,Nro. de COD PAG DNI RUC CE,"Recuerde que puede realizar su pago con: DNI, RUC, Carnet de Extranjería y código de pago.",,
 Servicios Educativos,Alexander Von Humboldt Lima,73a97524-0473-4acc-b2d7-7cf40c8e3c0e,Cod. Alumno,,,
 Matrícula - Pensiones ,Alexander Von Humboldt Lima,2e998b76-f560-44b1-8135-d98e6197e8fb,Cod. Alumno,,,
 Servicios Educativos Sol,Alexander Von Humboldt Lima,e405fc20-a52b-4c14-ad51-861e92a4b47a,Cod. Alumno,,,

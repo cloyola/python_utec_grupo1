@@ -41,7 +41,7 @@ def generate_service_list_text(services_df: pd.DataFrame) -> str:
     return output_text
 
 def normalize(text):
-    logger.info(f"Iniciando módulo -> función: generate_text.py -> normalize")
+    #logger.info(f"Iniciando módulo -> función: generate_text.py -> normalize")
     if pd.isna(text):
         return ""
     # Quitar tildes, convertir a minúsculas, eliminar signos y extras comunes
