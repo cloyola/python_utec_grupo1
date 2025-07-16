@@ -1,5 +1,7 @@
 import pandas as pd
 import unicodedata
+import os
+from dotenv import load_dotenv
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from pydantic import BaseModel, Field
@@ -9,7 +11,12 @@ from logger import logger
 from langchain.globals import set_debug
 import re
 
+load_dotenv()
 set_debug(True)
+groq_api_key = os.getenv("GROQ_API_KEY")
+
+if groq_api_key is None:
+    raise ValueError("La variable de entorno GROQ_API_KEY no está configurada.")
 
 class ProviderGenerationScript(BaseModel):
     proveedor: str = Field(description="Este es el proveedor del recibo")
@@ -59,7 +66,7 @@ def normalize(text):
         return ""
     # Quitar tildes, convertir a minúsculas, eliminar signos y extras comunes
     text = unicodedata.normalize('NFKD', str(text)).encode('ASCII', 'ignore').decode('utf-8')
-    text = text.lower().replace(".", "").replace(",", "").replace("s.a", "").strip()
+    text = text.lower().replace(".", "").replace(",", "").replace("s.a", "").replace("-", "").strip()
     return text
 
 def find_closest_company(company_df, input_name, threshold=85, return_score=False): #Funciona para archivo deeplinks
@@ -97,7 +104,6 @@ def find_closest_company(company_df, input_name, threshold=85, return_score=Fals
             return (best_match, score) if return_score else best_match
     return None
 
-
 # - Columna "pattern_regular" tiene el formato regex con el que aparece el código.
 TEMPLATE = """
 A continuación se muestra el contenido de un recibo de servicio:
@@ -123,7 +129,7 @@ parser= JsonOutputParser(pydantic_object=ProviderGenerationScript)
 llm = ChatGroq(
     temperature=0,
     model_name="llama-3.3-70b-versatile", #llama3-8b-8192
-    groq_api_key="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"
+    groq_api_key=groq_api_key
 )
 
 prompt = PromptTemplate(
@@ -131,7 +137,6 @@ prompt = PromptTemplate(
     template=TEMPLATE,
     partial_variables={"format_instructions": parser.get_format_instructions()},
 )
-
 
 # Variables para la extracción de la consulta precisa
 TEMPLATE_ID = """
@@ -157,7 +162,7 @@ parser_id = JsonOutputParser(pydantic_object=IdentifierGenerationScript)
 llm_id = ChatGroq(
     temperature=0,
     model_name="llama-3.3-70b-versatile",
-    groq_api_key="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"
+    groq_api_key=groq_api_key
 )
 
 prompt_id = PromptTemplate(

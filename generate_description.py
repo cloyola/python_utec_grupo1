@@ -1,9 +1,18 @@
 import base64
+import os
+from dotenv import load_dotenv
 from io import BytesIO
 #from dotenv import load_dotenv
 from PIL import Image  # Importamos la clase Image de PIL para manejar imágenes
 from langchain_groq import ChatGroq  # Importamos ChatGroq para interactuar con el modelo de lenguaje
 from groq import Groq  # Importamos Groq para realizar consultas a la API
+
+load_dotenv()
+
+groq_api_key = os.getenv("GROQ_API_KEY")
+
+if groq_api_key is None:
+    raise ValueError("La variable de entorno GROQ_API_KEY no está configurada.")
 
 def encode_image(image):
     buffered = BytesIO()
@@ -24,7 +33,7 @@ def describe_image(image_path):
     VISION_MODEL_NAME = "meta-llama/llama-4-scout-17b-16e-instruct"
 
     # Inicializamos el cliente de Groq con la clave de API
-    client = Groq(api_key='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')
+    client = Groq(api_key=groq_api_key)
     vision_model = VISION_MODEL_NAME
 
     # Abrimos la imagen desde la ruta proporcionada
@@ -34,8 +43,6 @@ def describe_image(image_path):
     base64_image = encode_image(image)
 
     # Creamos una solicitud de completación al modelo de lenguaje
-    # TO DO: Agregar casos de error para mejorar el prompt
-    # Revisar casos en https://docs.google.com/spreadsheets/d/1V6NJeVhI53kzcUQPC_iwgI6l3hs05rnR5ayl1R-Ydnk/edit?usp=sharing
     completion = client.chat.completions.create(
         model=vision_model,
         messages=[

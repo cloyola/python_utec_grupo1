@@ -9,9 +9,13 @@ from generate_text import llm, prompt, parser, llm_id, prompt_id, parser_id, fin
 from logger import logger
 
 def pipeline(image_path):
+    logger.info("Iniciando módulo: main.py")
+    logger.info("Iniciando función: pipeline")
+    
     #Generar base64 de la imagen
     recibo = describe_image(image_path)
-    logger.info(f"Texto generado del recibo {recibo}") #TEMP Logger
+    #logger.info(f"Texto generado del recibo {recibo}") #TEMP Logger
+    logger.info(f"Imagen convertida a base64")
 
     #Extraer la lista de proveedores posibles
     company = pd.read_csv("content/empresas.csv")
@@ -21,7 +25,8 @@ def pipeline(image_path):
     #Encontrar el proveedor del servicio
     chain = LLMChain(llm=llm, prompt=prompt, output_parser=parser)
     result_recibo = chain.invoke({"recibo": recibo, "proveedores": providers_list})
-    logger.info(f"El resultado del recibo (proveedor) es {result_recibo}") #TEMP Logger
+    #logger.info(f"El resultado del recibo (proveedor) es {result_recibo}") #TEMP Logger
+    logger.info("Se obtuvo resultado del LLM para reconocer el proveedor")
 
     #Obtenemos el proveedor que más se asemeje de la lista
     proveedor_normalized = find_closest_company(company, result_recibo["text"]["proveedor"])
@@ -38,8 +43,10 @@ def pipeline(image_path):
     #Encontrar el código de pago dentro del servicio
     chain_id = LLMChain(llm=llm_id, prompt=prompt_id, output_parser=parser_id)
     result_id = chain_id.invoke({"recibo": recibo, "services":services_identifier})
-    logger.info(f"El resultado del segundo prompt es {result_id}") #TEMP Logger
+    #logger.info(f"El resultado del segundo prompt es {result_id}") #TEMP Logger
+    logger.info("Se obtuvo resultado del LLM para reconocer el servicio")
 
     #Generación del deeplink
     link = generate_deeplink_simple(proveedor_normalized, result_id["text"]["service_id"], result_id["text"]["identificador"])
+    logger.info("Proceso finalizado")
     return link
