@@ -83,7 +83,7 @@ st.title("Creador de deeplink")
 st.markdown("Convierte tus recibos en links para pagar directamente en el app Yape")
 
 # Crear las dos columnas
-col1, col2, col3 = st.columns(3, gap="medium") # Puedes ajustar el 'gap' (espacio) si lo deseas
+col1, col2, col3 = st.columns([0.25, 0.25, 0.50], gap="medium") # Puedes ajustar el 'gap' (espacio) si lo deseas
 
 #TO DO: Mejorar el front para tener un UI similar a Yape.com.pe
 
@@ -96,8 +96,10 @@ with col2:
         image = Image.open(image_file)
         st.markdown("#### 📷 Imagen Subida")
         logger.info("Imagen subida")
-        st.image(image, caption="Imagen subida", use_container_width=False, width=250) # Usa use_container_width para que la imagen se ajuste a la columna
+        st.image(image, caption="Imagen subida", use_container_width=True) # Usa use_container_width para que la imagen se ajuste a la columna
         logger.info("Imagen mostrada")
+    else:
+        st.info("Sube una imagen en la columna de la izquierda para ver el resultado aquí.")
 
 with col3:
     if image_file:
@@ -127,5 +129,10 @@ with col3:
         st.markdown("##### 📱 Código QR del Enlace")
         st.image(qr_img, caption="Escanea para abrir el enlace", use_container_width=False, width=200) # Ajusta el width si es necesario
 
-    else:
-        st.info("Sube una imagen en la columna de la izquierda para ver el resultado aquí.")
+        # Mostrar el botón solo si la variable tiene un valor válido
+        if deeplink:
+            st.markdown(
+                f'<a href="{deeplink}" target="_blank"><button style="padding:10px 20px;font-size:16px;">Ir al enlace generado</button></a>',
+                unsafe_allow_html=True
+            )
+

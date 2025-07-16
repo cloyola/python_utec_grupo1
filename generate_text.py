@@ -8,11 +8,11 @@ from pydantic import BaseModel, Field
 from langchain_core.output_parsers import JsonOutputParser
 from rapidfuzz import process, fuzz
 from logger import logger
-from langchain.globals import set_debug
+#from langchain.globals import set_debug
 import re
 
 load_dotenv()
-set_debug(True)
+# set_debug(True)
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 if groq_api_key is None:

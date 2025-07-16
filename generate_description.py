@@ -1,5 +1,6 @@
 import base64
 import os
+import unicodedata
 from dotenv import load_dotenv
 from io import BytesIO
 #from dotenv import load_dotenv
