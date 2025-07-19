@@ -1,22 +1,39 @@
 # 🔗 Python UTEC - Grupo 1: QR & Deep Link Generator
 
-This project was developed by **Grupo 1** from UTEC as part of a Python course. It provides tools to generate QR codes, deep links, and dynamic promotional descriptions for marketing or e-commerce campaigns.
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/built%20with-streamlit-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+This project was developed by **Grupo 1** from **UTEC** as part of a Python programming course. It provides an intuitive tool for generating deep links, QR codes, and dynamic promotional descriptions — ideal for marketing and e-commerce use cases.
+
 
 ---
 
 ## 🚀 Features
 
 - ✅ Generate product **deep links** with tracking
-- ✅ Create **descriptions** from product data
-- ✅ Produce **QR codes** for campaigns
-- ✅ Save and organize generated outputs
+- ✅ Create dynamic **marketing descriptions** from product images or data
+- ✅ Produce and store **QR codes** for campaigns
+- ✅ Save and organize all outputs in a structured format
+
+---
+
+## 📸 Screenshots
+
+| Interface | QR Code Output | Text Generation |
+|----------|----------------|------------------|
+| ![UI Screenshot](img/screenshot_ui.png) | ![QR Output](img/screenshot_qr.png) | ![Text Output](img/screenshot_text.png) |
+
+> ℹ️ Make sure to include these image files in your `img/` folder or update the paths accordingly.
+
 
 ---
 
 ## 🗂 Project Structure
 
 ```
-├── main.py                  # Main entry point
+├── ui.py                    # UI interface using Streamlit
+├── main.py                  # Main process
 ├── generate_deeplink.py     # Deep link generation logic
 ├── generate_description.py  # Description creation logic from image
 ├── generate_qr.py           # QR code creation logic
@@ -29,7 +46,7 @@ This project was developed by **Grupo 1** from UTEC as part of a Python course. 
 
 ---
 
-## 🔧 Setting Up a Virtual Environment in VS Code (Command Prompt)
+## 🧪 Setup Instructions (with Virtual Environment in VS Code)
 
 Follow these steps to set up and activate a virtual environment in your project using Visual Studio Code with the `Command Prompt` terminal:
 
@@ -71,6 +88,22 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ How to Use
+
+### 1. Get a Free API Key from Groq
+
+Create your API keys from your free account
+
+🔗 [Groq Console – API Keys](https://console.groq.com/keys)
+
+### 2. Create a `.env` File
+
+Create your `.env` file with your `GROQ_API_KEY` variable. 
+
+```bash
+GROQ_API_KEY="your_api_key"
+```
+
+### 3. Launch the App
 
 Run the main script:
 
