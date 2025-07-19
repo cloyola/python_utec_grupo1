@@ -24,8 +24,6 @@ This project was developed by **Grupo 1** from **UTEC** as part of a Python prog
 |----------|----------------|------------------|
 | ![UI Screenshot](img/screenshot_ui.png) | ![QR Output](img/screenshot_qr.png) | ![Text Output](img/screenshot_text.png) |
 
-> ℹ️ Make sure to include these image files in your `img/` folder or update the paths accordingly.
-
 
 ---
 
